@@ -1,0 +1,2402 @@
+[
+  {
+    "route": "/",
+    "width": 1440,
+    "pageWidth": 1440,
+    "overflow": [],
+    "clipped": [],
+    "smallTargets": [
+      {
+        "element": "a.dropdown-overview Zgjidhjet tona",
+        "w": 372,
+        "h": 43
+      },
+      {
+        "element": "a. Kreu",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Rreth nesh",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Zgjidhje",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Partnerët",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Projektet",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Kontakt",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. +355 676 095 841",
+        "w": 233.609375,
+        "h": 20.390625
+      },
+      {
+        "element": "a. Faqja e kontaktit",
+        "w": 233.609375,
+        "h": 20.390625
+      },
+      {
+        "element": "a.back-top Në krye",
+        "w": 59.109375,
+        "h": 17
+      }
+    ],
+    "menuToggle": false
+  },
+  {
+    "route": "/rreth-nesh/",
+    "width": 1440,
+    "pageWidth": 1440,
+    "overflow": [],
+    "clipped": [],
+    "smallTargets": [
+      {
+        "element": "a.dropdown-overview Zgjidhjet tona",
+        "w": 372,
+        "h": 43
+      },
+      {
+        "element": "a. Kreu",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Rreth nesh",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Zgjidhje",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Partnerët",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Projektet",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Kontakt",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. +355 676 095 841",
+        "w": 233.609375,
+        "h": 20.390625
+      },
+      {
+        "element": "a. Faqja e kontaktit",
+        "w": 233.609375,
+        "h": 20.390625
+      },
+      {
+        "element": "a.back-top Në krye",
+        "w": 59.109375,
+        "h": 17
+      }
+    ],
+    "menuToggle": false
+  },
+  {
+    "route": "/zgjidhje/",
+    "width": 1440,
+    "pageWidth": 1440,
+    "overflow": [],
+    "clipped": [],
+    "smallTargets": [
+      {
+        "element": "a.dropdown-overview Zgjidhjet tona",
+        "w": 372,
+        "h": 43
+      },
+      {
+        "element": "a. Kreu",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Rreth nesh",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Zgjidhje",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Partnerët",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Projektet",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Kontakt",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. +355 676 095 841",
+        "w": 233.609375,
+        "h": 20.390625
+      },
+      {
+        "element": "a. Faqja e kontaktit",
+        "w": 233.609375,
+        "h": 20.390625
+      },
+      {
+        "element": "a.back-top Në krye",
+        "w": 59.109375,
+        "h": 17
+      }
+    ],
+    "menuToggle": false
+  },
+  {
+    "route": "/zgjidhje/sisteme-parkimi/",
+    "width": 1440,
+    "pageWidth": 1440,
+    "overflow": [],
+    "clipped": [],
+    "smallTargets": [
+      {
+        "element": "a.dropdown-overview Zgjidhjet tona",
+        "w": 372,
+        "h": 43
+      },
+      {
+        "element": "a. Sisteme Parkimi",
+        "w": 213,
+        "h": 41.390625
+      },
+      {
+        "element": "a. SKIDATA",
+        "w": 213,
+        "h": 34
+      },
+      {
+        "element": "a. Kreu",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Rreth nesh",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Zgjidhje",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Partnerët",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Projektet",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Kontakt",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. +355 676 095 841",
+        "w": 233.609375,
+        "h": 20.390625
+      },
+      {
+        "element": "a. Faqja e kontaktit",
+        "w": 233.609375,
+        "h": 20.390625
+      },
+      {
+        "element": "a.back-top Në krye",
+        "w": 59.109375,
+        "h": 17
+      }
+    ],
+    "menuToggle": false
+  },
+  {
+    "route": "/zgjidhje/karikues-per-automjete-elektrike/",
+    "width": 1440,
+    "pageWidth": 1440,
+    "overflow": [],
+    "clipped": [],
+    "smallTargets": [
+      {
+        "element": "a.dropdown-overview Zgjidhjet tona",
+        "w": 372,
+        "h": 43
+      },
+      {
+        "element": "a. Karikuesit AC perfshijne modelet :",
+        "w": 213,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Karikuesit DC perfshijne modelet:",
+        "w": 213,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Jetegjatesia:",
+        "w": 213,
+        "h": 40.390625
+      },
+      {
+        "element": "a. CIRCONTROL",
+        "w": 213,
+        "h": 34
+      },
+      {
+        "element": "a. Kreu",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Rreth nesh",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Zgjidhje",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Partnerët",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Projektet",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Kontakt",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. +355 676 095 841",
+        "w": 233.609375,
+        "h": 20.390625
+      },
+      {
+        "element": "a. Faqja e kontaktit",
+        "w": 233.609375,
+        "h": 20.390625
+      },
+      {
+        "element": "a.back-top Në krye",
+        "w": 59.109375,
+        "h": 17
+      }
+    ],
+    "menuToggle": false
+  },
+  {
+    "route": "/zgjidhje/sisteme-akses-kontrolli/",
+    "width": 1440,
+    "pageWidth": 1440,
+    "overflow": [],
+    "clipped": [],
+    "smallTargets": [
+      {
+        "element": "a.dropdown-overview Zgjidhjet tona",
+        "w": 372,
+        "h": 43
+      },
+      {
+        "element": "a. Sisteme akses-kontrolli",
+        "w": 213,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Kjo zgjidhje përshtatet për:",
+        "w": 213,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Avantazhet:",
+        "w": 213,
+        "h": 40.390625
+      },
+      {
+        "element": "a. Zucchetti Group",
+        "w": 213,
+        "h": 34
+      },
+      {
+        "element": "a. Kreu",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Rreth nesh",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Zgjidhje",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Partnerët",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Projektet",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Kontakt",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. +355 676 095 841",
+        "w": 233.609375,
+        "h": 20.390625
+      },
+      {
+        "element": "a. Faqja e kontaktit",
+        "w": 233.609375,
+        "h": 20.390625
+      },
+      {
+        "element": "a.back-top Në krye",
+        "w": 59.109375,
+        "h": 17
+      }
+    ],
+    "menuToggle": false
+  },
+  {
+    "route": "/zgjidhje/akses-siguri-te-larte/",
+    "width": 1440,
+    "pageWidth": 1440,
+    "overflow": [],
+    "clipped": [],
+    "smallTargets": [
+      {
+        "element": "a.dropdown-overview Zgjidhjet tona",
+        "w": 372,
+        "h": 43
+      },
+      {
+        "element": "a. Zbatimi ne projekte",
+        "w": 213,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Gunnebo",
+        "w": 213,
+        "h": 41.390625
+      },
+      {
+        "element": "a. GUNNEBO",
+        "w": 213,
+        "h": 34
+      },
+      {
+        "element": "a. Kreu",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Rreth nesh",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Zgjidhje",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Partnerët",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Projektet",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Kontakt",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. +355 676 095 841",
+        "w": 233.609375,
+        "h": 20.390625
+      },
+      {
+        "element": "a. Faqja e kontaktit",
+        "w": 233.609375,
+        "h": 20.390625
+      },
+      {
+        "element": "a.back-top Në krye",
+        "w": 59.109375,
+        "h": 17
+      }
+    ],
+    "menuToggle": false
+  },
+  {
+    "route": "/zgjidhje/sinjalistike-inteligjente-parkimi/",
+    "width": 1440,
+    "pageWidth": 1440,
+    "overflow": [],
+    "clipped": [],
+    "smallTargets": [
+      {
+        "element": "a.dropdown-overview Zgjidhjet tona",
+        "w": 372,
+        "h": 43
+      },
+      {
+        "element": "a. Parking Guidance System",
+        "w": 213,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Sistemi i numerimit:",
+        "w": 213,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Sistemi i Orientimit:",
+        "w": 213,
+        "h": 40.390625
+      },
+      {
+        "element": "a. CIRCONTROL",
+        "w": 213,
+        "h": 34
+      },
+      {
+        "element": "a. Kreu",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Rreth nesh",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Zgjidhje",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Partnerët",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Projektet",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Kontakt",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. +355 676 095 841",
+        "w": 233.609375,
+        "h": 20.390625
+      },
+      {
+        "element": "a. Faqja e kontaktit",
+        "w": 233.609375,
+        "h": 20.390625
+      },
+      {
+        "element": "a.back-top Në krye",
+        "w": 59.109375,
+        "h": 17
+      }
+    ],
+    "menuToggle": false
+  },
+  {
+    "route": "/zgjidhje/akses-me-pagese/",
+    "width": 1440,
+    "pageWidth": 1440,
+    "overflow": [],
+    "clipped": [],
+    "smallTargets": [
+      {
+        "element": "a.dropdown-overview Zgjidhjet tona",
+        "w": 372,
+        "h": 43
+      },
+      {
+        "element": "a. Hyrja dhe pagesa, në një pajisje",
+        "w": 213,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Pagesë e thjeshtë, kalim i kontrolluar",
+        "w": 213,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Ku gjen përdorim",
+        "w": 213,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Konfigurim sipas ambientit",
+        "w": 213,
+        "h": 40.390625
+      },
+      {
+        "element": "a. Kreu",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Rreth nesh",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Zgjidhje",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Partnerët",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Projektet",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Kontakt",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. +355 676 095 841",
+        "w": 233.609375,
+        "h": 20.390625
+      },
+      {
+        "element": "a. Faqja e kontaktit",
+        "w": 233.609375,
+        "h": 20.390625
+      },
+      {
+        "element": "a.back-top Në krye",
+        "w": 59.109375,
+        "h": 17
+      }
+    ],
+    "menuToggle": false
+  },
+  {
+    "route": "/projekte/",
+    "width": 1440,
+    "pageWidth": 1440,
+    "overflow": [],
+    "clipped": [],
+    "smallTargets": [
+      {
+        "element": "a.dropdown-overview Zgjidhjet tona",
+        "w": 372,
+        "h": 43
+      },
+      {
+        "element": "a. Kreu",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Rreth nesh",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Zgjidhje",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Partnerët",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Projektet",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Kontakt",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. +355 676 095 841",
+        "w": 233.609375,
+        "h": 20.390625
+      },
+      {
+        "element": "a. Faqja e kontaktit",
+        "w": 233.609375,
+        "h": 20.390625
+      },
+      {
+        "element": "a.back-top Në krye",
+        "w": 59.109375,
+        "h": 17
+      }
+    ],
+    "menuToggle": false
+  },
+  {
+    "route": "/projekte/air-albania/",
+    "width": 1440,
+    "pageWidth": 1440,
+    "overflow": [],
+    "clipped": [],
+    "smallTargets": [
+      {
+        "element": "a.dropdown-overview Zgjidhjet tona",
+        "w": 372,
+        "h": 43
+      },
+      {
+        "element": "a. Kërkesat",
+        "w": 213,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Zgjidhjet e ofruara",
+        "w": 213,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Pajisjet analitike",
+        "w": 213,
+        "h": 40.390625
+      },
+      {
+        "element": "a. Kreu",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Rreth nesh",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Zgjidhje",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Partnerët",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Projektet",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Kontakt",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. +355 676 095 841",
+        "w": 233.609375,
+        "h": 20.390625
+      },
+      {
+        "element": "a. Faqja e kontaktit",
+        "w": 233.609375,
+        "h": 20.390625
+      },
+      {
+        "element": "a.back-top Në krye",
+        "w": 59.109375,
+        "h": 17
+      }
+    ],
+    "menuToggle": false
+  },
+  {
+    "route": "/projekte/qsut/",
+    "width": 1440,
+    "pageWidth": 1440,
+    "overflow": [],
+    "clipped": [],
+    "smallTargets": [
+      {
+        "element": "a.dropdown-overview Zgjidhjet tona",
+        "w": 372,
+        "h": 43
+      },
+      {
+        "element": "a. Kërkesat",
+        "w": 213,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Zgjidhjet e ofruara",
+        "w": 213,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Pajisjet analitike",
+        "w": 213,
+        "h": 40.390625
+      },
+      {
+        "element": "a. Kreu",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Rreth nesh",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Zgjidhje",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Partnerët",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Projektet",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Kontakt",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. +355 676 095 841",
+        "w": 233.609375,
+        "h": 20.390625
+      },
+      {
+        "element": "a. Faqja e kontaktit",
+        "w": 233.609375,
+        "h": 20.390625
+      },
+      {
+        "element": "a.back-top Në krye",
+        "w": 59.109375,
+        "h": 17
+      }
+    ],
+    "menuToggle": false
+  },
+  {
+    "route": "/projekte/kompleksi-kika/",
+    "width": 1440,
+    "pageWidth": 1440,
+    "overflow": [],
+    "clipped": [],
+    "smallTargets": [
+      {
+        "element": "a.dropdown-overview Zgjidhjet tona",
+        "w": 372,
+        "h": 43
+      },
+      {
+        "element": "a. Kërkesat",
+        "w": 213,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Zgjidhjet e ofruara",
+        "w": 213,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Pajisjet analitike",
+        "w": 213,
+        "h": 40.390625
+      },
+      {
+        "element": "a. Kreu",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Rreth nesh",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Zgjidhje",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Partnerët",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Projektet",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Kontakt",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. +355 676 095 841",
+        "w": 233.609375,
+        "h": 20.390625
+      },
+      {
+        "element": "a. Faqja e kontaktit",
+        "w": 233.609375,
+        "h": 20.390625
+      },
+      {
+        "element": "a.back-top Në krye",
+        "w": 59.109375,
+        "h": 17
+      }
+    ],
+    "menuToggle": false
+  },
+  {
+    "route": "/projekte/teg/",
+    "width": 1440,
+    "pageWidth": 1440,
+    "overflow": [],
+    "clipped": [],
+    "smallTargets": [
+      {
+        "element": "a.dropdown-overview Zgjidhjet tona",
+        "w": 372,
+        "h": 43
+      },
+      {
+        "element": "a. Kërkesat",
+        "w": 213,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Zgjidhjet e ofruara",
+        "w": 213,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Pajisjet analitike",
+        "w": 213,
+        "h": 40.390625
+      },
+      {
+        "element": "a. Kreu",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Rreth nesh",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Zgjidhje",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Partnerët",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Projektet",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Kontakt",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. +355 676 095 841",
+        "w": 233.609375,
+        "h": 20.390625
+      },
+      {
+        "element": "a. Faqja e kontaktit",
+        "w": 233.609375,
+        "h": 20.390625
+      },
+      {
+        "element": "a.back-top Në krye",
+        "w": 59.109375,
+        "h": 17
+      }
+    ],
+    "menuToggle": false
+  },
+  {
+    "route": "/partnere/",
+    "width": 1440,
+    "pageWidth": 1440,
+    "overflow": [],
+    "clipped": [],
+    "smallTargets": [
+      {
+        "element": "a.dropdown-overview Zgjidhjet tona",
+        "w": 372,
+        "h": 43
+      },
+      {
+        "element": "a. Kreu",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Rreth nesh",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Zgjidhje",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Partnerët",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Projektet",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Kontakt",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. +355 676 095 841",
+        "w": 233.609375,
+        "h": 20.390625
+      },
+      {
+        "element": "a. Faqja e kontaktit",
+        "w": 233.609375,
+        "h": 20.390625
+      },
+      {
+        "element": "a.back-top Në krye",
+        "w": 59.109375,
+        "h": 17
+      }
+    ],
+    "menuToggle": false
+  },
+  {
+    "route": "/kontakt/",
+    "width": 1440,
+    "pageWidth": 1440,
+    "overflow": [],
+    "clipped": [],
+    "smallTargets": [
+      {
+        "element": "a.dropdown-overview Zgjidhjet tona",
+        "w": 372,
+        "h": 43
+      },
+      {
+        "element": "a. Kreu",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Rreth nesh",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Zgjidhje",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Partnerët",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Projektet",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. Kontakt",
+        "w": 138.65625,
+        "h": 30
+      },
+      {
+        "element": "a. +355 676 095 841",
+        "w": 233.609375,
+        "h": 20.390625
+      },
+      {
+        "element": "a. Faqja e kontaktit",
+        "w": 233.609375,
+        "h": 20.390625
+      },
+      {
+        "element": "a.back-top Në krye",
+        "w": 59.109375,
+        "h": 17
+      }
+    ],
+    "menuToggle": false
+  },
+  {
+    "route": "/",
+    "width": 320,
+    "pageWidth": 320,
+    "overflow": [],
+    "clipped": [],
+    "smallTargets": [
+      {
+        "element": "a.brand ",
+        "w": 113,
+        "h": 38
+      },
+      {
+        "element": "a.button button--text Të gjitha zgjidhjet",
+        "w": 136.71875,
+        "h": 36
+      },
+      {
+        "element": "a.button button--text Të gjitha projektet",
+        "w": 139.203125,
+        "h": 36
+      },
+      {
+        "element": "a.brand ",
+        "w": 113,
+        "h": 38
+      },
+      {
+        "element": "a. Kreu",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Rreth nesh",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Zgjidhje",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Partnerët",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Projektet",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Kontakt",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. +355 676 095 841",
+        "w": 127.5,
+        "h": 18.6875
+      },
+      {
+        "element": "a. Faqja e kontaktit",
+        "w": 127.5,
+        "h": 18.6875
+      },
+      {
+        "element": "a.back-top Në krye",
+        "w": 55.703125,
+        "h": 15.296875
+      }
+    ],
+    "menuToggle": false
+  },
+  {
+    "route": "/rreth-nesh/",
+    "width": 320,
+    "pageWidth": 320,
+    "overflow": [],
+    "clipped": [],
+    "smallTargets": [
+      {
+        "element": "a.brand ",
+        "w": 113,
+        "h": 38
+      },
+      {
+        "element": "a.brand ",
+        "w": 113,
+        "h": 38
+      },
+      {
+        "element": "a. Kreu",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Rreth nesh",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Zgjidhje",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Partnerët",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Projektet",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Kontakt",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. +355 676 095 841",
+        "w": 127.5,
+        "h": 18.6875
+      },
+      {
+        "element": "a. Faqja e kontaktit",
+        "w": 127.5,
+        "h": 18.6875
+      },
+      {
+        "element": "a.back-top Në krye",
+        "w": 55.703125,
+        "h": 15.296875
+      }
+    ],
+    "menuToggle": false
+  },
+  {
+    "route": "/zgjidhje/",
+    "width": 320,
+    "pageWidth": 320,
+    "overflow": [],
+    "clipped": [],
+    "smallTargets": [
+      {
+        "element": "a.brand ",
+        "w": 113,
+        "h": 38
+      },
+      {
+        "element": "a.brand ",
+        "w": 113,
+        "h": 38
+      },
+      {
+        "element": "a. Kreu",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Rreth nesh",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Zgjidhje",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Partnerët",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Projektet",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Kontakt",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. +355 676 095 841",
+        "w": 127.5,
+        "h": 18.6875
+      },
+      {
+        "element": "a. Faqja e kontaktit",
+        "w": 127.5,
+        "h": 18.6875
+      },
+      {
+        "element": "a.back-top Në krye",
+        "w": 55.703125,
+        "h": 15.296875
+      }
+    ],
+    "menuToggle": false
+  },
+  {
+    "route": "/zgjidhje/sisteme-parkimi/",
+    "width": 320,
+    "pageWidth": 320,
+    "overflow": [],
+    "clipped": [],
+    "smallTargets": [
+      {
+        "element": "a.brand ",
+        "w": 113,
+        "h": 38
+      },
+      {
+        "element": "a. Sisteme Parkimi",
+        "w": 236,
+        "h": 41.390625
+      },
+      {
+        "element": "a. SKIDATA",
+        "w": 79.609375,
+        "h": 34
+      },
+      {
+        "element": "a.button button--text Shiko projektet tona",
+        "w": 150.921875,
+        "h": 36
+      },
+      {
+        "element": "a.brand ",
+        "w": 113,
+        "h": 38
+      },
+      {
+        "element": "a. Kreu",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Rreth nesh",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Zgjidhje",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Partnerët",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Projektet",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Kontakt",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. +355 676 095 841",
+        "w": 127.5,
+        "h": 18.6875
+      },
+      {
+        "element": "a. Faqja e kontaktit",
+        "w": 127.5,
+        "h": 18.6875
+      },
+      {
+        "element": "a.back-top Në krye",
+        "w": 55.703125,
+        "h": 15.296875
+      }
+    ],
+    "menuToggle": false
+  },
+  {
+    "route": "/zgjidhje/karikues-per-automjete-elektrike/",
+    "width": 320,
+    "pageWidth": 320,
+    "overflow": [],
+    "clipped": [],
+    "smallTargets": [
+      {
+        "element": "a.brand ",
+        "w": 113,
+        "h": 38
+      },
+      {
+        "element": "a. Karikuesit AC perfshijne modelet :",
+        "w": 236,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Karikuesit DC perfshijne modelet:",
+        "w": 236,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Jetegjatesia:",
+        "w": 236,
+        "h": 40.390625
+      },
+      {
+        "element": "a. CIRCONTROL",
+        "w": 106.921875,
+        "h": 34
+      },
+      {
+        "element": "a.button button--text Shiko projektet tona",
+        "w": 150.921875,
+        "h": 36
+      },
+      {
+        "element": "a.brand ",
+        "w": 113,
+        "h": 38
+      },
+      {
+        "element": "a. Kreu",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Rreth nesh",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Zgjidhje",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Partnerët",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Projektet",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Kontakt",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. +355 676 095 841",
+        "w": 127.5,
+        "h": 18.6875
+      },
+      {
+        "element": "a. Faqja e kontaktit",
+        "w": 127.5,
+        "h": 18.6875
+      },
+      {
+        "element": "a.back-top Në krye",
+        "w": 55.703125,
+        "h": 15.296875
+      }
+    ],
+    "menuToggle": false
+  },
+  {
+    "route": "/zgjidhje/sisteme-akses-kontrolli/",
+    "width": 320,
+    "pageWidth": 320,
+    "overflow": [],
+    "clipped": [],
+    "smallTargets": [
+      {
+        "element": "a.brand ",
+        "w": 113,
+        "h": 38
+      },
+      {
+        "element": "a. Sisteme akses-kontrolli",
+        "w": 236,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Kjo zgjidhje përshtatet për:",
+        "w": 236,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Avantazhet:",
+        "w": 236,
+        "h": 40.390625
+      },
+      {
+        "element": "a. Zucchetti Group",
+        "w": 125.046875,
+        "h": 34
+      },
+      {
+        "element": "a.button button--text Shiko projektet tona",
+        "w": 150.921875,
+        "h": 36
+      },
+      {
+        "element": "a.brand ",
+        "w": 113,
+        "h": 38
+      },
+      {
+        "element": "a. Kreu",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Rreth nesh",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Zgjidhje",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Partnerët",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Projektet",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Kontakt",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. +355 676 095 841",
+        "w": 127.5,
+        "h": 18.6875
+      },
+      {
+        "element": "a. Faqja e kontaktit",
+        "w": 127.5,
+        "h": 18.6875
+      },
+      {
+        "element": "a.back-top Në krye",
+        "w": 55.703125,
+        "h": 15.296875
+      }
+    ],
+    "menuToggle": false
+  },
+  {
+    "route": "/zgjidhje/akses-siguri-te-larte/",
+    "width": 320,
+    "pageWidth": 320,
+    "overflow": [],
+    "clipped": [],
+    "smallTargets": [
+      {
+        "element": "a.brand ",
+        "w": 113,
+        "h": 38
+      },
+      {
+        "element": "a. Zbatimi ne projekte",
+        "w": 236,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Gunnebo",
+        "w": 236,
+        "h": 41.390625
+      },
+      {
+        "element": "a. GUNNEBO",
+        "w": 88.25,
+        "h": 34
+      },
+      {
+        "element": "a.button button--text Shiko projektet tona",
+        "w": 150.921875,
+        "h": 36
+      },
+      {
+        "element": "a.brand ",
+        "w": 113,
+        "h": 38
+      },
+      {
+        "element": "a. Kreu",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Rreth nesh",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Zgjidhje",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Partnerët",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Projektet",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Kontakt",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. +355 676 095 841",
+        "w": 127.5,
+        "h": 18.6875
+      },
+      {
+        "element": "a. Faqja e kontaktit",
+        "w": 127.5,
+        "h": 18.6875
+      },
+      {
+        "element": "a.back-top Në krye",
+        "w": 55.703125,
+        "h": 15.296875
+      }
+    ],
+    "menuToggle": false
+  },
+  {
+    "route": "/zgjidhje/sinjalistike-inteligjente-parkimi/",
+    "width": 320,
+    "pageWidth": 320,
+    "overflow": [],
+    "clipped": [],
+    "smallTargets": [
+      {
+        "element": "a.brand ",
+        "w": 113,
+        "h": 38
+      },
+      {
+        "element": "a. Parking Guidance System",
+        "w": 236,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Sistemi i numerimit:",
+        "w": 236,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Sistemi i Orientimit:",
+        "w": 236,
+        "h": 40.390625
+      },
+      {
+        "element": "a. CIRCONTROL",
+        "w": 106.921875,
+        "h": 34
+      },
+      {
+        "element": "a.button button--text Shiko projektet tona",
+        "w": 150.921875,
+        "h": 36
+      },
+      {
+        "element": "a.brand ",
+        "w": 113,
+        "h": 38
+      },
+      {
+        "element": "a. Kreu",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Rreth nesh",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Zgjidhje",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Partnerët",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Projektet",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Kontakt",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. +355 676 095 841",
+        "w": 127.5,
+        "h": 18.6875
+      },
+      {
+        "element": "a. Faqja e kontaktit",
+        "w": 127.5,
+        "h": 18.6875
+      },
+      {
+        "element": "a.back-top Në krye",
+        "w": 55.703125,
+        "h": 15.296875
+      }
+    ],
+    "menuToggle": false
+  },
+  {
+    "route": "/zgjidhje/akses-me-pagese/",
+    "width": 320,
+    "pageWidth": 320,
+    "overflow": [],
+    "clipped": [],
+    "smallTargets": [
+      {
+        "element": "a.brand ",
+        "w": 113,
+        "h": 38
+      },
+      {
+        "element": "a. Hyrja dhe pagesa, në një pajisje",
+        "w": 236,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Pagesë e thjeshtë, kalim i kontrolluar",
+        "w": 236,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Ku gjen përdorim",
+        "w": 236,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Konfigurim sipas ambientit",
+        "w": 236,
+        "h": 40.390625
+      },
+      {
+        "element": "a.button button--text Shiko projektet tona",
+        "w": 150.921875,
+        "h": 36
+      },
+      {
+        "element": "a.button button--text Të gjitha zgjidhjet",
+        "w": 136.71875,
+        "h": 36
+      },
+      {
+        "element": "a.brand ",
+        "w": 113,
+        "h": 38
+      },
+      {
+        "element": "a. Kreu",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Rreth nesh",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Zgjidhje",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Partnerët",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Projektet",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Kontakt",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. +355 676 095 841",
+        "w": 127.5,
+        "h": 18.6875
+      },
+      {
+        "element": "a. Faqja e kontaktit",
+        "w": 127.5,
+        "h": 18.6875
+      },
+      {
+        "element": "a.back-top Në krye",
+        "w": 55.703125,
+        "h": 15.296875
+      }
+    ],
+    "menuToggle": false
+  },
+  {
+    "route": "/projekte/",
+    "width": 320,
+    "pageWidth": 320,
+    "overflow": [],
+    "clipped": [],
+    "smallTargets": [
+      {
+        "element": "a.brand ",
+        "w": 113,
+        "h": 38
+      },
+      {
+        "element": "a.brand ",
+        "w": 113,
+        "h": 38
+      },
+      {
+        "element": "a. Kreu",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Rreth nesh",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Zgjidhje",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Partnerët",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Projektet",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Kontakt",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. +355 676 095 841",
+        "w": 127.5,
+        "h": 18.6875
+      },
+      {
+        "element": "a. Faqja e kontaktit",
+        "w": 127.5,
+        "h": 18.6875
+      },
+      {
+        "element": "a.back-top Në krye",
+        "w": 55.703125,
+        "h": 15.296875
+      }
+    ],
+    "menuToggle": false
+  },
+  {
+    "route": "/projekte/air-albania/",
+    "width": 320,
+    "pageWidth": 320,
+    "overflow": [],
+    "clipped": [],
+    "smallTargets": [
+      {
+        "element": "a.brand ",
+        "w": 113,
+        "h": 38
+      },
+      {
+        "element": "a. Kërkesat",
+        "w": 236,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Zgjidhjet e ofruara",
+        "w": 236,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Pajisjet analitike",
+        "w": 236,
+        "h": 40.390625
+      },
+      {
+        "element": "a.button button--text Të gjitha zgjidhjet",
+        "w": 136.71875,
+        "h": 36
+      },
+      {
+        "element": "a.brand ",
+        "w": 113,
+        "h": 38
+      },
+      {
+        "element": "a. Kreu",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Rreth nesh",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Zgjidhje",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Partnerët",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Projektet",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Kontakt",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. +355 676 095 841",
+        "w": 127.5,
+        "h": 18.6875
+      },
+      {
+        "element": "a. Faqja e kontaktit",
+        "w": 127.5,
+        "h": 18.6875
+      },
+      {
+        "element": "a.back-top Në krye",
+        "w": 55.703125,
+        "h": 15.296875
+      }
+    ],
+    "menuToggle": false
+  },
+  {
+    "route": "/projekte/qsut/",
+    "width": 320,
+    "pageWidth": 320,
+    "overflow": [],
+    "clipped": [],
+    "smallTargets": [
+      {
+        "element": "a.brand ",
+        "w": 113,
+        "h": 38
+      },
+      {
+        "element": "a. Kërkesat",
+        "w": 236,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Zgjidhjet e ofruara",
+        "w": 236,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Pajisjet analitike",
+        "w": 236,
+        "h": 40.390625
+      },
+      {
+        "element": "a.button button--text Të gjitha zgjidhjet",
+        "w": 136.71875,
+        "h": 36
+      },
+      {
+        "element": "a.brand ",
+        "w": 113,
+        "h": 38
+      },
+      {
+        "element": "a. Kreu",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Rreth nesh",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Zgjidhje",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Partnerët",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Projektet",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Kontakt",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. +355 676 095 841",
+        "w": 127.5,
+        "h": 18.6875
+      },
+      {
+        "element": "a. Faqja e kontaktit",
+        "w": 127.5,
+        "h": 18.6875
+      },
+      {
+        "element": "a.back-top Në krye",
+        "w": 55.703125,
+        "h": 15.296875
+      }
+    ],
+    "menuToggle": false
+  },
+  {
+    "route": "/projekte/kompleksi-kika/",
+    "width": 320,
+    "pageWidth": 320,
+    "overflow": [],
+    "clipped": [],
+    "smallTargets": [
+      {
+        "element": "a.brand ",
+        "w": 113,
+        "h": 38
+      },
+      {
+        "element": "a. Kërkesat",
+        "w": 236,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Zgjidhjet e ofruara",
+        "w": 236,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Pajisjet analitike",
+        "w": 236,
+        "h": 40.390625
+      },
+      {
+        "element": "a.button button--text Të gjitha zgjidhjet",
+        "w": 136.71875,
+        "h": 36
+      },
+      {
+        "element": "a.brand ",
+        "w": 113,
+        "h": 38
+      },
+      {
+        "element": "a. Kreu",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Rreth nesh",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Zgjidhje",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Partnerët",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Projektet",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Kontakt",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. +355 676 095 841",
+        "w": 127.5,
+        "h": 18.6875
+      },
+      {
+        "element": "a. Faqja e kontaktit",
+        "w": 127.5,
+        "h": 18.6875
+      },
+      {
+        "element": "a.back-top Në krye",
+        "w": 55.703125,
+        "h": 15.296875
+      }
+    ],
+    "menuToggle": false
+  },
+  {
+    "route": "/projekte/teg/",
+    "width": 320,
+    "pageWidth": 320,
+    "overflow": [],
+    "clipped": [],
+    "smallTargets": [
+      {
+        "element": "a.brand ",
+        "w": 113,
+        "h": 38
+      },
+      {
+        "element": "a. Kërkesat",
+        "w": 236,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Zgjidhjet e ofruara",
+        "w": 236,
+        "h": 41.390625
+      },
+      {
+        "element": "a. Pajisjet analitike",
+        "w": 236,
+        "h": 40.390625
+      },
+      {
+        "element": "a.button button--text Të gjitha zgjidhjet",
+        "w": 136.71875,
+        "h": 36
+      },
+      {
+        "element": "a.brand ",
+        "w": 113,
+        "h": 38
+      },
+      {
+        "element": "a. Kreu",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Rreth nesh",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Zgjidhje",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Partnerët",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Projektet",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Kontakt",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. +355 676 095 841",
+        "w": 127.5,
+        "h": 18.6875
+      },
+      {
+        "element": "a. Faqja e kontaktit",
+        "w": 127.5,
+        "h": 18.6875
+      },
+      {
+        "element": "a.back-top Në krye",
+        "w": 55.703125,
+        "h": 15.296875
+      }
+    ],
+    "menuToggle": false
+  },
+  {
+    "route": "/partnere/",
+    "width": 320,
+    "pageWidth": 320,
+    "overflow": [],
+    "clipped": [],
+    "smallTargets": [
+      {
+        "element": "a.brand ",
+        "w": 113,
+        "h": 38
+      },
+      {
+        "element": "a.brand ",
+        "w": 113,
+        "h": 38
+      },
+      {
+        "element": "a. Kreu",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Rreth nesh",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Zgjidhje",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Partnerët",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Projektet",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Kontakt",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. +355 676 095 841",
+        "w": 127.5,
+        "h": 18.6875
+      },
+      {
+        "element": "a. Faqja e kontaktit",
+        "w": 127.5,
+        "h": 18.6875
+      },
+      {
+        "element": "a.back-top Në krye",
+        "w": 55.703125,
+        "h": 15.296875
+      }
+    ],
+    "menuToggle": false
+  },
+  {
+    "route": "/kontakt/",
+    "width": 320,
+    "pageWidth": 320,
+    "overflow": [],
+    "clipped": [],
+    "smallTargets": [
+      {
+        "element": "a.brand ",
+        "w": 113,
+        "h": 38
+      },
+      {
+        "element": "a. +355 676 095 841",
+        "w": 179.203125,
+        "h": 31.1875
+      },
+      {
+        "element": "a.brand ",
+        "w": 113,
+        "h": 38
+      },
+      {
+        "element": "a. Kreu",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Rreth nesh",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Zgjidhje",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Partnerët",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Projektet",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. Kontakt",
+        "w": 127.5,
+        "h": 30
+      },
+      {
+        "element": "a. +355 676 095 841",
+        "w": 127.5,
+        "h": 18.6875
+      },
+      {
+        "element": "a. Faqja e kontaktit",
+        "w": 127.5,
+        "h": 18.6875
+      },
+      {
+        "element": "a.back-top Në krye",
+        "w": 55.703125,
+        "h": 15.296875
+      }
+    ],
+    "menuToggle": false
+  }
+]

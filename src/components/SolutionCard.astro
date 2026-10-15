@@ -1,0 +1,12 @@
+---
+import { withBase } from '../utils/paths';
+import Photo from './Photo.astro';
+import Icon from './Icon.astro';
+import type { ContentImage } from '../types/content';
+interface Props { solution: { title: string; description: string; href: string; image: ContentImage; icon: string }; overview?: boolean; }
+const { solution, overview = false } = Astro.props;
+---
+<a class="solution-card" href={withBase(solution.href)} data-reveal>
+  <div class="solution-image"><Photo image={solution.image} sizes={overview ? '(max-width: 700px) 100vw, (max-width: 1024px) 50vw, 33vw' : '(max-width: 430px) 100vw, (max-width: 700px) 50vw, (max-width: 1250px) 33vw, 17vw'} /></div>
+  <div class="solution-card-content"><span class="solution-icon"><Icon name={solution.icon} size={25} /></span><h3>{solution.title}</h3><p>{solution.description}</p><span class="card-link">Më shumë <Icon name="arrow" size={17} /></span></div>
+</a>

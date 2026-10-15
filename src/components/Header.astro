@@ -1,0 +1,38 @@
+---
+import Icon from './Icon.astro';
+import Button from './Button.astro';
+import Brand from './Brand.astro';
+import data from '../data/tetra.json';
+import { withBase } from '../utils/paths';
+const pathname = Astro.url.pathname;
+const active = (href: string) => href === '/' ? pathname === withBase('/') : pathname.startsWith(withBase(href));
+const links = [
+  { label: 'Kreu', href: '/' },
+  { label: 'Rreth nesh', href: '/rreth-nesh/' },
+  { label: 'Partnerët', href: '/partnere/' },
+  { label: 'Projektet', href: '/projekte/' },
+  { label: 'Kontakt', href: '/kontakt/' },
+];
+---
+<a class="skip-link" href="#main-content">Kalo te përmbajtja</a>
+<header class="site-header" data-header>
+  <div class="container header-inner">
+    <Brand />
+    <button class="menu-toggle" type="button" data-menu-toggle aria-controls="main-nav" aria-expanded="false" aria-label="Hap menunë">
+      <Icon name="menu" size={22} />
+      <Icon name="close" size={22} />
+    </button>
+    <nav id="main-nav" class="main-nav" aria-label="Navigimi kryesor">
+      {links.slice(0, 2).map(link => <a class:list={['nav-link', { 'is-active': active(link.href) }]} href={withBase(link.href)} aria-current={active(link.href) ? 'page' : undefined}>{link.label}</a>)}
+      <details class="nav-dropdown">
+        <summary class:list={['nav-link', { 'is-active': active('/zgjidhje/') }]} aria-current={active('/zgjidhje/') ? 'true' : undefined}>Zgjidhje <Icon name="chevron" size={14} /></summary>
+        <div class="dropdown-panel">
+          <a class="dropdown-overview" href={withBase('/zgjidhje/')} aria-current={pathname === withBase('/zgjidhje/') ? 'page' : undefined}>Zgjidhjet tona <Icon name="arrow" size={17} /></a>
+          {data.solutions.map((solution) => <a href={withBase(solution.href)}><span class="dropdown-icon"><Icon name={solution.icon} size={20} /></span>{solution.title}<Icon name="diagonal" size={15} /></a>)}
+        </div>
+      </details>
+      {links.slice(2).map(link => <a class:list={['nav-link', { 'is-active': active(link.href) }]} href={withBase(link.href)} aria-current={active(link.href) ? 'page' : undefined}>{link.label}</a>)}
+    </nav>
+    <div class="header-spacer" aria-hidden="true"></div>
+  </div>
+</header>

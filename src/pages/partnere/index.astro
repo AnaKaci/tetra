@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import CTASection from '../../components/CTASection.astro';
+import Button from '../../components/Button.astro';
+import data from '../../data/tetra.json';
+import { withBase } from '../../utils/paths';
+import '../../styles/company-pages.css';
+
+const normalize = (value: string) => value.replace(/\s+/g, ' ').trim();
+---
+
+<BaseLayout title="Partnerët — TETRA" description={`${data.overviews.partners.title}. ${data.partners[0].description}`} image={data.hero.image} canonicalPath="/partnere/">
+  <PageHero
+    eyebrow="Partnerët tanë"
+    title={data.overviews.partners.title}
+    intro={data.overviews.partners.intro}
+    image={data.solutions.find(solution => solution.id === 'parkim')!.image}
+    breadcrumbs={[{ label: 'Partnerët' }]}
+  />
+
+  <nav class="partner-detail-index" aria-label="Partnerët e Tetra">
+    <div class="container partner-logos">
+      {data.partners.map(partner => <a class="partner-logo" href={`#${partner.anchor}`} aria-label={`Më shumë për ${partner.name}`}>
+        <img src={withBase(partner.logo.src)} alt={partner.logo.alt} width={partner.logo.width} height={partner.logo.height} decoding="async" />
+      </a>)}
+    </div>
+  </nav>
+
+  <div class="partner-detail-list">
+    {data.partners.map((partner, index) => {
+      const descriptionInSections = partner.sections.some(section => section.paragraphs.some(paragraph => normalize(paragraph) === normalize(partner.description)));
+      const relatedSolutions = data.solutions.filter(solution => partner.relatedSolutionIds.includes(solution.id));
+      return <section id={partner.anchor} class:list={['section', 'partner-detail', { 'partner-detail--alternate': index % 2 === 1 }]} aria-labelledby={`partner-title-${partner.id}`}>
+        <div class="container partner-detail-grid">
+          <div class="partner-detail-brand" data-reveal>
+            <div class="partner-detail-logo"><img src={withBase(partner.logo.src)} alt={partner.logo.alt} width={partner.logo.width} height={partner.logo.height} loading="lazy" decoding="async" /></div>
+          </div>
+          <div class="partner-detail-body company-prose" data-reveal>
+            {partner.description && !descriptionInSections && <p class="partner-detail-intro">{partner.description}</p>}
+            {partner.sections.map(section => <div class="partner-detail-copy">
+              {section.title && normalize(section.title).toLowerCase() !== normalize(partner.name).toLowerCase() && <h3>{section.title}</h3>}
+              {section.paragraphs.map(paragraph => <p>{paragraph}</p>)}
+              {section.bullets.length > 0 && <ul>{section.bullets.map(bullet => <li>{bullet}</li>)}</ul>}
+            </div>)}
+            {relatedSolutions.length > 0 && <div class="partner-detail-solutions">
+              <h3>Zgjidhjet</h3>
+              {relatedSolutions.map(solution => <Button href={solution.href} variant="text">{solution.title}</Button>)}
+            </div>}
+          </div>
+        </div>
+      </section>;
+    })}
+  </div>
+
+  <CTASection />
+</BaseLayout>

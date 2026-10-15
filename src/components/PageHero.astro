@@ -1,0 +1,31 @@
+---
+import Breadcrumbs from './Breadcrumbs.astro';
+import Photo from './Photo.astro';
+import type { ContentImage } from '../types/content';
+import '../styles/pages.css';
+interface Props {
+  eyebrow?: string;
+  title: string;
+  intro?: string;
+  image?: ContentImage;
+  imageFit?: 'cover' | 'contain';
+  breadcrumbs?: { label: string; href?: string }[];
+  variant?: 'standard' | 'project';
+}
+const { eyebrow = 'SMART · SECURE · GREEN', title, intro, image, imageFit = 'cover', breadcrumbs = [{ label: title }], variant = 'standard' } = Astro.props;
+---
+<section class:list={['page-hero', `page-hero--${variant}`, { 'page-hero--visual': !!image, 'page-hero--long-title': title.length > 28 }]} aria-labelledby="page-title">
+  <div class="container">
+    {variant === 'project' && <Breadcrumbs items={breadcrumbs} />}
+    <div class="page-hero-grid">
+      <div class="page-hero-copy">
+        {variant === 'standard' && <Breadcrumbs items={breadcrumbs} />}
+        <p class="eyebrow">{eyebrow}</p>
+        <h1 id="page-title">{title}</h1>
+        {intro && <p class="page-intro">{intro}</p>}
+        <slot />
+      </div>
+      {image && <div class:list={['page-hero-image', { 'page-hero-image--contain': imageFit === 'contain' }]}><Photo image={image} priority sizes="(max-width: 900px) 100vw, 50vw" /></div>}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,77 @@
+[
+  {
+    "id": "akses-me-pagese",
+    "slug": "akses-me-pagese",
+    "title": "Sisteme aksesi me pagesë",
+    "description": "Turniket dhe automat pagese në një pajisje të vetme, për parqe argëtimi, atraksione dhe ambiente shërbimi.",
+    "intro": "Kontrolloni hyrjen dhe pagesën në të njëjtën pikë. TRINITY nga Gotschlich bashkon një turniket të motorizuar me një automat pagese, për ambiente me fluks të lartë vizitorësh.",
+    "sections": [
+      {
+        "id": "hyrja-dhe-pagesa",
+        "title": "Hyrja dhe pagesa, në një pajisje",
+        "paragraphs": [
+          "TRINITY lidh pagesën e tarifës me kalimin përmes turniketit. Vizitori ndjek udhëzimet në ekranin me ngjyra, kryen pagesën dhe kalon në zonën e shërbimit.",
+          "Njësia e pagesës dhe turniketi kanë trup prej çeliku inox V2A. Pajisja ofrohet me dy ose tre krahë, për t’u përshtatur me organizimin e hyrjes."
+        ],
+        "bullets": []
+      },
+      {
+        "id": "pagesa-dhe-kontrolli",
+        "title": "Pagesë e thjeshtë, kalim i kontrolluar",
+        "paragraphs": [],
+        "bullets": [
+          "Pranim i deri në gjashtë llojeve të monedhave ose zhetonëve, sipas konfigurimit.",
+          "Tarifë hyrjeje e rregullueshme dhe kthim kusuri.",
+          "Ekran me ngjyra që udhëzon vizitorin gjatë pagesës.",
+          "Turniket i motorizuar me kontroll LOGITURN për funksionim në të dy drejtimet.",
+          "Numërues i integruar për ndjekjen e kalimeve dhe pagesave.",
+          "Kuti monedhash me bravë sigurie për mbledhjen e të ardhurave."
+        ]
+      },
+      {
+        "id": "fushat-e-perdorimit",
+        "title": "Ku gjen përdorim",
+        "paragraphs": [
+          "Një zgjidhje për hapësira ku përdorimi i shërbimit lidhet me një tarifë hyrjeje."
+        ],
+        "bullets": [
+          "Parqe argëtimi dhe atraksione turistike.",
+          "Pishina dhe ambiente rekreative me hyrje me pagesë.",
+          "Tualete, dushe publike dhe ambiente sanitare.",
+          "Pika shërbimi dhe restorante me akses të kontrolluar në ambientet sanitare."
+        ]
+      },
+      {
+        "id": "opsionet",
+        "title": "Konfigurim sipas ambientit",
+        "paragraphs": [
+          "Sipas nevojave të instalimit, TRINITY mund të pajiset me printer termik për kuponë, monitorim të mbushjes së kutisë së monedhave dhe zbulim të ndërhyrjeve të paautorizuara.",
+          "Na kontaktoni për të diskutuar fluksin e vizitorëve, organizimin e hyrje-daljeve dhe konfigurimin e pagesës për ambientin tuaj."
+        ],
+        "bullets": []
+      }
+    ],
+    "image": {
+      "src": "/images/gotschlich-trinity-instalimi.jpg",
+      "sourceUrl": "https://www.gotschlich.at/files/Trinity_WC_Bild1_RS.jpg",
+      "alt": "Ekrani udhëzues dhe hyrja e monedhave në automatin e pagesës TRINITY",
+      "width": 968,
+      "height": 648
+    },
+    "heroImage": {
+      "src": "/images/gotschlich-trinity.jpg",
+      "sourceUrl": "https://www.gotschlich.at/files/Trinity_WC_Bild0_RS.jpg",
+      "alt": "Turniket Gotschlich TRINITY me automat pagese të integruar dhe tre krahë",
+      "width": 1296,
+      "height": 1936
+    },
+    "icon": "access",
+    "href": "/zgjidhje/akses-me-pagese/",
+    "relatedPartnerIds": [],
+    "relatedProjectIds": [],
+    "sourceType": "manufacturer",
+    "sourceUrl": "https://www.gotschlich.at/?SEITE=EG_BaederFreizeit&pid=177434c5ae28b00002&lang=EN&EG=BF&IDP=15964273774fd9d4af17a2b&posYD=9500",
+    "sourcePageId": "15964273774fd9d4af17a2b",
+    "sourceDocumentUrl": "https://www.gotschlich.at/files/produkt-infos/produktblaetter/EN/TRINITY_Produktblatt_EN.pdf"
+  }
+]

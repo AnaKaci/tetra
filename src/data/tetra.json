@@ -1,0 +1,895 @@
+{
+  "source": {
+    "url": "https://tetra.al/",
+    "fetchedAt": "2026-09-28T13:17:34.296Z",
+    "pages": [
+      {
+        "id": 5004,
+        "slug": "kreu",
+        "url": "https://tetra.al/",
+        "modified": "2026-09-02T10:04:59"
+      },
+      {
+        "id": 5647,
+        "slug": "our-solution",
+        "url": "https://tetra.al/our-solution/",
+        "modified": "2024-03-08T14:40:08"
+      },
+      {
+        "id": 5651,
+        "slug": "projektet",
+        "url": "https://tetra.al/projektet/",
+        "modified": "2024-03-08T01:38:30"
+      },
+      {
+        "id": 5649,
+        "slug": "partneret",
+        "url": "https://tetra.al/partneret/",
+        "modified": "2024-03-08T06:15:48"
+      },
+      {
+        "id": 5663,
+        "slug": "kontakt-2",
+        "url": "https://tetra.al/kontakt-2/",
+        "modified": "2023-05-04T21:29:39"
+      }
+    ]
+  },
+  "brand": {
+    "name": "TETRA",
+    "logo": {
+      "src": "/images/tetra-logo.svg",
+      "sourceUrl": "https://tetra.al/wp-content/uploads/2023/05/T-blue-1.svg",
+      "alt": "Tetra",
+      "width": 32,
+      "height": 32
+    },
+    "wordmark": {
+      "src": "/images/tetra-wordmark.svg",
+      "sourceUrl": "https://tetra.al/wp-content/uploads/2023/04/logo-blue.svg",
+      "alt": "Tetra",
+      "width": 160,
+      "height": 160
+    },
+    "tagline": "SMART · SECURE · GREEN"
+  },
+  "nav": [
+    {
+      "label": "Kreu",
+      "href": "/"
+    },
+    {
+      "label": "Rreth nesh",
+      "href": "/rreth-nesh/"
+    },
+    {
+      "label": "Zgjidhje",
+      "href": "/zgjidhje/"
+    },
+    {
+      "label": "Partnerët",
+      "href": "/partnere/"
+    },
+    {
+      "label": "Projektet",
+      "href": "/projekte/"
+    },
+    {
+      "label": "Kontakt",
+      "href": "/kontakt/"
+    }
+  ],
+  "hero": {
+    "intro": "Falë teknologjisë inovative, produkteve cilësore dhe suportit profesional, t’i ofrojmë biznesit lehtësi në menaxhimin e proceseve të punës, siguri të lartë, efiçencë dhe optimizim të kostove operacionale.",
+    "image": {
+      "src": "/images/tetra-wordmark.png",
+      "sourceUrl": "https://tetra.al/wp-content/uploads/2026/10/Screenshot-2026-10-01-112931.png",
+      "alt": "Tetra",
+      "width": 1611,
+      "height": 885
+    }
+  },
+  "history": {
+    "title": "Historia jonë",
+    "paragraphs": [
+      "Rrugëtimi ynë ka nisur në vitin 2007, e themeluar si një kompani me një vizion të qartë në ofrimin e zgjidhjeve në fushën e teknologjisë së informacionit për biznese të vogla, të mesme dhe korporata. Falë eksperiencës dhe menaxhimit të sukseshëm, këto 16 vite kanë qënë një histori suksesi, bazuar kjo në standartet e larta të vendosura nga kompania mëmë e grupit, CCS, e cila operon qysh prej vitit 1993 në tregun shqiptar.",
+      "TETRA lindi nga nevoja për të mbuluar atë pjesë të shërbimeve dhe zgjidhjeve që i mungonte tregut shqiptar, si zgjidhje inteligjente në fushën e sistemeve të akses-kontrollit për mjete dhe njerëz, zgjidhje për karikimin e automjeteve elektrike dhe fushën e automatizimit të proceseve të biznesit.",
+      "Kompania jonë sot është prezente me 2 vendndodhje të ndryshme, me zyrat qendrore ne qytetin e Tiranës dhe së fundmi me zyrën tonë të re në qytetin e Prishtinës për të ofruar eksperiencën dhe ekspertizën tonë edhe në tregun kosovar."
+    ],
+    "image": {
+      "src": "/images/tetra-genci.png",
+      "sourceUrl": "https://tetra.al/wp-content/uploads/2026/10/tetra-genci.png",
+      "alt": "Tetra",
+      "width": 1536,
+      "height": 1152
+    },
+    "image2": {
+      "src": "/images/tetra-bernard.png",
+      "sourceUrl": "https://tetra.al/wp-content/uploads/2026/10/Screenshot-2026-10-07-111606.png",
+      "alt": "Tetra",
+      "width": 1536,
+      "height": 1152
+    },
+    "stats": [
+      {
+        "value": "2007",
+        "label": "Viti i themelimit"
+      },
+      {
+        "value": "2",
+        "label": "Vendndodhje"
+      },
+      {
+        "value": "Shqipëri + Kosovë",
+        "label": "Tregjet ku veprojmë"
+      }
+    ]
+  },
+  "purpose": [
+    {
+      "title": "Misioni",
+      "paragraphs": [
+        "Falë teknologjisë inovative, produkteve cilësore dhe suportit profesional, t’i ofrojmë biznesit lehtësi në menaxhimin e proceseve të punës, siguri të lartë, efiçencë dhe optimizim të kostove operacionale.",
+        "Me anë të zgjidhjeve tona “GREEN”, ne jemi të përkushtuar në mbrojtjen e mjedisit."
+      ],
+      "icon": "target"
+    },
+    {
+      "title": "Vizioni",
+      "paragraphs": [
+        "T’i ofrojmë biznesit në Shqipëri dhe Kosovë zgjidhje teknologjke bashkëkohore në funksion të rritjes së sigurisë dhe shfrytëzimit maksimal të potencialit. Kjo sipas standardeve më të larta të ofruara nga eksperienca e partnerëve tanë evropian."
+      ],
+      "icon": "eye"
+    },
+    {
+      "title": "Vlerat",
+      "paragraphs": [
+        "Vlerat që na shoqërojnë në rrugëtimin tonë janë: Smart, Secure, Green.",
+        "Smart – Për sistemet dhe shërbimet inteligjente që TETRA sjell në Shqipëri",
+        "Secure – Për zgjidhjet më të sigurta që i ofrojmë biznesit në sistemet e parkimit dhe akses-kontrollit",
+        "Green – Për një mjedis dhe të nesërme më të pastër nëpërmjet karikuesve të automjeteve elektrike"
+      ],
+      "icon": "diamond"
+    }
+  ],
+  "company": {
+    "image": {
+      "src": "/images/tetra-office.png",
+      "sourceUrl": "https://tetra.al/wp-content/uploads/2026/10/ChatGPT-Image-Oct-1-2026-10_50_37-AM.png",
+      "alt": "Zyra Tetra",
+      "width": 1500,
+      "height": 1001
+    }
+  },
+  "charger": {
+    "image": {
+      "src": "/images/zgjidhjet-tetra.jpeg",
+      "sourceUrl": "https://tetra.al/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-06-at-09.50.15-10.jpeg",
+      "alt": "Karikimi i një automjeti elektrik",
+      "width": 1500,
+      "height": 955
+    }
+  },
+  "solutions": [
+    {
+      "id": "parkim",
+      "title": "Sisteme Parkimi",
+      "description": "Sistemi yne per automatizimin e proceseve te punes dhe gjenerimit te te ardhurave nga parkimet eshte Skidata.",
+      "slug": "sisteme-parkimi",
+      "relatedPartnerIds": [
+        "skidata"
+      ],
+      "relatedProjectIds": [
+        "air-albania",
+        "qsut",
+        "teg",
+        "kika"
+      ],
+      "intro": "Sistemi yne per automatizimin e proceseve te punes dhe gjenerimit te te ardhurave nga parkimet eshte Skidata. Nje emer i rendesishem ne fushen e menaxhimit te ambjenteve te parkimit.",
+      "sections": [
+        {
+          "id": "sistemi-yne",
+          "title": "Sisteme Parkimi",
+          "paragraphs": [
+            "Skidata, me nje eksperience 45 vjecare ne fushen e automatizimit te sistemeve te parkimit dhe me me shume se 12 mije instalime ne gjithe boten, ofron zgjidhje per cdo kerkese qe mund te kete nje ambjent parkimi, duke nisur nga parkimi me i vogel deri ne sisteme te medha dhe me kerkesa te nderlikuara ne menaxhim. Kjo, fale software modular qe ploteson nevojat te ndryshme per tipologji te ndryshme parkimesh.",
+            "Produkti eshte i sigurte, jetegjate dhe i besueshem."
+          ],
+          "bullets": []
+        },
+        {
+          "id": "segmentet",
+          "title": "Segmentet se ku sistemet Skidata gjejne zbatim jane disa",
+          "paragraphs": [],
+          "bullets": [
+            "Aeroporte;",
+            "Qendra Tregtare;",
+            "Operator parkimi;",
+            "Rezidenca banimi;",
+            "Qendra spitalore;",
+            "Hoteleri;",
+            "Parkime qyteti etj."
+          ]
+        },
+        {
+          "id": "opsionet",
+          "title": "Opsionet qe Skidata ofron per menaxhimin e ambjenteve te parkimit perfshijne :",
+          "paragraphs": [],
+          "bullets": [
+            "Zgjidhja “ticket-based” e cila ofrohet me ane te pajisjeve te besueshme dhe jetegjata per hyrje/dalje qe funksionojne me ane te printimit te biletave fizike;",
+            "Zgjidhja “ticketless” e cila ofrohet nepermjet sistemit te kamerave LPR. Kjo zgjidhje e kthen parkimin tuaj ne nje biznes qe respekton mjedisin duke shmangur perdorimin e biletave fizike. Hyrja kryhet me ane te leximit te targes se automjeteve ne hyrje/dalje;",
+            "Menyra pagesash te ndryshme. Me operator ose me ane te makinerive te pagesave automatike te cilat pranojne pagese ne monedha, kartemonedha, Debit/Credit Card dhe kthejne kusurin ne monedha apo kartemonedha;",
+            "Karikues per automjetet elektrike te integruar plotesisht me sistemin e parkimit. Me ane te biletes, kartes RFID apo targes se automjetit, klientet karikojne makinen dhe paguajne tarifen e parkimit dhe karikimit ne nje fature te vetme."
+          ]
+        },
+        {
+          "id": "avantazhet",
+          "title": "Avantazhet e zgjidhjes Skidata per menaxhimin e parkimit",
+          "paragraphs": [],
+          "bullets": [
+            "Software modular per permbushjen e nevojave te parkimeve te tipologjive dhe madhesive te ndryshme;",
+            "Pajisje aksesi te sigurta qe kane kosto te uleta mirembajtje dhe jetegjatesi;",
+            "Opsione te ndryshme pagesash per te permbushur kerkesat per cdo klient tuajin;",
+            "Siguri e larte ne menaxhimin e te dhenave dhe te te ardhurave;",
+            "Transparence e plote me klientin;",
+            "Raportime te ndryshme te cilat sherbejne per menaxhimin e perditshem te parkimit, por edhe per marrjen e vendimeve te ndryshme per rritjen e biznesit."
+          ]
+        }
+      ],
+      "href": "/zgjidhje/sisteme-parkimi/",
+      "sourceUrl": "https://tetra.al/our-solution/",
+      "sourcePageId": 5647,
+      "image": {
+        "src": "/images/parkim.jpeg",
+        "sourceUrl": "hhttps://tetra.al/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-06-at-09.50.15-9.jpeg",
+        "alt": "Sistemi i automatizuar i parkimit SKIDATA",
+        "width": 1611,
+        "height": 885
+      },
+      "icon": "parking"
+    },
+    {
+      "id": "karikim-ev",
+      "title": "Karikues per Automjete Elektrike",
+      "description": "Karikim inteligjent per makinen tuaj elektrike.",
+      "slug": "karikues-per-automjete-elektrike",
+      "relatedPartnerIds": [
+        "circontrol"
+      ],
+      "relatedProjectIds": [
+        "qsut",
+        "teg"
+      ],
+      "intro": "Zgjidhja jone per karikimin e mjeteve elektrike eshte e bazuar ne produktet dhe programin e kompanise lider ne Europe me baze ne Spanje, Circontrol. Kompania Circontrol, pionere ne fushen e karikuesve elektrik, ka nxjerr ne treg karikuesin e pare me teknologjine e karikimit AC ne vitin e larget 2008. Nder vite gama e karikuesve elektrik eshte bere e larmishme dhe sot ne ofrojme zgjidhje per karikimin ne AC & DC. Pra, karikues normal dhe karikues te shpejte.",
+      "sections": [
+        {
+          "id": "karikues-ac",
+          "title": "Karikuesit AC perfshijne modelet :",
+          "paragraphs": [],
+          "bullets": [
+            "“Wallbox” me fuqi nga 7.4 kwh deri ne 22 kwh;",
+            "“Post eVolve” me fuqi maksimale deri në 22 kWh, me 2 dalje për karikim të njëkohësishëm të 2 mjeteve elektrike."
+          ]
+        },
+        {
+          "id": "karikues-dc",
+          "title": "Karikuesit DC perfshijne modelet:",
+          "paragraphs": [],
+          "bullets": [
+            "“Raption 50”, karikues DC me fuqi karikimi maksimalisht 50 kWh, me dalje CCS2. Ky variant mund të shoqërohet me një dalje AC për karikim të njëkohësishëm të 2 mjeteve, ku 1 makinë karikohet në DC me 50 kWh, dhe tjetra në AC, me maksimumi 22 kWh;",
+            "“Raption 100”, karikues DC me fuqi karikimi maksimalisht 100 kWh me dalje CCS2. Ky variant mund të shoqërohet me një dalje AC për karikim të njëkohësishëm të 2 makinave, ku 1 karikohet në DC me 100 kwh, dhe tjetra në AC me maksimumi 22 kwh;",
+            "“Raption 150”, karikues DC me fuqi karikimi maksimalisht 150 kWh me dalje CCS2. Ky variant mund të ketë 2 dalje CCS2 për karikim të njëkohësishëm të 2 makinave elektrike në teknologjinë DC.",
+            "“Raption 350”, karikues DC me fuqi karikimi maksimalisht 350 kWh."
+          ]
+        },
+        {
+          "id": "jetegjatesia-dhe-menaxhimi",
+          "title": "Jetegjatesia:",
+          "paragraphs": [],
+          "bullets": [
+            "Jetëgjatësi e baterisë nga përdorimi i karikuesve të certifikuar sipas termave gjermane të kalibrimit dhe certifikimit të këtyre pajisjeve, “German Eichrecht Calibration Law Compliance Certification”.",
+            "Menaxhimi i qendërzuar i të gjithë flotës tuaj të karikuesve elektrikë, pavarësisht vendndodhjes, nëpërmjet softuerit “Cosmos Platform”. Me anë të këtij softueri ju mund të gjeneroni raporte mbi statusin e pajisjeve, alarme të mundshme, konsumin total për periudha të ndryshme, dhënie aksesi apo heqje aksesi, dhe kjo vetëm me anë të një aksesi në internet.",
+            "Menaxhim sa më optimal i energjisë totale që godina/zyra/shtëpia juaj kërkon. Kjo zgjidhje realizohet me anë të programit DLM, i cili mundëson karikimin e mjetit tuaj elektrik, por pa ndikuar në performancën e pajisjeve të tjera që ju keni në përdorim."
+          ]
+        }
+      ],
+      "href": "/zgjidhje/karikues-per-automjete-elektrike/",
+      "sourceUrl": "https://tetra.al/our-solution/",
+      "sourcePageId": 5647,
+      "image": {
+        "src": "/images/karikim-elektrik.jpg",
+        "sourceUrl": "https://tetra.al/wp-content/uploads/2023/05/electric-car-power-charging.jpg",
+        "alt": "Karikimi i një automjeti elektrik",
+        "width": 1500,
+        "height": 955
+      },
+      "icon": "charging"
+    },
+    {
+      "id": "akses-kontroll",
+      "title": "Sisteme akses-kontrolli",
+      "description": "Sistem akses-kontroll & menaxhim i kohes se punes.",
+      "slug": "sisteme-akses-kontrolli",
+      "relatedPartnerIds": [
+        "zucchetti"
+      ],
+      "relatedProjectIds": [
+        "air-albania"
+      ],
+      "intro": "Sistem akses-kontrolli & menaxhim i kohës së punës",
+      "sections": [
+        {
+          "id": "menaxhimi",
+          "title": "Sisteme akses-kontrolli",
+          "paragraphs": [
+            "Zgjidhja e ofruar nga kompania Zucchetti Group për akses-kontroll dhe menaxhim të kohës së punës për stafin, është mjeti ideal për mbledhjen dhe përpunimin e të dhënave për punonjësit dhe lëvizjet e tyre gjatë orarit të punës."
+          ],
+          "bullets": []
+        },
+        {
+          "id": "perdorimi",
+          "title": "Kjo zgjidhje përshtatet për:",
+          "paragraphs": [],
+          "bullets": [
+            "Ndërmarrje të çdo lloj madhësie apo strukture;",
+            "Institucione publike;",
+            "Spitale;",
+            "Institucione arsimore;",
+            "Hoteleri;"
+          ]
+        },
+        {
+          "id": "avantazhet",
+          "title": "Avantazhet:",
+          "paragraphs": [],
+          "bullets": [
+            "Integrimi i plotë i akses-kontrollit me matjen e kohës së punës për stafin;",
+            "Kontroll në kohë reale i të dhënave mbi prezencën në punë për pjesëmarrjen/mungesën e punonjësve;",
+            "Numërim automatik i orëve teorike dhe praktike të punës brenda ambjentit të zyrës;",
+            "Skedulim i turneve;",
+            "Përcaktim i hierarkisë të kompanisë apo kompanive të ndara sipas departamenteve dhe pozicioneve;",
+            "Mbajtja e databazës me të dhënat e secilit punonjës;",
+            "Raportime në kohë reale për anomali mbi frekuentimin e punës;",
+            "Import/eksport i të dhënave për përdorim nga sisteme të treta;",
+            "Gjenerim raportesh për t’u lidhur me sistemin e pagave;",
+            "Raporte të personalizuara;"
+          ]
+        }
+      ],
+      "href": "/zgjidhje/sisteme-akses-kontrolli/",
+      "sourceUrl": "https://tetra.al/our-solution/",
+      "sourcePageId": 5647,
+      "image": {
+        "src": "/images/akses-kontroll.jpg",
+        "sourceUrl": "https://tetra.al/wp-content/uploads/2023/05/ticket-barriers-subway-entrance.jpg",
+        "alt": "Pajisje për kontrollin e aksesit",
+        "width": 1500,
+        "height": 1001
+      },
+      "icon": "shield"
+    },
+    {
+      "id": "siguri",
+      "title": "Zgjidhje aksesi per ambjente me siguri te larte",
+      "description": "Tetra plotëson nevojat per nje akses kontroll te sigurte, te kontrolluar dhe te besueshem ne ambjente ku siguria kerkohet te jete teper e larte.",
+      "slug": "akses-siguri-te-larte",
+      "relatedPartnerIds": [
+        "gunnebo"
+      ],
+      "relatedProjectIds": [
+        "air-albania"
+      ],
+      "intro": "Tetra plotëson nevojat per nje akses kontroll te sigurte, te kontrolluar dhe te besueshem ne ambjente ku siguria kerkohet te jete teper e larte.",
+      "sections": [
+        {
+          "id": "zbatimi-ne-projekte",
+          "title": "Zbatimi ne projekte",
+          "paragraphs": [
+            "Ne kemi zbatuar me sukses zgjidhje te tilla ne :"
+          ],
+          "bullets": [
+            "Stadiumi Air Albania,",
+            "Stadiumi Loro Borici,",
+            "Stadiumi Elbasan Arena,",
+            "Stadiumi Selman Stermasi,",
+            "Akses kontroll ne Autoriteti Portual Durres."
+          ]
+        },
+        {
+          "id": "aksesi-i-sigurt",
+          "title": "Zgjidhje aksesi per ambjente me siguri te larte",
+          "paragraphs": [
+            "Nëse ju duhet qe të menaxhoni evente me një numër të madh vizitorësh, për shembull evente me një numër të madh hyrjesh, me zonat VIP, zonat e mysafirëve dhe hyrjet për personat me aftësi të kufizuara, siguria e pjesëmarësve dhe ambjenteve fillon që në hyrje.",
+            "Për disa vite tani kemi fokusuar vëmendjen tonë për studimin dhe zgjidhjen e problemeve lidhur me kontrollin e hyrjes dhe sigurinë ne eventet sportive, kulturore apo edhe ambjenteve me akses te kufizuar. Qoftë një stadium, një teatër, nje ambjent me akses te kufizuar, operatori duhet të mbajë shumë gjëra nën kontroll.",
+            "Kete zgjidhje ne e kemi bazuar ne kompanine lider nderkombetar ne fushen e pajisjeve te sigurise, Gunnebo."
+          ],
+          "bullets": []
+        },
+        {
+          "id": "gunnebo",
+          "title": "Gunnebo",
+          "paragraphs": [
+            "Grupi Gunnebo eshte nje lider nderkombetar ne ofrimin e produkteve, zgjidhjeve dhe sherbimeve te sigurise. I specializuar ne zgjidhje per siguri ne akses, siguri elektronike.",
+            "Zyrat qendrore te kompanise Gunnebo ndodhen ne Suedi. Gunnebo si ofrues nderkombetar ka zyra perfaqesimi ne me shume se 28 shtete, 10 fabrika prodhimi si edhe numeron 5,200 punonjes ne gjithe globin."
+          ],
+          "bullets": []
+        },
+        {
+          "id": "pajisjet",
+          "title": "Pajisjet e sigurise qe kompania jone mbulon me ane te partneritetit me kompanine Gunnebo jane :",
+          "paragraphs": [],
+          "bullets": [
+            "Full Height Turnstiles per perdorim ne ambjente ku siguria kerkohet te jete e larte si ne stadiume, ambjente ushtarake, zyra shteterore, banka etj..",
+            "SpeedStiles per perdorim ne hyrje/dalje ne ambjente zyrash, porte, aeroporte, metro etj.",
+            "Tripods per perdorim ne hyrje/dalje ne ambjente zyrash etj."
+          ]
+        }
+      ],
+      "href": "/zgjidhje/akses-siguri-te-larte/",
+      "sourceUrl": "https://tetra.al/our-solution/",
+      "sourcePageId": 5647,
+      "image": {
+        "src": "/images/siguri-aksesi.jpg",
+        "sourceUrl": "https://tetra.al/wp-content/uploads/2023/05/scanning-finger-coronavirus-contaminated-fingerprint-access-control-1.jpg",
+        "alt": "Kontroll aksesi me gjurmë gishti",
+        "width": 1165,
+        "height": 844
+      },
+      "icon": "fingerprint"
+    },
+    {
+      "id": "sinjalistike",
+      "title": "Sinjalistike inteligjente parkimi",
+      "description": "Tetra Solutions vazhdon të mbetet unike në sistemet më inovative për ambjentet e parkimi.",
+      "slug": "sinjalistike-inteligjente-parkimi",
+      "relatedPartnerIds": [
+        "circontrol"
+      ],
+      "relatedProjectIds": [
+        "air-albania",
+        "teg"
+      ],
+      "intro": "TETRA vazhdon të mbetet unike në sistemet më inovative për ambjentet e parkimit që ofron. Nëpërmjet bashkëpunimit me kompaninë Circontrol, ne kemi sjellë në Shqipëri sistemin “Parking Guidance System”.",
+      "sections": [
+        {
+          "id": "cirpark",
+          "title": "Parking Guidance System",
+          "paragraphs": [
+            "Ky është një nga sistemet më mbresëlënës dhe afatgjatë në treg për udhëzimim e hapsirës së parkimit. Integruar në platformën “CirPark”, ai bëhet një mjet i fuqishëm i menaxhimit që optimizon trafikun në parkingjet e makinave dhe siguron kënaqësinë e përdoruesit, duke u dhënë atyre informacionin që u nevojitet kur kanë nevojë për të.",
+            "Kjo platformë unike parkimi ofron:"
+          ],
+          "bullets": []
+        },
+        {
+          "id": "numerimi",
+          "title": "Sistemi i numerimit:",
+          "paragraphs": [
+            "Sistem numërimi i vendeve të lira në hyrjen kryesore të parkimit, apo edhe ndarjen në zona të ambjentit të parkimit. Kjo do të lehtësojë trafikun e krijuar dhe do të drejtojë përdoruesit drejt zonave me vende të lira për të parkuar në kohën më të shpejtë të mundshme."
+          ],
+          "bullets": []
+        },
+        {
+          "id": "orientimi",
+          "title": "Sistemi i Orientimit:",
+          "paragraphs": [
+            "Sistemi i Orientimit me sinjalistiken LED mundëson që përdoruesit të ndjekin ngjyrën e gjelbër që nënkupton një vend të lirë për të parkuar. Kjo është mënyra se si funksionojnë sensorët e zgjidhjes “Parking Guidance System”. Nëpërmjet modelit të ngjyrave RGB (red, green, blue), sensorët i tregojnë përdoruesve se cilat vende janë të zëna dhe cilat vende janë të lira për të parkuar mjetin duke ulur trafikun në ambjentin tuaj të parkimit dhe shkurtuar me më shumë se 60% kohën që i duhet një përdoruesi të parkojë makinën."
+          ],
+          "bullets": []
+        }
+      ],
+      "href": "/zgjidhje/sinjalistike-inteligjente-parkimi/",
+      "sourceUrl": "https://tetra.al/our-solution/",
+      "sourcePageId": 5647,
+      "image": {
+        "src": "/images/sinjalistike-parkimi.jpg",
+        "sourceUrl": "https://tetra.al/wp-content/uploads/2023/05/parking.jpg",
+        "alt": "Ambiente parkimi me sinjalistikë",
+        "width": 1500,
+        "height": 1000
+      },
+      "icon": "signpost"
+    },
+    {
+      "id": "akses-me-pagese",
+      "slug": "akses-me-pagese",
+      "title": "Sisteme aksesi me pagesë",
+      "description": "Turniket dhe automat pagese në një pajisje të vetme, për parqe argëtimi, atraksione dhe ambiente shërbimi.",
+      "intro": "Kontrolloni hyrjen dhe pagesën në të njëjtën pikë. TRINITY nga Gotschlich bashkon një turniket të motorizuar me një automat pagese, për ambiente me fluks të lartë vizitorësh.",
+      "sections": [
+        {
+          "id": "hyrja-dhe-pagesa",
+          "title": "Hyrja dhe pagesa, në një pajisje",
+          "paragraphs": [
+            "TRINITY lidh pagesën e tarifës me kalimin përmes turniketit. Vizitori ndjek udhëzimet në ekranin me ngjyra, kryen pagesën dhe kalon në zonën e shërbimit.",
+            "Njësia e pagesës dhe turniketi kanë trup prej çeliku inox V2A. Pajisja ofrohet me dy ose tre krahë, për t’u përshtatur me organizimin e hyrjes."
+          ],
+          "bullets": []
+        },
+        {
+          "id": "pagesa-dhe-kontrolli",
+          "title": "Pagesë e thjeshtë, kalim i kontrolluar",
+          "paragraphs": [],
+          "bullets": [
+            "Pranim i deri në gjashtë llojeve të monedhave ose zhetonëve, sipas konfigurimit.",
+            "Tarifë hyrjeje e rregullueshme dhe kthim kusuri.",
+            "Ekran me ngjyra që udhëzon vizitorin gjatë pagesës.",
+            "Turniket i motorizuar me kontroll LOGITURN për funksionim në të dy drejtimet.",
+            "Numërues i integruar për ndjekjen e kalimeve dhe pagesave.",
+            "Kuti monedhash me bravë sigurie për mbledhjen e të ardhurave."
+          ]
+        },
+        {
+          "id": "fushat-e-perdorimit",
+          "title": "Ku gjen përdorim",
+          "paragraphs": [
+            "Një zgjidhje për hapësira ku përdorimi i shërbimit lidhet me një tarifë hyrjeje."
+          ],
+          "bullets": [
+            "Parqe argëtimi dhe atraksione turistike.",
+            "Pishina dhe ambiente rekreative me hyrje me pagesë.",
+            "Tualete, dushe publike dhe ambiente sanitare.",
+            "Pika shërbimi dhe restorante me akses të kontrolluar në ambientet sanitare."
+          ]
+        },
+        {
+          "id": "opsionet",
+          "title": "Konfigurim sipas ambientit",
+          "paragraphs": [
+            "Sipas nevojave të instalimit, TRINITY mund të pajiset me printer termik për kuponë, monitorim të mbushjes së kutisë së monedhave dhe zbulim të ndërhyrjeve të paautorizuara.",
+            "Na kontaktoni për të diskutuar fluksin e vizitorëve, organizimin e hyrje-daljeve dhe konfigurimin e pagesës për ambientin tuaj."
+          ],
+          "bullets": []
+        }
+      ],
+      "image": {
+        "src": "/images/gotschlich-trinity-instalimi.jpg",
+        "sourceUrl": "https://www.gotschlich.at/files/Trinity_WC_Bild1_RS.jpg",
+        "alt": "Ekrani udhëzues dhe hyrja e monedhave në automatin e pagesës TRINITY",
+        "width": 968,
+        "height": 648
+      },
+      "heroImage": {
+        "src": "/images/gotschlich-trinity.jpg",
+        "sourceUrl": "https://www.gotschlich.at/files/Trinity_WC_Bild0_RS.jpg",
+        "alt": "Turniket Gotschlich TRINITY me automat pagese të integruar dhe tre krahë",
+        "width": 1296,
+        "height": 1936
+      },
+      "icon": "access",
+      "href": "/zgjidhje/akses-me-pagese/",
+      "relatedPartnerIds": [],
+      "relatedProjectIds": [],
+      "sourceType": "manufacturer",
+      "sourceUrl": "https://www.gotschlich.at/?SEITE=EG_BaederFreizeit&pid=177434c5ae28b00002&lang=EN&EG=BF&IDP=15964273774fd9d4af17a2b&posYD=9500",
+      "sourcePageId": "15964273774fd9d4af17a2b",
+      "sourceDocumentUrl": "https://www.gotschlich.at/files/produkt-infos/produktblaetter/EN/TRINITY_Produktblatt_EN.pdf"
+    }
+  ],
+  "projects": [
+    {
+      "id": "air-albania",
+      "slug": "air-albania",
+      "title": "AIR ALBANIA",
+      "description": "Ndërtimi i sistemit të akses-kontrollit të tifozerisë dhe menaxhimit të qendërzuar të sistemit të parkimit",
+      "projectName": "Ndërtimi i sistemit të akses-kontrollit të tifozerisë dhe menaxhimit të qendërzuar të sistemit të parkimit",
+      "location": "Air Albania Stadium",
+      "installationYear": "2019",
+      "parkingSpaces": "+200",
+      "capacity": {
+        "label": "Ulëse tifozësh",
+        "value": "22,000"
+      },
+      "requirements": [
+        "Ndërtimi i një sistemi që do të menaxhojë hyrjen e tifozerisë në ambjentet e stadiumit brenda kohës së kërkuar nga certifikimet e UEFA për ndeshje ndërkombëtare. Ndërtimi i një sistemi parkimi për menaxhimin e qendërzuar të hyrje-daljeve në parkim, si edhe ndriçimi LED për gjetjen në kohën më të shpejtë të mundshme të vendit të lirë të parkimit."
+      ],
+      "solutionsProvided": [
+        "Sistem akses-kontrolli i ofruar nga Zucchetti Group;",
+        "Pajisje për sigurinë fizike ofruar nga Gunnebo;",
+        "Zgjidhja për menaxhimin e vendeve të lira të parkimit ofruar nga Circontrol."
+      ],
+      "equipment": [
+        "27 Full Height Turnstiles",
+        "Software Access Control",
+        "Parking Guidance System për 222 vende parkimi",
+        "Scada Software për menaxhimin e vendeve të lira/të zena të parkimit",
+        "Software për menaxhimin e parkimit Parking.Logic",
+        "4 x Lite.Gate",
+        "4 x Folding Arm Barriers",
+        "Kamera LPR."
+      ],
+      "href": "/projekte/air-albania/",
+      "sourceUrl": "https://tetra.al/projektet/",
+      "sourcePageId": 5651,
+      "image": {
+        "src": "/images/air-albania.jpg",
+        "sourceUrl": "https://tetra.al/wp-content/uploads/2023/05/Stadiumi-Air-Albania-scaled-1-1536x1152.jpg",
+        "alt": "Stadiumi Air Albania",
+        "width": 1536,
+        "height": 1152
+      },
+      "relatedSolutionIds": [
+        "parkim",
+        "akses-kontroll",
+        "siguri",
+        "sinjalistike"
+      ]
+    },
+    {
+      "id": "qsut",
+      "slug": "qsut",
+      "title": "QSUT",
+      "description": "Ndërtimi i sistemit të parkimit në ambjentet e QSUT",
+      "projectName": "Ndërtimi i sistemit të parkimit në ambjentet e QSUT",
+      "location": "QSUT, Tiranë",
+      "installationYear": "2019",
+      "parkingSpaces": "+500",
+      "requirements": [
+        "Ndërtimi i sistemit të menaxhimit të të 3-ja hyrje-daljeve dhe arkëtimit të pagesave për ambjentin e parkimit në QSUT me anë të një menaxhimi të qendërzuar. Menaxhim i karikimit të mjeteve elektrike. Sistem për detektimin e targave të automjeteve në hyrje/dalje të parkimit."
+      ],
+      "solutionsProvided": [
+        "Sistemi i parkimit ofruar nga Skidata;"
+      ],
+      "equipment": [
+        "3 x Power.Gate",
+        "3 x Lite.Gate",
+        "6 x Barrier.Gate",
+        "3 x POS",
+        "1 x Karikues elektrik",
+        "Kamera LPR",
+        "Software qendror për menaxhimin e parkimit."
+      ],
+      "href": "/projekte/qsut/",
+      "sourceUrl": "https://tetra.al/projektet/",
+      "sourcePageId": 5651,
+      "image": {
+        "src": "/images/qsut.webp",
+        "sourceUrl": "https://tetra.al/wp-content/uploads/2023/05/qsut.webp",
+        "alt": "Qendra Spitalore Universitare Nënë Tereza, QSUT",
+        "width": 1280,
+        "height": 720
+      },
+      "relatedSolutionIds": [
+        "parkim",
+        "karikim-ev"
+      ]
+    },
+    {
+      "id": "kika",
+      "slug": "kompleksi-kika",
+      "title": "KOMPLEKSI KIKA",
+      "description": "Menaxhim i qendërzuar i 4 ambjenteve të parkimit në rezidencat KIKA",
+      "projectName": "Menaxhim i qendërzuar i 4 ambjenteve të parkimit në rezidencat KIKA",
+      "location": "Komplekset KIKA, Tiranë",
+      "installationYear": "2018",
+      "parkingSpaces": "+2,500",
+      "requirements": [
+        "Ndërtimi i sistemit për menaxhimin e qendërzuar të 4 ambjenteve të parkimit të komplekseve KIKA. Sistem kamera LPR për detektimin e targave dhe aksesin nëpërmjet targave të automjeteve në hyrje/dalje të parkimeve."
+      ],
+      "solutionsProvided": [
+        "Sistemi i parkimit ofruar nga Skidata."
+      ],
+      "equipment": [
+        "8 x Lite.Gate",
+        "8 x Barrier.Gate",
+        "4 x POS",
+        "Kamera LPR."
+      ],
+      "href": "/projekte/kompleksi-kika/",
+      "sourceUrl": "https://tetra.al/projektet/",
+      "sourcePageId": 5651,
+      "image": {
+        "src": "/images/kompleksi-kika.jpg",
+        "sourceUrl": "https://tetra.al/wp-content/uploads/2023/09/kompleksi-kika-shiten-3-garsoniere-1054820279_large-1536x893.jpg",
+        "alt": "Kompleksi Kika",
+        "width": 1536,
+        "height": 893
+      },
+      "relatedSolutionIds": [
+        "parkim"
+      ]
+    },
+    {
+      "id": "teg",
+      "slug": "teg",
+      "title": "TEG",
+      "description": "Menaxhimi i parkimit në qendrën tregëtare TEG",
+      "projectName": "Menaxhimi i parkimit në qendrën tregëtare TEG",
+      "location": "TEG",
+      "installationYear": "2023 (në proces)",
+      "parkingSpaces": "+1,000",
+      "requirements": [
+        "Ndërtimi i sistemit të menaxhimit të hyrje-daljeve dhe arkëtimit të pagesave për ambjentin e parkimit në qendrën tregëtare TEG. Ndriçimi LED për gjetjen në kohën më të shpejtë të mundshme të vendit të lirë të parkimit. Krijimi i mundësisë për kryerjen e pagesave të parkimit në makineri automatike pagesash."
+      ],
+      "solutionsProvided": [
+        "Sistemi i parkimit ofruar nga Skidata;",
+        "Zgjidhja për menaxhimin e vendeve të lira të parkimit ofruar nga Circontrol."
+      ],
+      "equipment": [
+        "2 x Power.Gate",
+        "2 x Lite.Gate",
+        "4 x Barrier.Gate",
+        "2 x POS",
+        "4 x makineri për pranimin e pagesave në mënyrë automatike",
+        "Kamera LPR",
+        "Karikues për makinat elektrike të integruar plotësisht me sistemin e parkimit",
+        "Software qendror për menaxhimin e parkimit",
+        "Parking Guidance System për 1,000 vende parkimi",
+        "Scada Software për menaxhimin e vendeve të lira/të zëna të parkimit."
+      ],
+      "href": "/projekte/teg/",
+      "sourceUrl": "https://tetra.al/projektet/",
+      "sourcePageId": 5651,
+      "image": {
+        "src": "/images/teg.jpeg",
+        "sourceUrl": "https://tetra.al/wp-content/uploads/2023/05/teg3-scaled-e1622077092328.jpeg",
+        "alt": "Qendra tregëtare TEG",
+        "width": 800,
+        "height": 450
+      },
+      "relatedSolutionIds": [
+        "parkim",
+        "karikim-ev",
+        "sinjalistike"
+      ]
+    }
+  ],
+  "partners": [
+    {
+      "id": "skidata",
+      "anchor": "skidata",
+      "name": "SKIDATA",
+      "category": "Sisteme të automatizuara parkimi",
+      "description": "Sistemi i parkimit Skidata, falë softuerit modular përmbush nevojat tuaja duke filluar nga ambjentet e vogla të parkimit, deri në projekte komplekse dhe të mëdha. Sistemet Skidata ofrojnë siguri, transparencë dhe komoditet për përdoruesin.",
+      "sections": [],
+      "logo": {
+        "src": "/images/skidata-black.png",
+        "sourceUrl": "https://tetra.al/wp-content/uploads/2023/05/SKIDATA-BLACK.png",
+        "alt": "SKIDATA",
+        "width": 287,
+        "height": 161
+      },
+      "href": "/partnere/#skidata",
+      "sourceUrl": "https://tetra.al/partneret/",
+      "sourcePageId": 5649,
+      "relatedSolutionIds": [
+        "parkim"
+      ]
+    },
+    {
+      "id": "circontrol",
+      "anchor": "circontrol",
+      "name": "CIRCONTROL",
+      "category": "Karikues për automjete elektrike",
+      "description": "Gama e produkteve të kompanisë lider Circontrol për karikiminin e automjeteve elektrike është e gjerë dhe ofron zgjidhje karikimi në AC dhe DC, pra karikues normal dhe karikues të shpejtë.",
+      "sections": [
+        {
+          "id": "sinjalistika",
+          "title": "Sinjalistika në ambjentet e mbyllura të parkimit",
+          "paragraphs": [
+            "Me anë të sistemit “Parking Guidance System” ju ulni trafikun në ambjentin e parkimit dhe siguroni që klientët tuaj gjejnë vendin e lirë të parkimit në kohën më të shkurtër të mundshme, duke krijuar kështu komoditet dhe një ambjent modern parkimi."
+          ],
+          "bullets": []
+        }
+      ],
+      "logo": {
+        "src": "/images/circontrol.png",
+        "sourceUrl": "https://tetra.al/wp-content/uploads/2023/05/circontrol.png",
+        "alt": "CIRCONTROL",
+        "width": 287,
+        "height": 161
+      },
+      "href": "/partnere/#circontrol",
+      "sourceUrl": "https://tetra.al/partneret/",
+      "sourcePageId": 5649,
+      "relatedSolutionIds": [
+        "karikim-ev",
+        "sinjalistike"
+      ]
+    },
+    {
+      "id": "gunnebo",
+      "anchor": "gunnebo",
+      "name": "GUNNEBO",
+      "description": "Për një ambjent të sigurtë, pajisjet Gunnebo janë zgjidhja e duhur.",
+      "sections": [],
+      "logo": {
+        "src": "/images/gunnebo-black.png",
+        "sourceUrl": "https://tetra.al/wp-content/uploads/2023/05/gunnebo-black.png",
+        "alt": "GUNNEBO",
+        "width": 287,
+        "height": 161
+      },
+      "href": "/partnere/#gunnebo",
+      "sourceUrl": "https://tetra.al/partneret/",
+      "sourcePageId": 5649,
+      "relatedSolutionIds": [
+        "siguri"
+      ]
+    },
+    {
+      "id": "gymgest",
+      "anchor": "gymgest",
+      "name": "GYMGEST",
+      "category": "Program për menaxhimin e qendrave multifunksionale",
+      "description": "Programi ”Gymgest” është një softuer modular që mundëson menaxhimin e palestrave, pishinave, por edhe qendrave multifunksionale dhe komplekse për nga numri i shërbimeve të ofruara.",
+      "sections": [],
+      "logo": {
+        "src": "/images/gymgest.png",
+        "sourceUrl": "https://tetra.al/wp-content/uploads/2023/05/gymgest.png",
+        "alt": "GYMGEST",
+        "width": 287,
+        "height": 161
+      },
+      "href": "/partnere/#gymgest",
+      "sourceUrl": "https://tetra.al/partneret/",
+      "sourcePageId": 5649,
+      "relatedSolutionIds": []
+    },
+    {
+      "id": "zucchetti",
+      "anchor": "zucchetti",
+      "name": "Zucchetti Group",
+      "category": "Sistem akses-kontroll dhe menaxhim i kohës së punës",
+      "description": "Sistemet e akses-kontrollit plotësojnë nevojën tuaj për siguri në ambjentet e biznesit tuaj, kontroll të plotë mbi hyrje-daljet, dhe menaxhim të kohës së punës për stafin.",
+      "sections": [],
+      "logo": {
+        "src": "/images/zuchetii.png",
+        "sourceUrl": "https://tetra.al/wp-content/uploads/2023/05/zuchetii.png",
+        "alt": "Zucchetti Group",
+        "width": 287,
+        "height": 161
+      },
+      "href": "/partnere/#zucchetti",
+      "sourceUrl": "https://tetra.al/partneret/",
+      "sourcePageId": 5649,
+      "relatedSolutionIds": [
+        "akses-kontroll"
+      ]
+    }
+  ],
+  "contact": {
+    "href": "/kontakt/",
+    "phone": "+355 676 095 841",
+    "phoneHref": "tel:+355676095841",
+    "email": null,
+    "locations": [
+      "Tiranë",
+      "Prishtinë"
+    ],
+    "socials": [
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/tetra.al"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/company/tetra-solutions/"
+      },
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/tetra.al/"
+      }
+    ],
+    "sourceUrl": "https://tetra.al/tetra-solution-logo-2/"
+  },
+  "overviews": {
+    "solutions": {
+      "title": "Zgjidhjet tona",
+      "intro": "Si udhëheqës në industrinë tonë, jemi të angazhuar për t’ju ofruar zgjidhjet më të mira. Ekipi ynë i përkushtuar i profesionistëve kombinon teknologjitë e fundit, hulumtimin e kujdesshëm dhe njohuritë e thella të nevojave tuaja unike për të ofruar zgjidhje të efektshme, inteligjente dhe transformuese.",
+      "sourceUrl": "https://tetra.al/our-solution/"
+    },
+    "partners": {
+      "title": "Partnerët tanë, forca jonë",
+      "intro": "Transformimi i ideve në realitet",
+      "sourceUrl": "https://tetra.al/partneret/"
+    }
+  },
+  "links": {
+    "home": "/",
+    "about": "/rreth-nesh/",
+    "solutions": "/zgjidhje/",
+    "projects": "/projekte/",
+    "partners": "/partnere/",
+    "contact": "/kontakt/",
+    "legal": []
+  }
+}

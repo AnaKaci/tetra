@@ -1,0 +1,840 @@
+{
+  "generatedAt": "2026-10-14T08:02:35.232Z",
+  "method": "RGBA pixel comparison of full-page Chromium screenshots at 1440px, with reduced motion. Pass requires matching image dimensions and no channel difference exceeding 1/255 (one color level of rasterization tolerance). Exact pixel differences are retained. Header metric compares the first 85 rows.",
+  "channelTolerance": 1,
+  "baselineDirectory": "C:\\Users\\HP\\Desktop\\tetra\\tests\\mobile\\baseline",
+  "screenshotDirectory": "C:\\Users\\HP\\Desktop\\tetra\\tests\\mobile\\screenshots",
+  "expected": 16,
+  "compared": 16,
+  "identical": 0,
+  "withinRasterTolerance": 16,
+  "differences": 0,
+  "pending": 0,
+  "comparisons": [
+    {
+      "file": "home-1440.png",
+      "capturedAt": {
+        "baseline": "2026-10-08T08:28:16.851Z",
+        "current": "2026-10-13T08:10:58.741Z"
+      },
+      "status": "within-raster-tolerance",
+      "originalSize": {
+        "width": 1440,
+        "height": 4828
+      },
+      "currentSize": {
+        "width": 1440,
+        "height": 4828
+      },
+      "changedPixels": 147657,
+      "changedPercentage": 2.123852,
+      "changedHeaderPixels": 0,
+      "maxChannelDifference": 1,
+      "pixelsExceedingTolerance": 0,
+      "differenceBounds": {
+        "left": 56,
+        "top": 482,
+        "right": 1383,
+        "bottom": 4487
+      },
+      "changedRows": [
+        {
+          "start": 482,
+          "end": 482
+        },
+        {
+          "start": 666,
+          "end": 666
+        },
+        {
+          "start": 3254,
+          "end": 3539
+        },
+        {
+          "start": 3541,
+          "end": 3628
+        },
+        {
+          "start": 4151,
+          "end": 4487
+        }
+      ]
+    },
+    {
+      "file": "kontakt-1440.png",
+      "capturedAt": {
+        "baseline": "2026-10-08T08:28:27.601Z",
+        "current": "2026-10-13T08:13:40.885Z"
+      },
+      "status": "within-raster-tolerance",
+      "originalSize": {
+        "width": 1440,
+        "height": 2154
+      },
+      "currentSize": {
+        "width": 1440,
+        "height": 2154
+      },
+      "changedPixels": 42274,
+      "changedPercentage": 1.362904,
+      "changedHeaderPixels": 0,
+      "maxChannelDifference": 1,
+      "pixelsExceedingTolerance": 0,
+      "differenceBounds": {
+        "left": 0,
+        "top": 85,
+        "right": 1059,
+        "bottom": 1207
+      },
+      "changedRows": [
+        {
+          "start": 85,
+          "end": 714
+        },
+        {
+          "start": 819,
+          "end": 1207
+        }
+      ]
+    },
+    {
+      "file": "partnere-1440.png",
+      "capturedAt": {
+        "baseline": "2026-10-08T08:28:27.093Z",
+        "current": "2026-10-13T08:13:34.308Z"
+      },
+      "status": "within-raster-tolerance",
+      "originalSize": {
+        "width": 1440,
+        "height": 3963
+      },
+      "currentSize": {
+        "width": 1440,
+        "height": 3963
+      },
+      "changedPixels": 128782,
+      "changedPercentage": 2.256673,
+      "changedHeaderPixels": 0,
+      "maxChannelDifference": 1,
+      "pixelsExceedingTolerance": 0,
+      "differenceBounds": {
+        "left": 0,
+        "top": 85,
+        "right": 1383,
+        "bottom": 3622
+      },
+      "changedRows": [
+        {
+          "start": 85,
+          "end": 737
+        },
+        {
+          "start": 3286,
+          "end": 3622
+        }
+      ]
+    },
+    {
+      "file": "projekte-1440.png",
+      "capturedAt": {
+        "baseline": "2026-10-08T08:28:23.774Z",
+        "current": "2026-10-13T08:12:42.328Z"
+      },
+      "status": "within-raster-tolerance",
+      "originalSize": {
+        "width": 1440,
+        "height": 2115
+      },
+      "currentSize": {
+        "width": 1440,
+        "height": 2115
+      },
+      "changedPixels": 278468,
+      "changedPercentage": 9.143289,
+      "changedHeaderPixels": 0,
+      "maxChannelDifference": 1,
+      "pixelsExceedingTolerance": 0,
+      "differenceBounds": {
+        "left": 56,
+        "top": 456,
+        "right": 1383,
+        "bottom": 1775
+      },
+      "changedRows": [
+        {
+          "start": 456,
+          "end": 582
+        },
+        {
+          "start": 584,
+          "end": 752
+        },
+        {
+          "start": 754,
+          "end": 772
+        },
+        {
+          "start": 774,
+          "end": 775
+        },
+        {
+          "start": 777,
+          "end": 870
+        },
+        {
+          "start": 899,
+          "end": 1025
+        },
+        {
+          "start": 1027,
+          "end": 1216
+        },
+        {
+          "start": 1218,
+          "end": 1313
+        },
+        {
+          "start": 1438,
+          "end": 1775
+        }
+      ]
+    },
+    {
+      "file": "projekte-air-albania-1440.png",
+      "capturedAt": {
+        "baseline": "2026-10-08T08:28:24.652Z",
+        "current": "2026-10-13T08:12:52.373Z"
+      },
+      "status": "within-raster-tolerance",
+      "originalSize": {
+        "width": 1440,
+        "height": 3760
+      },
+      "currentSize": {
+        "width": 1440,
+        "height": 3760
+      },
+      "changedPixels": 35503,
+      "changedPercentage": 0.655714,
+      "changedHeaderPixels": 0,
+      "maxChannelDifference": 1,
+      "pixelsExceedingTolerance": 0,
+      "differenceBounds": {
+        "left": 135,
+        "top": 252,
+        "right": 1383,
+        "bottom": 3419
+      },
+      "changedRows": [
+        {
+          "start": 252,
+          "end": 252
+        },
+        {
+          "start": 254,
+          "end": 255
+        },
+        {
+          "start": 258,
+          "end": 261
+        },
+        {
+          "start": 263,
+          "end": 264
+        },
+        {
+          "start": 269,
+          "end": 269
+        },
+        {
+          "start": 273,
+          "end": 275
+        },
+        {
+          "start": 278,
+          "end": 278
+        },
+        {
+          "start": 281,
+          "end": 281
+        },
+        {
+          "start": 283,
+          "end": 283
+        },
+        {
+          "start": 285,
+          "end": 299
+        },
+        {
+          "start": 301,
+          "end": 304
+        },
+        {
+          "start": 306,
+          "end": 605
+        },
+        {
+          "start": 3083,
+          "end": 3419
+        }
+      ]
+    },
+    {
+      "file": "projekte-kompleksi-kika-1440.png",
+      "capturedAt": {
+        "baseline": "2026-10-08T08:28:25.843Z",
+        "current": "2026-10-13T08:13:12.097Z"
+      },
+      "status": "within-raster-tolerance",
+      "originalSize": {
+        "width": 1440,
+        "height": 3356
+      },
+      "currentSize": {
+        "width": 1440,
+        "height": 3356
+      },
+      "changedPixels": 37993,
+      "changedPercentage": 0.786175,
+      "changedHeaderPixels": 0,
+      "maxChannelDifference": 1,
+      "pixelsExceedingTolerance": 0,
+      "differenceBounds": {
+        "left": 135,
+        "top": 244,
+        "right": 1383,
+        "bottom": 3015
+      },
+      "changedRows": [
+        {
+          "start": 244,
+          "end": 244
+        },
+        {
+          "start": 247,
+          "end": 247
+        },
+        {
+          "start": 254,
+          "end": 254
+        },
+        {
+          "start": 258,
+          "end": 259
+        },
+        {
+          "start": 261,
+          "end": 263
+        },
+        {
+          "start": 269,
+          "end": 269
+        },
+        {
+          "start": 272,
+          "end": 276
+        },
+        {
+          "start": 278,
+          "end": 282
+        },
+        {
+          "start": 284,
+          "end": 292
+        },
+        {
+          "start": 294,
+          "end": 605
+        },
+        {
+          "start": 2679,
+          "end": 3015
+        }
+      ]
+    },
+    {
+      "file": "projekte-qsut-1440.png",
+      "capturedAt": {
+        "baseline": "2026-10-08T08:28:25.171Z",
+        "current": "2026-10-13T08:13:02.961Z"
+      },
+      "status": "within-raster-tolerance",
+      "originalSize": {
+        "width": 1440,
+        "height": 3515
+      },
+      "currentSize": {
+        "width": 1440,
+        "height": 3515
+      },
+      "changedPixels": 33870,
+      "changedPercentage": 0.669156,
+      "changedHeaderPixels": 0,
+      "maxChannelDifference": 1,
+      "pixelsExceedingTolerance": 0,
+      "differenceBounds": {
+        "left": 135,
+        "top": 245,
+        "right": 1383,
+        "bottom": 3174
+      },
+      "changedRows": [
+        {
+          "start": 245,
+          "end": 246
+        },
+        {
+          "start": 248,
+          "end": 248
+        },
+        {
+          "start": 250,
+          "end": 251
+        },
+        {
+          "start": 253,
+          "end": 254
+        },
+        {
+          "start": 257,
+          "end": 257
+        },
+        {
+          "start": 259,
+          "end": 265
+        },
+        {
+          "start": 267,
+          "end": 267
+        },
+        {
+          "start": 271,
+          "end": 279
+        },
+        {
+          "start": 282,
+          "end": 605
+        },
+        {
+          "start": 2838,
+          "end": 3174
+        }
+      ]
+    },
+    {
+      "file": "projekte-teg-1440.png",
+      "capturedAt": {
+        "baseline": "2026-10-08T08:28:26.408Z",
+        "current": "2026-10-13T08:13:21.949Z"
+      },
+      "status": "within-raster-tolerance",
+      "originalSize": {
+        "width": 1440,
+        "height": 3688
+      },
+      "currentSize": {
+        "width": 1440,
+        "height": 3688
+      },
+      "changedPixels": 35537,
+      "changedPercentage": 0.669156,
+      "changedHeaderPixels": 0,
+      "maxChannelDifference": 1,
+      "pixelsExceedingTolerance": 0,
+      "differenceBounds": {
+        "left": 135,
+        "top": 257,
+        "right": 1383,
+        "bottom": 3347
+      },
+      "changedRows": [
+        {
+          "start": 257,
+          "end": 257
+        },
+        {
+          "start": 260,
+          "end": 260
+        },
+        {
+          "start": 264,
+          "end": 264
+        },
+        {
+          "start": 267,
+          "end": 267
+        },
+        {
+          "start": 269,
+          "end": 271
+        },
+        {
+          "start": 275,
+          "end": 275
+        },
+        {
+          "start": 278,
+          "end": 278
+        },
+        {
+          "start": 280,
+          "end": 283
+        },
+        {
+          "start": 286,
+          "end": 289
+        },
+        {
+          "start": 291,
+          "end": 295
+        },
+        {
+          "start": 297,
+          "end": 297
+        },
+        {
+          "start": 299,
+          "end": 310
+        },
+        {
+          "start": 312,
+          "end": 605
+        },
+        {
+          "start": 3011,
+          "end": 3347
+        }
+      ]
+    },
+    {
+      "file": "rreth-nesh-1440.png",
+      "capturedAt": {
+        "baseline": "2026-10-08T08:28:17.655Z",
+        "current": "2026-10-13T08:11:09.831Z"
+      },
+      "status": "within-raster-tolerance",
+      "originalSize": {
+        "width": 1440,
+        "height": 3217
+      },
+      "currentSize": {
+        "width": 1440,
+        "height": 3217
+      },
+      "changedPixels": 109902,
+      "changedPercentage": 2.372423,
+      "changedHeaderPixels": 0,
+      "maxChannelDifference": 1,
+      "pixelsExceedingTolerance": 0,
+      "differenceBounds": {
+        "left": 0,
+        "top": 85,
+        "right": 1383,
+        "bottom": 2876
+      },
+      "changedRows": [
+        {
+          "start": 85,
+          "end": 737
+        },
+        {
+          "start": 2540,
+          "end": 2876
+        }
+      ]
+    },
+    {
+      "file": "zgjidhje-1440.png",
+      "capturedAt": {
+        "baseline": "2026-10-08T08:28:18.606Z",
+        "current": "2026-10-13T08:11:25.011Z"
+      },
+      "status": "within-raster-tolerance",
+      "originalSize": {
+        "width": 1440,
+        "height": 3001
+      },
+      "currentSize": {
+        "width": 1440,
+        "height": 3001
+      },
+      "changedPixels": 125318,
+      "changedPercentage": 2.899913,
+      "changedHeaderPixels": 0,
+      "maxChannelDifference": 1,
+      "pixelsExceedingTolerance": 0,
+      "differenceBounds": {
+        "left": 0,
+        "top": 85,
+        "right": 1383,
+        "bottom": 2660
+      },
+      "changedRows": [
+        {
+          "start": 85,
+          "end": 737
+        },
+        {
+          "start": 2324,
+          "end": 2660
+        }
+      ]
+    },
+    {
+      "file": "zgjidhje-akses-me-pagese-1440.png",
+      "capturedAt": {
+        "baseline": "2026-10-08T08:28:23.031Z",
+        "current": "2026-10-13T08:12:28.290Z"
+      },
+      "status": "within-raster-tolerance",
+      "originalSize": {
+        "width": 1440,
+        "height": 3053
+      },
+      "currentSize": {
+        "width": 1440,
+        "height": 3053
+      },
+      "changedPixels": 36993,
+      "changedPercentage": 0.841454,
+      "changedHeaderPixels": 0,
+      "maxChannelDifference": 1,
+      "pixelsExceedingTolerance": 0,
+      "differenceBounds": {
+        "left": 0,
+        "top": 85,
+        "right": 1383,
+        "bottom": 2713
+      },
+      "changedRows": [
+        {
+          "start": 85,
+          "end": 835
+        },
+        {
+          "start": 2376,
+          "end": 2713
+        }
+      ]
+    },
+    {
+      "file": "zgjidhje-akses-siguri-te-larte-1440.png",
+      "capturedAt": {
+        "baseline": "2026-10-08T08:28:21.717Z",
+        "current": "2026-10-13T08:12:08.386Z"
+      },
+      "status": "within-raster-tolerance",
+      "originalSize": {
+        "width": 1440,
+        "height": 3772
+      },
+      "currentSize": {
+        "width": 1440,
+        "height": 3772
+      },
+      "changedPixels": 178142,
+      "changedPercentage": 3.279685,
+      "changedHeaderPixels": 0,
+      "maxChannelDifference": 1,
+      "pixelsExceedingTolerance": 0,
+      "differenceBounds": {
+        "left": 0,
+        "top": 85,
+        "right": 1383,
+        "bottom": 3431
+      },
+      "changedRows": [
+        {
+          "start": 85,
+          "end": 737
+        },
+        {
+          "start": 2535,
+          "end": 2820
+        },
+        {
+          "start": 2822,
+          "end": 2909
+        },
+        {
+          "start": 3094,
+          "end": 3431
+        }
+      ]
+    },
+    {
+      "file": "zgjidhje-karikues-per-automjete-elektrike-1440.png",
+      "capturedAt": {
+        "baseline": "2026-10-08T08:28:20.254Z",
+        "current": "2026-10-13T08:11:48.407Z"
+      },
+      "status": "within-raster-tolerance",
+      "originalSize": {
+        "width": 1440,
+        "height": 3411
+      },
+      "currentSize": {
+        "width": 1440,
+        "height": 3411
+      },
+      "changedPixels": 250821,
+      "changedPercentage": 5.106457,
+      "changedHeaderPixels": 0,
+      "maxChannelDifference": 1,
+      "pixelsExceedingTolerance": 0,
+      "differenceBounds": {
+        "left": 0,
+        "top": 85,
+        "right": 1383,
+        "bottom": 3070
+      },
+      "changedRows": [
+        {
+          "start": 85,
+          "end": 742
+        },
+        {
+          "start": 2175,
+          "end": 2549
+        },
+        {
+          "start": 2734,
+          "end": 3070
+        }
+      ]
+    },
+    {
+      "file": "zgjidhje-sinjalistike-inteligjente-parkimi-1440.png",
+      "capturedAt": {
+        "baseline": "2026-10-08T08:28:22.419Z",
+        "current": "2026-10-13T08:12:20.251Z"
+      },
+      "status": "within-raster-tolerance",
+      "originalSize": {
+        "width": 1440,
+        "height": 3164
+      },
+      "currentSize": {
+        "width": 1440,
+        "height": 3164
+      },
+      "changedPixels": 220224,
+      "changedPercentage": 4.833544,
+      "changedHeaderPixels": 0,
+      "maxChannelDifference": 1,
+      "pixelsExceedingTolerance": 0,
+      "differenceBounds": {
+        "left": 0,
+        "top": 85,
+        "right": 1383,
+        "bottom": 2823
+      },
+      "changedRows": [
+        {
+          "start": 85,
+          "end": 737
+        },
+        {
+          "start": 1928,
+          "end": 2302
+        },
+        {
+          "start": 2487,
+          "end": 2823
+        }
+      ]
+    },
+    {
+      "file": "zgjidhje-sisteme-akses-kontrolli-1440.png",
+      "capturedAt": {
+        "baseline": "2026-10-08T08:28:20.991Z",
+        "current": "2026-10-13T08:11:58.600Z"
+      },
+      "status": "within-raster-tolerance",
+      "originalSize": {
+        "width": 1440,
+        "height": 3474
+      },
+      "currentSize": {
+        "width": 1440,
+        "height": 3474
+      },
+      "changedPixels": 155077,
+      "changedPercentage": 3.099953,
+      "changedHeaderPixels": 0,
+      "maxChannelDifference": 1,
+      "pixelsExceedingTolerance": 0,
+      "differenceBounds": {
+        "left": 0,
+        "top": 85,
+        "right": 1383,
+        "bottom": 3133
+      },
+      "changedRows": [
+        {
+          "start": 85,
+          "end": 737
+        },
+        {
+          "start": 2238,
+          "end": 2523
+        },
+        {
+          "start": 2526,
+          "end": 2612
+        },
+        {
+          "start": 2797,
+          "end": 3133
+        }
+      ]
+    },
+    {
+      "file": "zgjidhje-sisteme-parkimi-1440.png",
+      "capturedAt": {
+        "baseline": "2026-10-08T08:28:19.445Z",
+        "current": "2026-10-13T08:11:37.490Z"
+      },
+      "status": "within-raster-tolerance",
+      "originalSize": {
+        "width": 1440,
+        "height": 4121
+      },
+      "currentSize": {
+        "width": 1440,
+        "height": 4121
+      },
+      "changedPixels": 246818,
+      "changedPercentage": 4.159218,
+      "changedHeaderPixels": 0,
+      "maxChannelDifference": 1,
+      "pixelsExceedingTolerance": 0,
+      "differenceBounds": {
+        "left": 0,
+        "top": 85,
+        "right": 1383,
+        "bottom": 3780
+      },
+      "changedRows": [
+        {
+          "start": 85,
+          "end": 737
+        },
+        {
+          "start": 2885,
+          "end": 3170
+        },
+        {
+          "start": 3172,
+          "end": 3259
+        },
+        {
+          "start": 3444,
+          "end": 3780
+        }
+      ]
+    }
+  ],
+  "status": "pass"
+}

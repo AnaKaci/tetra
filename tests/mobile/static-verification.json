@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "outputDirectory": "C:\\Users\\HP\\Desktop\\tetra\\dist",
+  "generatedPages": 16,
+  "routes": [
+    "/",
+    "/kontakt/",
+    "/partnere/",
+    "/projekte/",
+    "/projekte/air-albania/",
+    "/projekte/kompleksi-kika/",
+    "/projekte/qsut/",
+    "/projekte/teg/",
+    "/rreth-nesh/",
+    "/zgjidhje/",
+    "/zgjidhje/akses-me-pagese/",
+    "/zgjidhje/akses-siguri-te-larte/",
+    "/zgjidhje/karikues-per-automjete-elektrike/",
+    "/zgjidhje/sinjalistike-inteligjente-parkimi/",
+    "/zgjidhje/sisteme-akses-kontrolli/",
+    "/zgjidhje/sisteme-parkimi/"
+  ],
+  "files": 142,
+  "internalLinkReferencesChecked": 524,
+  "uniqueLocalAssetsReferenced": 75,
+  "externalActions": [
+    "https://www.facebook.com/tetra.al",
+    "https://www.instagram.com/tetra.al/",
+    "https://www.linkedin.com/company/tetra-solutions/",
+    "tel:+355676095841"
+  ],
+  "errors": []
+}

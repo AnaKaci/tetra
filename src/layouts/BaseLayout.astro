@@ -1,0 +1,55 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import data from '../data/tetra.json';
+import type { ContentImage } from '../types/content';
+import { withBase } from '../utils/paths';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  image?: ContentImage;
+  canonicalPath?: string;
+}
+const { title, description = data.hero.intro, image = data.solutions[1].image, canonicalPath } = Astro.props;
+const pageTitle = title.includes('TETRA') ? title : `${title} — TETRA`;
+const canonical = Astro.site ? new URL(canonicalPath ? withBase(canonicalPath) : Astro.url.pathname, Astro.site).href : undefined;
+const socialImage = Astro.site ? new URL(withBase(image.src), Astro.site).href : withBase(image.src);
+const organization = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: data.brand.name,
+  ...(Astro.site ? { url: new URL(withBase('/'), Astro.site).href, logo: new URL(withBase(data.brand.wordmark.src), Astro.site).href } : {}),
+  ...(data.contact.phone ? { telephone: data.contact.phone } : {}),
+  sameAs: data.contact.socials.map(social => social.href),
+};
+---
+<!doctype html>
+<html lang="sq">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#006BFF" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    {canonical && <link rel="canonical" href={canonical} />}
+    <link rel="icon" type="image/svg+xml" href={withBase(data.brand.logo.src)} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="TETRA" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    {canonical && <meta property="og:url" content={canonical} />}
+    <meta property="og:image" content={socialImage} />
+    <meta property="og:image:alt" content={image.alt} />
+    <meta property="og:locale" content="sq_AL" />
+    <script type="application/ld+json" set:html={JSON.stringify(organization).replace(/</g, '\\u003c')} />
+  </head>
+  <body>
+    <Header />
+    <noscript><style>.menu-toggle{display:none!important}@media(max-width:900px){.header-inner{height:auto!important;min-height:72px;flex-wrap:wrap;padding-block:16px}.main-nav{display:flex!important;position:static;order:3;flex-basis:100%;flex-wrap:wrap;padding:0;gap:16px;box-shadow:none;border:0;max-height:none;overflow:visible}.main-nav .mobile-contact{display:none}.dropdown-panel{position:static}.nav-link{font-size:13px}}</style></noscript>
+    <main id="main-content"><slot /></main>
+    <Footer />
+    <script>import '../scripts/interactions';</script>
+  </body>
+</html>

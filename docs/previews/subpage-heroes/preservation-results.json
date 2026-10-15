@@ -1,0 +1,62 @@
+[
+  {
+    "route": "/",
+    "width": 1440,
+    "identical": true
+  },
+  {
+    "route": "/projekte/",
+    "width": 1440,
+    "identical": true
+  },
+  {
+    "route": "/projekte/air-albania/",
+    "width": 1440,
+    "identical": true
+  },
+  {
+    "route": "/projekte/qsut/",
+    "width": 1440,
+    "identical": true
+  },
+  {
+    "route": "/projekte/kompleksi-kika/",
+    "width": 1440,
+    "identical": true
+  },
+  {
+    "route": "/projekte/teg/",
+    "width": 1440,
+    "identical": true
+  },
+  {
+    "route": "/",
+    "width": 390,
+    "identical": false
+  },
+  {
+    "route": "/projekte/",
+    "width": 390,
+    "identical": true
+  },
+  {
+    "route": "/projekte/air-albania/",
+    "width": 390,
+    "identical": true
+  },
+  {
+    "route": "/projekte/qsut/",
+    "width": 390,
+    "identical": true
+  },
+  {
+    "route": "/projekte/kompleksi-kika/",
+    "width": 390,
+    "identical": true
+  },
+  {
+    "route": "/projekte/teg/",
+    "width": 390,
+    "identical": true
+  }
+]

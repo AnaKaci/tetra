@@ -1,0 +1,10 @@
+---
+import type { ContentSection } from '../types/content';
+interface Props { section: ContentSection; }
+const { section } = Astro.props;
+---
+<section class="content-section" id={section.id} aria-labelledby={`${section.id}-title`}>
+  <h2 id={`${section.id}-title`}>{section.title}</h2>
+  {section.paragraphs.map(paragraph => <p>{paragraph}</p>)}
+  {section.bullets.length > 0 && <ul>{section.bullets.map(bullet => <li>{bullet}</li>)}</ul>}
+</section>

@@ -1,0 +1,7 @@
+{
+  "src/pages/index.astro": "a9bcaa441c3acfbd9261e63a49c77add8d13109b237b8a689e8c67c6afee7a61",
+  "src/components/Hero.astro": "78816f6c825ffe531f836998f92184b03c9e3ba6fb62d946e01fe85f68b2cc00",
+  "src/styles/global.css": "f13f7c89e4d2e69d788ac60a25e1400a29e769a58f8e1fe1496c2598dd98752e",
+  "src/layouts/BaseLayout.astro": "fddb38f4effc5ebcf0912c56d23409de9475d7996adc0c047e6cc00a688c9b16",
+  "src/data/tetra.json": "e7316641a811c0172aae61461bd2d210e4cb4273bba07139757e216ecfa85fb1"
+}

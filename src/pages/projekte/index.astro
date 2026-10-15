@@ -1,0 +1,14 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import ProjectCard from '../../components/ProjectCard.astro';
+import CTASection from '../../components/CTASection.astro';
+import data from '../../data/tetra.json';
+const order = ['air-albania', 'qsut', 'teg', 'kika'];
+const projects = order.map(id => data.projects.find(project => project.id === id)!);
+---
+<BaseLayout title="Projektet tona" description={data.projects.map(project => project.title).join(' · ')} image={projects[0].image}>
+  <PageHero variant="project" eyebrow="Projektet tona" title="Projekte që bëjnë diferencën" breadcrumbs={[{ label: 'Projektet' }]} />
+  <section class="section" aria-label="Të gjitha projektet"><div class="container projects-grid overview-projects">{projects.map((project, index) => <ProjectCard project={project} index={index} overview />)}</div></section>
+  <CTASection />
+</BaseLayout>

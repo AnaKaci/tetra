@@ -1,0 +1,70 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import SolutionCard from '../components/SolutionCard.astro';
+import ProjectCard from '../components/ProjectCard.astro';
+import CTASection from '../components/CTASection.astro';
+import PurposeCards from '../components/PurposeCards.astro';
+import SectionHeading from '../components/SectionHeading.astro';
+import Button from '../components/Button.astro';
+import Icon from '../components/Icon.astro';
+import Photo from '../components/Photo.astro';
+import data from '../data/tetra.json';
+import { withBase } from '../utils/paths';
+
+const projects = data.projects.slice(0, 3);
+---
+<BaseLayout title="TETRA — SMART · SECURE · GREEN" image={data.solutions[1].image}>
+      <Hero />
+
+      <section id="historia" class="history section" aria-label="Historia jonë">
+        <div class="container history-grid" data-reveal>
+          <div class="history-copy">
+            <SectionHeading eyebrow="Për Tetra" title={data.history.title} />
+            <p>{data.history.paragraphs[0]}</p>
+            <div class="history-details"><Button href="/rreth-nesh/" variant="text">Më shumë rreth nesh</Button></div>
+          </div>
+          <div class="history-visual">
+            <div class="history-stats">{data.history.stats.map(stat => <div class="stat"><strong>{stat.value}</strong><span>{stat.label}</span></div>)}</div>
+            <div class="history-image">
+              <Photo image={data.history.image} sizes="(max-width: 700px) 100vw, 50vw" />
+              <div class="history-image-label"><Icon name="pin" size={16} /><span>Tetra</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="qellimi" class="purpose section" aria-label="Misioni, Vizioni dhe Vlerat">
+        <div class="container">
+          <SectionHeading eyebrow="Qëllimi ynë" title="Misioni, Vizioni dhe Vlerat" />
+          <PurposeCards />
+        </div>
+      </section>
+
+      <section id="zgjidhje" class="solutions section" aria-label="Zgjidhjet tona">
+        <div class="container">
+          <div class="section-heading-row"><SectionHeading eyebrow="Teknologji për hapësira më të zgjuara" title="Zgjidhjet tona" /><Button href={data.links.solutions} variant="text">Të gjitha zgjidhjet</Button></div>
+          <div class="solutions-grid">
+            {data.solutions.map(solution => <SolutionCard solution={solution} />)}
+          </div>
+        </div>
+      </section>
+
+      <section id="projekte" class="projects section" aria-label="Projektet tona">
+        <div class="container">
+          <div class="section-heading-row"><SectionHeading eyebrow="Projektet tona" title="Projekte që bëjnë diferencën" /><Button href={data.links.projects} variant="text">Të gjitha projektet</Button></div>
+          <div class="projects-grid">
+            {projects.map((project, index) => <ProjectCard project={project} index={index} />)}
+          </div>
+        </div>
+      </section>
+
+      <section id="partnere" class="partners" aria-label="Partnerët tanë">
+        <div class="container" data-reveal>
+          <SectionHeading eyebrow="Partnerët tanë" title="Marka globale, në shërbim të jush" />
+          <div class="partner-logos">{data.partners.map(partner => <a class="partner-logo" href={withBase(partner.href)} aria-label={`Më shumë për ${partner.name}`}><img src={withBase(partner.logo.src)} alt={partner.name} width={partner.logo.width} height={partner.logo.height} loading="lazy" decoding="async" /></a>)}</div>
+        </div>
+      </section>
+
+      <CTASection />
+</BaseLayout>

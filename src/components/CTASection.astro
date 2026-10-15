@@ -1,0 +1,18 @@
+---
+import Photo from './Photo.astro';
+import Button from './Button.astro';
+import Icon from './Icon.astro';
+import data from '../data/tetra.json';
+const contactValues = ['Teknologji inovative', 'Produkte cilësore', 'Suport profesional', 'Siguri të lartë'];
+---
+<section class="contact-section container" aria-labelledby="contact-title" data-reveal>
+  <div class="contact-banner">
+    <Photo image={data.solutions[2].image} class="contact-background" decorative sizes="100vw" />
+    <div>
+      <p class="eyebrow">Le të ndërtojmë së bashku hapësira më të zgjuara</p>
+      <h2 id="contact-title">Gati për një zgjidhje të personalizuar?</h2>
+      <Button href="/kontakt/" variant="white">Na kontaktoni</Button>
+    </div>
+    <div class="contact-values">{contactValues.map(value => <div class="contact-value"><span><Icon name="check" size={15} /></span>{value}</div>)}</div>
+  </div>
+</section>

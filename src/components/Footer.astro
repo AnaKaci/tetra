@@ -1,0 +1,42 @@
+---
+import Brand from './Brand.astro';
+import Icon from './Icon.astro';
+import data from '../data/tetra.json';
+import { withBase } from '../utils/paths';
+const socialIcons: Record<string, string> = { Facebook: 'facebook', LinkedIn: 'linkedin', Instagram: 'instagram' };
+---
+<footer id="kontakt" class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <Brand />
+        <p class="footer-tagline">{data.brand.tagline}</p>
+        <div class="footer-socials" aria-label="Rrjetet sociale">
+          {data.contact.socials.map(social => <a href={social.href} target="_blank" rel="noopener noreferrer" aria-label={`Tetra në ${social.label}`}><Icon name={socialIcons[social.label] || 'globe'} size={16} /></a>)}
+        </div>
+      </div>
+      <div>
+        <h2 class="footer-heading">Eksploroni</h2>
+        <nav class="footer-nav" aria-label="Navigimi në fund të faqes">
+          <a href={withBase('/')}>Kreu</a><a href={withBase('/rreth-nesh/')}>Rreth nesh</a><a href={withBase('/zgjidhje/')}>Zgjidhje</a><a href={withBase('/partnere/')}>Partnerët</a><a href={withBase('/projekte/')}>Projektet</a><a href={withBase('/kontakt/')}>Kontakt</a>
+        </nav>
+      </div>
+      <div class="footer-contact">
+        <h2 class="footer-heading">Na kontaktoni</h2>
+        <div class="footer-contact-list">
+          <p><Icon name="pin" size={18} /><span>{data.contact.locations.join(' · ')}</span></p>
+          {data.contact.phone && <a href={data.contact.phoneHref}><Icon name="phone" size={18} /><span>{data.contact.phone}</span></a>}
+          {data.contact.email && <a href={`mailto:${data.contact.email}`}><Icon name="mail" size={18} /><span>{data.contact.email}</span></a>}
+          <a href={withBase('/kontakt/')}><Icon name="diagonal" size={18} /><span>Faqja e kontaktit</span></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© {new Date().getFullYear()} TETRA. Të gjitha të drejtat e rezervuara.</p>
+      <div class="footer-bottom-links">
+        {data.links.legal.map((link: { href: string; label: string }) => <a href={withBase(link.href)}>{link.label}</a>)}
+        <a class="back-top" href="#main-content">Në krye <Icon name="arrow" size={15} /></a>
+      </div>
+    </div>
+  </div>
+</footer>

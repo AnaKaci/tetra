@@ -1,0 +1,13 @@
+---
+import { withBase } from '../utils/paths';
+import Photo from './Photo.astro';
+import Icon from './Icon.astro';
+import type { ContentImage } from '../types/content';
+interface Props { project: { title: string; description: string; href: string; image: ContentImage }; index: number; overview?: boolean; }
+const { project, index, overview = false } = Astro.props;
+---
+<a href={withBase(project.href)} class="project-card" data-reveal>
+  <Photo image={project.image} sizes={overview ? '(max-width: 700px) 100vw, 50vw' : '(max-width: 700px) 100vw, 33vw'} />
+  <span class="project-index">{String(index + 1).padStart(2, '0')}</span>
+  <div class="project-content"><h3>{project.title}</h3><div class="project-bottom"><p>{project.description}</p><span class="circle-arrow"><Icon name="diagonal" size={21} /></span></div></div>
+</a>

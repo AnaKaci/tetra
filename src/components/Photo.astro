@@ -1,0 +1,16 @@
+---
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+interface Props {
+  image: { src: string; alt: string; width: number; height: number };
+  class?: string;
+  priority?: boolean;
+  sizes?: string;
+  decorative?: boolean;
+}
+const { image, class: className, priority = false, sizes = '(max-width: 700px) 100vw, 50vw', decorative = false } = Astro.props;
+const images = import.meta.glob<{ default: ImageMetadata }>('../../public/images/*.{jpg,jpeg,png,webp}', { eager: true });
+const source = images[`../../public${image.src}`]?.default;
+if (!source) throw new Error(`Missing verified Tetra image: ${image.src}`);
+---
+<Image src={source} alt={decorative ? '' : image.alt} class={className} widths={[400, 800, 1440].filter(width => width <= source.width)} sizes={sizes} format="webp" quality={80} loading={priority ? 'eager' : 'lazy'} fetchpriority={priority ? 'high' : 'auto'} decoding="async" />

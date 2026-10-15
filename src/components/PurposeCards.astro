@@ -1,0 +1,11 @@
+---
+import Icon from './Icon.astro';
+import data from '../data/tetra.json';
+---
+<div class="purpose-grid">
+  {data.purpose.map((purpose, index) => <article class="purpose-card" data-reveal>
+    <div class="purpose-card-top"><span class="icon-disc"><Icon name={purpose.icon} size={24} /></span><span class="card-number">0{index + 1}</span></div>
+    <h3>{purpose.title}</h3>
+    {purpose.paragraphs.map(paragraph => <p>{paragraph}</p>)}
+  </article>)}
+</div>

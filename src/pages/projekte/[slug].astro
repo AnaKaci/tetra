@@ -1,0 +1,41 @@
+---
+import { withBase } from '../../utils/paths';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import ContentSection from '../../components/ContentSection.astro';
+import SectionHeading from '../../components/SectionHeading.astro';
+import CTASection from '../../components/CTASection.astro';
+import Photo from '../../components/Photo.astro';
+import Button from '../../components/Button.astro';
+import Icon from '../../components/Icon.astro';
+import type { Project } from '../../types/content';
+import data from '../../data/tetra.json';
+
+export function getStaticPaths() {
+  return data.projects.map(project => ({ params: { slug: project.slug }, props: { project } }));
+}
+interface Props { project: Project; }
+const { project } = Astro.props;
+const facts = [
+  { label: 'Vendi', value: project.location },
+  { label: 'Viti i instalimit', value: project.installationYear },
+  { label: 'Vende parkimi', value: project.parkingSpaces },
+  ...(project.capacity ? [project.capacity] : []),
+].filter(fact => fact.value);
+const sections = [
+  { id: 'kerkesat', title: 'Kërkesat', paragraphs: project.requirements, bullets: [] },
+  { id: 'zgjidhjet-e-ofruara', title: 'Zgjidhjet e ofruara', paragraphs: [], bullets: project.solutionsProvided },
+  { id: 'pajisjet', title: 'Pajisjet analitike', paragraphs: [], bullets: project.equipment },
+];
+const solutions = data.solutions.filter(solution => project.relatedSolutionIds.includes(solution.id));
+---
+<BaseLayout title={project.title} description={project.projectName} image={project.image} canonicalPath={project.href}>
+  <PageHero variant="project" eyebrow="Projektet tona" title={project.title} intro={project.projectName} image={project.image} breadcrumbs={[{ label: 'Projektet', href: '/projekte/' }, { label: project.title }]} />
+  <div class="container"><dl class="project-facts">{facts.map(fact => <div class="project-fact"><dt>{fact.label}</dt><dd>{fact.value}</dd></div>)}</dl></div>
+  <div class="container detail-layout section">
+    <aside class="detail-sidebar" aria-label="Përmbajtja e projektit"><p class="sidebar-label">Projekti</p><nav class="contents-nav" aria-label="Seksionet e projektit">{sections.map(section => <a href={`#${section.id}`}>{section.title}</a>)}</nav><Button href="/projekte/" variant="text">Të gjitha projektet</Button></aside>
+    <div class="detail-body">{sections.map(section => <ContentSection section={section} />)}<div class="project-story-image"><Photo image={project.image} sizes="(max-width: 900px) 100vw, 65vw" /></div></div>
+  </div>
+  {solutions.length > 0 && <section class="related-section section" aria-label="Zgjidhjet e përdorura"><div class="container"><div class="section-heading-row"><SectionHeading eyebrow="Teknologjia në projekt" title="Zgjidhjet e përdorura" /><Button href="/zgjidhje/" variant="text">Të gjitha zgjidhjet</Button></div><div class="related-solutions">{solutions.map(solution => <a class="related-solution-link" href={withBase(solution.href)}><span><Icon name={solution.icon} size={25} />{solution.title}</span><Icon name="arrow" size={20} /></a>)}</div></div></section>}
+  <CTASection />
+</BaseLayout>

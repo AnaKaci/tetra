@@ -1,0 +1,56 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import SectionHeading from '../../components/SectionHeading.astro';
+import Icon from '../../components/Icon.astro';
+import Photo from '../../components/Photo.astro';
+import data from '../../data/tetra.json';
+import '../../styles/company-pages.css';
+
+---
+
+<BaseLayout title="Na kontaktoni — TETRA" description={`${data.contact.phone} · ${data.contact.locations.join(' · ')}`} image={data.hero.image} canonicalPath="/kontakt/">
+  <PageHero
+    eyebrow="Na kontaktoni"
+    title="Na kontaktoni"
+    breadcrumbs={[{ label: 'Kontakt' }]}
+  />
+
+  <section class="section contact-page-section" aria-label="Kontaktet e Tetra">
+    <div class="container contact-page-grid">
+      <div class="contact-page-phone" data-reveal>
+        <Photo image={data.hero.image} decorative class="contact-page-background" sizes="(max-width: 700px) 100vw, 60vw" />
+        <div class="contact-page-phone-content">
+          <span class="contact-page-phone-icon"><Icon name="phone" size={26} /></span>
+          <p class="eyebrow">Telefon</p>
+          <h2><a href={data.contact.phoneHref}>{data.contact.phone}</a></h2>
+          <a href={data.contact.phoneHref} class="button button--white"><span>Na telefononi</span><Icon name="arrow" size={19} /></a>
+        </div>
+      </div>
+
+      <div class="contact-page-social" data-reveal>
+        <p class="eyebrow">Tetra</p>
+        <h2>Rrjetet sociale</h2>
+        <ul class="contact-page-social-list">
+          {data.contact.socials.map(social => <li><a href={social.href} target="_blank" rel="noopener noreferrer" aria-label={`${social.label} — hapet në dritare të re`}>
+            <span class="contact-page-social-icon"><Icon name={social.label.toLowerCase()} size={21} /></span>
+            <span>{social.label}</span>
+            <Icon name="diagonal" size={19} />
+          </a></li>)}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-page-locations section" aria-label="Vendndodhjet e Tetra">
+    <div class="container">
+      <SectionHeading eyebrow={data.history.stats[2].value} title="Vendndodhjet tona" />
+      <div class="contact-page-city-grid">
+        {data.contact.locations.map((location, index) => <article class="contact-page-city" data-reveal>
+          <div class="contact-page-city-top"><span class="icon-disc"><Icon name="pin" size={25} /></span><span class="card-number">0{index + 1}</span></div>
+          <h3>{location}</h3>
+        </article>)}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

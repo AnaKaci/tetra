@@ -1,0 +1,18 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import SolutionCard from '../../components/SolutionCard.astro';
+import SectionHeading from '../../components/SectionHeading.astro';
+import CTASection from '../../components/CTASection.astro';
+import data from '../../data/tetra.json';
+---
+<BaseLayout title="Zgjidhjet tona" description={data.overviews.solutions.intro} image={data.charger.image}>
+  <PageHero eyebrow="Zgjidhjet tona" title="Zgjidhjet tona" intro={data.overviews.solutions.intro} image={data.charger.image} breadcrumbs={[{ label: 'Zgjidhje' }]} />
+  <section class="section" aria-label="Të gjitha zgjidhjet">
+    <div class="container solutions-grid overview-solutions">{data.solutions.map(solution => <SolutionCard solution={solution} overview />)}</div>
+  </section>
+  <section class="page-value-section">
+    <div class="container page-value-grid"><SectionHeading eyebrow="Qëllimi ynë" title="Misioni" /><div class="body-copy">{data.purpose[0].paragraphs.map(paragraph => <p>{paragraph}</p>)}</div></div>
+  </section>
+  <CTASection />
+</BaseLayout>

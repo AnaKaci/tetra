@@ -1,0 +1,49 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import SectionHeading from '../../components/SectionHeading.astro';
+import PurposeCards from '../../components/PurposeCards.astro';
+import CTASection from '../../components/CTASection.astro';
+import Photo from '../../components/Photo.astro';
+import Icon from '../../components/Icon.astro';
+import data from '../../data/tetra.json';
+import '../../styles/company-pages.css';
+---
+
+<BaseLayout title="Rreth nesh — TETRA" description={data.history.paragraphs[0]} image={data.history.image} canonicalPath="/rreth-nesh/">
+  <PageHero
+    eyebrow={data.brand.tagline}
+    title="Rreth nesh"
+    intro={data.history.paragraphs[1]}
+    image={data.company.image}
+    breadcrumbs={[{ label: 'Rreth nesh' }]}
+  />
+
+  <section class="about-stats-section" aria-label="Tetra në shifra">
+    <div class="container about-stats">
+      {data.history.stats.map(stat => <div class="about-stat"><strong>{stat.value}</strong><span>{stat.label}</span></div>)}
+    </div>
+  </section>
+
+  <section class="section" aria-label={data.history.title}>
+    <div class="container about-history-grid">
+      <div class="about-history-copy" data-reveal>
+        <SectionHeading eyebrow="Për Tetra" title={data.history.title} />
+        <div class="company-prose">{data.history.paragraphs.map(paragraph => <p>{paragraph}</p>)}</div>
+      </div>
+      <figure class="about-history-visual" data-reveal>
+        <Photo image={data.history.image2} sizes="(max-width: 900px) 100vw, 45vw" />
+        <figcaption><Icon name="pin" size={17} /><span>{data.history.image2.alt}</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="purpose section" aria-label="Misioni, Vizioni dhe Vlerat">
+    <div class="container">
+      <SectionHeading eyebrow="Qëllimi ynë" title="Misioni, Vizioni dhe Vlerat" />
+      <PurposeCards />
+    </div>
+  </section>
+
+  <CTASection />
+</BaseLayout>

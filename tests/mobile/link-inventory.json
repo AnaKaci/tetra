@@ -1,0 +1,781 @@
+[
+  {
+    "url": "http://127.0.0.1:4322/#main-content",
+    "pages": [
+      "/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/",
+    "pages": [
+      "/",
+      "/rreth-nesh/",
+      "/zgjidhje/",
+      "/zgjidhje/sisteme-parkimi/",
+      "/zgjidhje/karikues-per-automjete-elektrike/",
+      "/zgjidhje/sisteme-akses-kontrolli/",
+      "/zgjidhje/akses-siguri-te-larte/",
+      "/zgjidhje/sinjalistike-inteligjente-parkimi/",
+      "/zgjidhje/akses-me-pagese/",
+      "/projekte/",
+      "/projekte/air-albania/",
+      "/projekte/qsut/",
+      "/projekte/kompleksi-kika/",
+      "/projekte/teg/",
+      "/partnere/",
+      "/kontakt/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/rreth-nesh/",
+    "pages": [
+      "/",
+      "/rreth-nesh/",
+      "/zgjidhje/",
+      "/zgjidhje/sisteme-parkimi/",
+      "/zgjidhje/karikues-per-automjete-elektrike/",
+      "/zgjidhje/sisteme-akses-kontrolli/",
+      "/zgjidhje/akses-siguri-te-larte/",
+      "/zgjidhje/sinjalistike-inteligjente-parkimi/",
+      "/zgjidhje/akses-me-pagese/",
+      "/projekte/",
+      "/projekte/air-albania/",
+      "/projekte/qsut/",
+      "/projekte/kompleksi-kika/",
+      "/projekte/teg/",
+      "/partnere/",
+      "/kontakt/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/",
+    "pages": [
+      "/",
+      "/rreth-nesh/",
+      "/zgjidhje/",
+      "/zgjidhje/sisteme-parkimi/",
+      "/zgjidhje/karikues-per-automjete-elektrike/",
+      "/zgjidhje/sisteme-akses-kontrolli/",
+      "/zgjidhje/akses-siguri-te-larte/",
+      "/zgjidhje/sinjalistike-inteligjente-parkimi/",
+      "/zgjidhje/akses-me-pagese/",
+      "/projekte/",
+      "/projekte/air-albania/",
+      "/projekte/qsut/",
+      "/projekte/kompleksi-kika/",
+      "/projekte/teg/",
+      "/partnere/",
+      "/kontakt/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/sisteme-parkimi/",
+    "pages": [
+      "/",
+      "/rreth-nesh/",
+      "/zgjidhje/",
+      "/zgjidhje/sisteme-parkimi/",
+      "/zgjidhje/karikues-per-automjete-elektrike/",
+      "/zgjidhje/sisteme-akses-kontrolli/",
+      "/zgjidhje/akses-siguri-te-larte/",
+      "/zgjidhje/sinjalistike-inteligjente-parkimi/",
+      "/zgjidhje/akses-me-pagese/",
+      "/projekte/",
+      "/projekte/air-albania/",
+      "/projekte/qsut/",
+      "/projekte/kompleksi-kika/",
+      "/projekte/teg/",
+      "/partnere/",
+      "/kontakt/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/karikues-per-automjete-elektrike/",
+    "pages": [
+      "/",
+      "/rreth-nesh/",
+      "/zgjidhje/",
+      "/zgjidhje/sisteme-parkimi/",
+      "/zgjidhje/karikues-per-automjete-elektrike/",
+      "/zgjidhje/sisteme-akses-kontrolli/",
+      "/zgjidhje/akses-siguri-te-larte/",
+      "/zgjidhje/sinjalistike-inteligjente-parkimi/",
+      "/zgjidhje/akses-me-pagese/",
+      "/projekte/",
+      "/projekte/air-albania/",
+      "/projekte/qsut/",
+      "/projekte/kompleksi-kika/",
+      "/projekte/teg/",
+      "/partnere/",
+      "/kontakt/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/sisteme-akses-kontrolli/",
+    "pages": [
+      "/",
+      "/rreth-nesh/",
+      "/zgjidhje/",
+      "/zgjidhje/sisteme-parkimi/",
+      "/zgjidhje/karikues-per-automjete-elektrike/",
+      "/zgjidhje/sisteme-akses-kontrolli/",
+      "/zgjidhje/akses-siguri-te-larte/",
+      "/zgjidhje/sinjalistike-inteligjente-parkimi/",
+      "/zgjidhje/akses-me-pagese/",
+      "/projekte/",
+      "/projekte/air-albania/",
+      "/projekte/qsut/",
+      "/projekte/kompleksi-kika/",
+      "/projekte/teg/",
+      "/partnere/",
+      "/kontakt/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/akses-siguri-te-larte/",
+    "pages": [
+      "/",
+      "/rreth-nesh/",
+      "/zgjidhje/",
+      "/zgjidhje/sisteme-parkimi/",
+      "/zgjidhje/karikues-per-automjete-elektrike/",
+      "/zgjidhje/sisteme-akses-kontrolli/",
+      "/zgjidhje/akses-siguri-te-larte/",
+      "/zgjidhje/sinjalistike-inteligjente-parkimi/",
+      "/zgjidhje/akses-me-pagese/",
+      "/projekte/",
+      "/projekte/air-albania/",
+      "/projekte/qsut/",
+      "/projekte/kompleksi-kika/",
+      "/projekte/teg/",
+      "/partnere/",
+      "/kontakt/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/sinjalistike-inteligjente-parkimi/",
+    "pages": [
+      "/",
+      "/rreth-nesh/",
+      "/zgjidhje/",
+      "/zgjidhje/sisteme-parkimi/",
+      "/zgjidhje/karikues-per-automjete-elektrike/",
+      "/zgjidhje/sisteme-akses-kontrolli/",
+      "/zgjidhje/akses-siguri-te-larte/",
+      "/zgjidhje/sinjalistike-inteligjente-parkimi/",
+      "/zgjidhje/akses-me-pagese/",
+      "/projekte/",
+      "/projekte/air-albania/",
+      "/projekte/qsut/",
+      "/projekte/kompleksi-kika/",
+      "/projekte/teg/",
+      "/partnere/",
+      "/kontakt/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/akses-me-pagese/",
+    "pages": [
+      "/",
+      "/rreth-nesh/",
+      "/zgjidhje/",
+      "/zgjidhje/sisteme-parkimi/",
+      "/zgjidhje/karikues-per-automjete-elektrike/",
+      "/zgjidhje/sisteme-akses-kontrolli/",
+      "/zgjidhje/akses-siguri-te-larte/",
+      "/zgjidhje/sinjalistike-inteligjente-parkimi/",
+      "/zgjidhje/akses-me-pagese/",
+      "/projekte/",
+      "/projekte/air-albania/",
+      "/projekte/qsut/",
+      "/projekte/kompleksi-kika/",
+      "/projekte/teg/",
+      "/partnere/",
+      "/kontakt/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/partnere/",
+    "pages": [
+      "/",
+      "/rreth-nesh/",
+      "/zgjidhje/",
+      "/zgjidhje/sisteme-parkimi/",
+      "/zgjidhje/karikues-per-automjete-elektrike/",
+      "/zgjidhje/sisteme-akses-kontrolli/",
+      "/zgjidhje/akses-siguri-te-larte/",
+      "/zgjidhje/sinjalistike-inteligjente-parkimi/",
+      "/zgjidhje/akses-me-pagese/",
+      "/projekte/",
+      "/projekte/air-albania/",
+      "/projekte/qsut/",
+      "/projekte/kompleksi-kika/",
+      "/projekte/teg/",
+      "/partnere/",
+      "/kontakt/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/projekte/",
+    "pages": [
+      "/",
+      "/rreth-nesh/",
+      "/zgjidhje/",
+      "/zgjidhje/sisteme-parkimi/",
+      "/zgjidhje/karikues-per-automjete-elektrike/",
+      "/zgjidhje/sisteme-akses-kontrolli/",
+      "/zgjidhje/akses-siguri-te-larte/",
+      "/zgjidhje/sinjalistike-inteligjente-parkimi/",
+      "/zgjidhje/akses-me-pagese/",
+      "/projekte/",
+      "/projekte/air-albania/",
+      "/projekte/qsut/",
+      "/projekte/kompleksi-kika/",
+      "/projekte/teg/",
+      "/partnere/",
+      "/kontakt/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/kontakt/",
+    "pages": [
+      "/",
+      "/rreth-nesh/",
+      "/zgjidhje/",
+      "/zgjidhje/sisteme-parkimi/",
+      "/zgjidhje/karikues-per-automjete-elektrike/",
+      "/zgjidhje/sisteme-akses-kontrolli/",
+      "/zgjidhje/akses-siguri-te-larte/",
+      "/zgjidhje/sinjalistike-inteligjente-parkimi/",
+      "/zgjidhje/akses-me-pagese/",
+      "/projekte/",
+      "/projekte/air-albania/",
+      "/projekte/qsut/",
+      "/projekte/kompleksi-kika/",
+      "/projekte/teg/",
+      "/partnere/",
+      "/kontakt/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/projekte/air-albania/",
+    "pages": [
+      "/",
+      "/zgjidhje/sisteme-parkimi/",
+      "/zgjidhje/sisteme-akses-kontrolli/",
+      "/zgjidhje/akses-siguri-te-larte/",
+      "/zgjidhje/sinjalistike-inteligjente-parkimi/",
+      "/projekte/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/projekte/qsut/",
+    "pages": [
+      "/",
+      "/zgjidhje/sisteme-parkimi/",
+      "/zgjidhje/karikues-per-automjete-elektrike/",
+      "/projekte/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/projekte/kompleksi-kika/",
+    "pages": [
+      "/",
+      "/projekte/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/partnere/#skidata",
+    "pages": [
+      "/",
+      "/zgjidhje/sisteme-parkimi/",
+      "/partnere/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/partnere/#circontrol",
+    "pages": [
+      "/",
+      "/zgjidhje/karikues-per-automjete-elektrike/",
+      "/zgjidhje/sinjalistike-inteligjente-parkimi/",
+      "/partnere/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/partnere/#gunnebo",
+    "pages": [
+      "/",
+      "/zgjidhje/akses-siguri-te-larte/",
+      "/partnere/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/partnere/#gymgest",
+    "pages": [
+      "/",
+      "/partnere/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/partnere/#zucchetti",
+    "pages": [
+      "/",
+      "/zgjidhje/sisteme-akses-kontrolli/",
+      "/partnere/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "https://www.facebook.com/tetra.al",
+    "pages": [
+      "/",
+      "/rreth-nesh/",
+      "/zgjidhje/",
+      "/zgjidhje/sisteme-parkimi/",
+      "/zgjidhje/karikues-per-automjete-elektrike/",
+      "/zgjidhje/sisteme-akses-kontrolli/",
+      "/zgjidhje/akses-siguri-te-larte/",
+      "/zgjidhje/sinjalistike-inteligjente-parkimi/",
+      "/zgjidhje/akses-me-pagese/",
+      "/projekte/",
+      "/projekte/air-albania/",
+      "/projekte/qsut/",
+      "/projekte/kompleksi-kika/",
+      "/projekte/teg/",
+      "/partnere/",
+      "/kontakt/"
+    ],
+    "checked": "destination inventory only"
+  },
+  {
+    "url": "https://www.linkedin.com/company/tetra-solutions/",
+    "pages": [
+      "/",
+      "/rreth-nesh/",
+      "/zgjidhje/",
+      "/zgjidhje/sisteme-parkimi/",
+      "/zgjidhje/karikues-per-automjete-elektrike/",
+      "/zgjidhje/sisteme-akses-kontrolli/",
+      "/zgjidhje/akses-siguri-te-larte/",
+      "/zgjidhje/sinjalistike-inteligjente-parkimi/",
+      "/zgjidhje/akses-me-pagese/",
+      "/projekte/",
+      "/projekte/air-albania/",
+      "/projekte/qsut/",
+      "/projekte/kompleksi-kika/",
+      "/projekte/teg/",
+      "/partnere/",
+      "/kontakt/"
+    ],
+    "checked": "destination inventory only"
+  },
+  {
+    "url": "https://www.instagram.com/tetra.al/",
+    "pages": [
+      "/",
+      "/rreth-nesh/",
+      "/zgjidhje/",
+      "/zgjidhje/sisteme-parkimi/",
+      "/zgjidhje/karikues-per-automjete-elektrike/",
+      "/zgjidhje/sisteme-akses-kontrolli/",
+      "/zgjidhje/akses-siguri-te-larte/",
+      "/zgjidhje/sinjalistike-inteligjente-parkimi/",
+      "/zgjidhje/akses-me-pagese/",
+      "/projekte/",
+      "/projekte/air-albania/",
+      "/projekte/qsut/",
+      "/projekte/kompleksi-kika/",
+      "/projekte/teg/",
+      "/partnere/",
+      "/kontakt/"
+    ],
+    "checked": "destination inventory only"
+  },
+  {
+    "url": "tel:+355676095841",
+    "pages": [
+      "/",
+      "/rreth-nesh/",
+      "/zgjidhje/",
+      "/zgjidhje/sisteme-parkimi/",
+      "/zgjidhje/karikues-per-automjete-elektrike/",
+      "/zgjidhje/sisteme-akses-kontrolli/",
+      "/zgjidhje/akses-siguri-te-larte/",
+      "/zgjidhje/sinjalistike-inteligjente-parkimi/",
+      "/zgjidhje/akses-me-pagese/",
+      "/projekte/",
+      "/projekte/air-albania/",
+      "/projekte/qsut/",
+      "/projekte/kompleksi-kika/",
+      "/projekte/teg/",
+      "/partnere/",
+      "/kontakt/"
+    ],
+    "checked": "destination inventory only"
+  },
+  {
+    "url": "http://127.0.0.1:4322/rreth-nesh/#main-content",
+    "pages": [
+      "/rreth-nesh/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/#main-content",
+    "pages": [
+      "/zgjidhje/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/sisteme-parkimi/#main-content",
+    "pages": [
+      "/zgjidhje/sisteme-parkimi/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/sisteme-parkimi/#sistemi-yne",
+    "pages": [
+      "/zgjidhje/sisteme-parkimi/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/sisteme-parkimi/#segmentet",
+    "pages": [
+      "/zgjidhje/sisteme-parkimi/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/sisteme-parkimi/#opsionet",
+    "pages": [
+      "/zgjidhje/sisteme-parkimi/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/sisteme-parkimi/#avantazhet",
+    "pages": [
+      "/zgjidhje/sisteme-parkimi/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/karikues-per-automjete-elektrike/#main-content",
+    "pages": [
+      "/zgjidhje/karikues-per-automjete-elektrike/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/karikues-per-automjete-elektrike/#karikues-ac",
+    "pages": [
+      "/zgjidhje/karikues-per-automjete-elektrike/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/karikues-per-automjete-elektrike/#karikues-dc",
+    "pages": [
+      "/zgjidhje/karikues-per-automjete-elektrike/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/karikues-per-automjete-elektrike/#jetegjatesia-dhe-menaxhimi",
+    "pages": [
+      "/zgjidhje/karikues-per-automjete-elektrike/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/projekte/teg/",
+    "pages": [
+      "/zgjidhje/karikues-per-automjete-elektrike/",
+      "/zgjidhje/sinjalistike-inteligjente-parkimi/",
+      "/projekte/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/sisteme-akses-kontrolli/#main-content",
+    "pages": [
+      "/zgjidhje/sisteme-akses-kontrolli/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/sisteme-akses-kontrolli/#menaxhimi",
+    "pages": [
+      "/zgjidhje/sisteme-akses-kontrolli/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/sisteme-akses-kontrolli/#perdorimi",
+    "pages": [
+      "/zgjidhje/sisteme-akses-kontrolli/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/sisteme-akses-kontrolli/#avantazhet",
+    "pages": [
+      "/zgjidhje/sisteme-akses-kontrolli/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/akses-siguri-te-larte/#main-content",
+    "pages": [
+      "/zgjidhje/akses-siguri-te-larte/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/akses-siguri-te-larte/#zbatimi-ne-projekte",
+    "pages": [
+      "/zgjidhje/akses-siguri-te-larte/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/akses-siguri-te-larte/#aksesi-i-sigurt",
+    "pages": [
+      "/zgjidhje/akses-siguri-te-larte/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/akses-siguri-te-larte/#gunnebo",
+    "pages": [
+      "/zgjidhje/akses-siguri-te-larte/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/akses-siguri-te-larte/#pajisjet",
+    "pages": [
+      "/zgjidhje/akses-siguri-te-larte/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/sinjalistike-inteligjente-parkimi/#main-content",
+    "pages": [
+      "/zgjidhje/sinjalistike-inteligjente-parkimi/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/sinjalistike-inteligjente-parkimi/#cirpark",
+    "pages": [
+      "/zgjidhje/sinjalistike-inteligjente-parkimi/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/sinjalistike-inteligjente-parkimi/#numerimi",
+    "pages": [
+      "/zgjidhje/sinjalistike-inteligjente-parkimi/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/sinjalistike-inteligjente-parkimi/#orientimi",
+    "pages": [
+      "/zgjidhje/sinjalistike-inteligjente-parkimi/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/akses-me-pagese/#main-content",
+    "pages": [
+      "/zgjidhje/akses-me-pagese/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/akses-me-pagese/#hyrja-dhe-pagesa",
+    "pages": [
+      "/zgjidhje/akses-me-pagese/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/akses-me-pagese/#pagesa-dhe-kontrolli",
+    "pages": [
+      "/zgjidhje/akses-me-pagese/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/akses-me-pagese/#fushat-e-perdorimit",
+    "pages": [
+      "/zgjidhje/akses-me-pagese/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/zgjidhje/akses-me-pagese/#opsionet",
+    "pages": [
+      "/zgjidhje/akses-me-pagese/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/projekte/#main-content",
+    "pages": [
+      "/projekte/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/projekte/air-albania/#main-content",
+    "pages": [
+      "/projekte/air-albania/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/projekte/air-albania/#kerkesat",
+    "pages": [
+      "/projekte/air-albania/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/projekte/air-albania/#zgjidhjet-e-ofruara",
+    "pages": [
+      "/projekte/air-albania/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/projekte/air-albania/#pajisjet",
+    "pages": [
+      "/projekte/air-albania/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/projekte/qsut/#main-content",
+    "pages": [
+      "/projekte/qsut/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/projekte/qsut/#kerkesat",
+    "pages": [
+      "/projekte/qsut/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/projekte/qsut/#zgjidhjet-e-ofruara",
+    "pages": [
+      "/projekte/qsut/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/projekte/qsut/#pajisjet",
+    "pages": [
+      "/projekte/qsut/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/projekte/kompleksi-kika/#main-content",
+    "pages": [
+      "/projekte/kompleksi-kika/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/projekte/kompleksi-kika/#kerkesat",
+    "pages": [
+      "/projekte/kompleksi-kika/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/projekte/kompleksi-kika/#zgjidhjet-e-ofruara",
+    "pages": [
+      "/projekte/kompleksi-kika/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/projekte/kompleksi-kika/#pajisjet",
+    "pages": [
+      "/projekte/kompleksi-kika/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/projekte/teg/#main-content",
+    "pages": [
+      "/projekte/teg/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/projekte/teg/#kerkesat",
+    "pages": [
+      "/projekte/teg/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/projekte/teg/#zgjidhjet-e-ofruara",
+    "pages": [
+      "/projekte/teg/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/projekte/teg/#pajisjet",
+    "pages": [
+      "/projekte/teg/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/partnere/#main-content",
+    "pages": [
+      "/partnere/"
+    ],
+    "checked": "HTTP and fragment"
+  },
+  {
+    "url": "http://127.0.0.1:4322/kontakt/#main-content",
+    "pages": [
+      "/kontakt/"
+    ],
+    "checked": "HTTP and fragment"
+  }
+]
