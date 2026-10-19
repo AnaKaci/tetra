@@ -19,33 +19,28 @@ Set the build environment variable `SITE_URL` to the final public origin. It def
 
 The [Pages workflow](.github/workflows/deploy-pages.yml) builds and publishes the demo on pushes to `main`, or manually through **Actions > Deploy GitHub Pages demo > Run workflow** on `main`. It installs locked dependencies, runs the Astro checks, builds the site, and verifies the generated files before deployment.
 
-1. Create an empty GitHub repository and push this project to its `main` branch. Include `.github/`, `src/`, `public/`, `scripts/`, the configuration files, and `package-lock.json`; generated `dist/` and `node_modules/` are not needed. For a first push from this folder, replace `OWNER/REPOSITORY` below with your repository:
+This checkout is already connected to [AnaKaci/tetra](https://github.com/AnaKaci/tetra), with the workflow committed on `main`. To publish it:
 
-   ```sh
-   git init -b main
-   git add .github .gitignore astro.config.mjs package.json package-lock.json tsconfig.json playwright.config.ts README.md src public scripts tests docs MOBILE_COMPATIBILITY_REPORT.md
-   git commit -m "Prepare GitHub Pages demo"
-   git remote add origin https://github.com/OWNER/REPOSITORY.git
-   git push -u origin main
-   ```
+1. Open the repository's [Pages settings](https://github.com/AnaKaci/tetra/settings/pages). Under **Build and deployment > Source**, select **GitHub Actions**. Enable this before running the workflow; deploying the source branch directly will not build the Astro site. See [GitHub's Pages setup instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+2. Open [Deploy GitHub Pages demo](https://github.com/AnaKaci/tetra/actions/workflows/deploy-pages.yml), choose **Run workflow**, select `main`, and run it. Later pushes to `main` deploy automatically.
+3. Wait for both `build` and `deploy` to succeed. Without a custom domain, the site will be available at [https://anakaci.github.io/tetra/](https://anakaci.github.io/tetra/). The deployment job also displays the published URL.
 
-2. In the repository, open **Settings > Pages > Build and deployment > Source** and select **GitHub Actions**. This follows [GitHub's Pages setup instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
-3. Run the workflow on `main` after enabling Pages (or push another commit). Open the published URL shown by the deployment job or the Pages settings.
+For another repository, push this project to its `main` branch and follow the same settings and workflow steps there. Include `.github/`, `src/`, `public/`, `scripts/`, the configuration files, and `package-lock.json`; generated `dist/` and `node_modules/` are not needed.
 
 The workflow reads the origin and path from GitHub Pages and passes them as `SITE_URL` and `BASE_PATH`. A project repository typically publishes at `https://OWNER.github.io/REPOSITORY/`; an `OWNER.github.io` repository publishes at the root. No repository-specific code edits, custom domain, or deployment secrets are required.
 
-To check the project-path build locally in PowerShell, replace the sample origin and repository path:
+To check this repository's GitHub Pages build locally in PowerShell:
 
 ```powershell
-$env:SITE_URL = 'https://OWNER.github.io'
-$env:BASE_PATH = '/REPOSITORY'
+$env:SITE_URL = 'https://anakaci.github.io'
+$env:BASE_PATH = '/tetra'
 npm run check
 npm run build
 npm run verify:static
 npm run preview
 ```
 
-Open `http://localhost:4321/REPOSITORY/`. After stopping preview, remove the overrides before building for the production domain or creating a cPanel archive:
+Open `http://localhost:4321/tetra/`. For another repository, adjust the origin and path above. After stopping preview, remove the overrides before building for the production domain or creating a cPanel archive:
 
 ```powershell
 Remove-Item Env:SITE_URL, Env:BASE_PATH -ErrorAction SilentlyContinue
