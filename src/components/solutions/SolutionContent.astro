@@ -1,0 +1,33 @@
+---
+import type { DetailSection } from '../../data/solution-details';
+import SolutionSection from './SolutionSection.astro';
+import TechnicalTable from './TechnicalTable.astro';
+import SolutionReferences from './SolutionReferences.astro';
+import Photo from '../Photo.astro';
+import { withBase } from '../../utils/paths';
+interface Props { section: DetailSection; }
+const { section } = Astro.props;
+const full = ['table', 'process', 'media', 'references'].includes(section.kind);
+---
+<SolutionSection id={section.id} label={section.label} title={section.title} intro={section.intro} layout={full ? 'full' : 'split'}>
+  {section.kind === 'features' && <dl class:list={['solution-features', `solution-features--${section.layout ?? 'rows'}`]}>
+    {section.items.map(item => <div id={item.id}>
+      <dt>{item.href ? <a href={withBase(item.href)}>{item.title}<span aria-hidden="true"> ↗</span></a> : item.title}</dt>
+      <dd>{item.text}</dd>
+    </div>)}
+  </dl>}
+  {section.kind === 'table' && <TechnicalTable title={section.title} columns={section.columns} rows={section.rows} note={section.note} />}
+  {section.kind === 'process' && (section.ordered ? <ol class="solution-process solution-process--ordered">
+    {section.items.map(item => <li id={item.id}><h3>{item.title}</h3><p>{item.text}</p></li>)}
+  </ol> : <ul class="solution-process">
+    {section.items.map(item => <li id={item.id}><h3>{item.title}</h3><p>{item.text}</p></li>)}
+  </ul>)}
+  {section.kind === 'applications' && <ul class="solution-applications">{section.items.map(item => <li>{item}</li>)}</ul>}
+  {section.kind === 'media' && <div class="solution-media-section">
+    <figure><Photo image={section.image} sizes="(max-width: 800px) 100vw, 45vw" /><figcaption>{section.caption}</figcaption></figure>
+    <div class="solution-prose">{section.paragraphs.map(paragraph => <p>{paragraph}</p>)}
+      {section.items && <dl class="solution-features solution-features--rows">{section.items.map(item => <div><dt>{item.title}</dt><dd>{item.text}</dd></div>)}</dl>}
+    </div>
+  </div>}
+  {section.kind === 'references' && <SolutionReferences items={section.items} />}
+</SolutionSection>

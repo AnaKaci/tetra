@@ -98,6 +98,7 @@ Read [content sources](docs/content-sources.md) for provenance and omissions. Th
 - `src/layouts/BaseLayout.astro`: common document, metadata, navigation, footer, and scripts.
 - `src/pages/index.astro`: preserved homepage composition.
 - `src/pages/zgjidhje/[slug].astro` and `src/pages/projekte/[slug].astro`: `getStaticPaths()` generates detail pages from the snapshot.
+- `src/data/solution-details.ts`, `src/components/solutions/` and `src/styles/solutions.css`: curated solution copy and reusable product heroes, technical tables, process explanations, project references and contact sections. Each solution has its own section order. See [redesign and source notes](docs/solution-redesign.md).
 - `src/components/`: shared heroes, breadcrumbs, content sections, cards, purpose cards, CTA, and existing design components.
 - `src/styles/global.css`: existing design tokens, homepage, navigation, and shared visual styles.
 - `src/styles/pages.css` and `company-pages.css`: internal-page layouts using those tokens.
@@ -112,6 +113,7 @@ npm run build
 npm run test:content
 npx playwright install chromium
 npm run test:mobile
+npm run test:solutions
 npm run verify:static
 ```
 

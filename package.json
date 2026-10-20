@@ -13,6 +13,7 @@
     "test": "playwright test",
     "test:content": "node --test tests/content-sync.test.mjs",
     "test:mobile": "node tests/mobile/run.mjs",
+    "test:solutions": "node tests/solutions/run.mjs",
     "verify:static": "node scripts/verify-static.mjs",
     "package:cpanel": "node scripts/package-cpanel.mjs"
   },

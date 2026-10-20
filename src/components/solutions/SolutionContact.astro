@@ -1,0 +1,16 @@
+---
+import Button from '../Button.astro';
+import { withBase } from '../../utils/paths';
+interface Props { text: string; partners: { name: string; href: string }[]; }
+const { text, partners } = Astro.props;
+---
+<section class="solution-contact" aria-labelledby="solution-contact-title">
+  <div class="solution-container solution-contact-grid">
+    <div><p class="solution-label">Planifikoni një instalim?</p><h2 id="solution-contact-title">Flasim për projektin tuaj.</h2><p>{text}</p></div>
+    <Button href="/kontakt/" class="solution-button">Na kontaktoni</Button>
+  </div>
+</section>
+<div class="solution-container solution-related-links">
+  <a href={withBase('/zgjidhje/')}>Të gjitha zgjidhjet <span aria-hidden="true">↗</span></a>
+  {partners.map(partner => <a href={withBase(partner.href)}>Partneri · {partner.name} <span aria-hidden="true">↗</span></a>)}
+</div>

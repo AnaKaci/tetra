@@ -1,0 +1,33 @@
+---
+import Breadcrumbs from '../Breadcrumbs.astro';
+import Photo from '../Photo.astro';
+import Button from '../Button.astro';
+import type { SolutionDetail } from '../../data/solution-details';
+interface Props { detail: SolutionDetail; }
+const { detail } = Astro.props;
+---
+<section class:list={['solution-hero', `solution-hero--${detail.hero.variant}`]} aria-labelledby="page-title">
+  <div class="solution-container">
+    <Breadcrumbs items={[{ label: 'Zgjidhje', href: '/zgjidhje/' }, { label: detail.title }]} />
+    <div class="solution-hero-grid">
+      <div class="solution-hero-copy">
+        <p class="solution-label">{detail.label}</p>
+        <h1 id="page-title">{detail.hero.productName && <span class="solution-product-name">{detail.hero.productName}</span>}{detail.title}</h1>
+        <p class="solution-intro">{detail.intro}</p>
+        <Button href="/kontakt/" variant="secondary" class="solution-button">Kërko ofertë</Button>
+      </div>
+      {detail.hero.image && <figure class="solution-hero-media">
+        <Photo image={detail.hero.image} priority sizes="(max-width: 800px) 100vw, 50vw" />
+        {detail.hero.caption && <figcaption>{detail.hero.caption}</figcaption>}
+      </figure>}
+      {detail.hero.ranges && <div class="solution-ranges" aria-label="Gama e fuqive të karikimit">
+        {detail.hero.ranges.map(range => <div class="solution-range">
+          <span class="solution-range-type">{range.label}</span>
+          <div><p class="solution-range-power">{range.power}</p><p class="solution-range-models">{range.models}</p></div>
+        </div>)}
+        <p class="solution-range-note">Fuqi sipas modelit dhe konfigurimit</p>
+      </div>}
+    </div>
+    <dl class="solution-facts">{detail.facts.map(fact => <div><dt>{fact.label}</dt><dd>{fact.value}</dd></div>)}</dl>
+  </div>
+</section>

@@ -1,19 +1,11 @@
 import { test, expect } from '@playwright/test';
 import data from '../src/data/tetra.json' with { type: 'json' };
-import type { Solution } from '../src/types/content';
 import { assertNoHorizontalOverflow, trackBrowserErrors } from './helpers';
 
 const parkingImage = data.solutions.find(solution => solution.id === 'parkim')!.image;
 const standardRoutes: { path: string; title: string; intro?: string; imageAlt?: string; imageFit?: string }[] = [
   { path: '/rreth-nesh/', title: 'Rreth nesh', intro: data.history.paragraphs[1], imageAlt: data.company.image.alt },
   { path: '/zgjidhje/', title: 'Zgjidhjet tona', intro: data.overviews.solutions.intro, imageAlt: data.charger.image.alt },
-  ...data.solutions.map((solution: Solution) => ({
-    path: solution.href,
-    title: solution.title,
-    intro: solution.intro,
-    imageAlt: (solution.heroImage ?? solution.image).alt,
-    imageFit: solution.heroImage ? 'contain' : 'cover',
-  })),
   { path: '/partnere/', title: data.overviews.partners.title, intro: data.overviews.partners.intro, imageAlt: parkingImage.alt },
   { path: '/kontakt/', title: 'Na kontaktoni' },
 ];

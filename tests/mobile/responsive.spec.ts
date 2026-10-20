@@ -78,7 +78,7 @@ for (const route of routes) {
       }
 
       await page.evaluate(() => window.scrollTo({ top: 0, behavior: 'instant' }));
-      await expect.poll(() => page.locator('header').evaluate(e => e.classList.contains('is-scrolled'))).toBe(false);
+      await expect.poll(() => page.locator('[data-header]').evaluate(e => e.classList.contains('is-scrolled'))).toBe(false);
       if ([320, 390, 1440].includes(width)) {
         await mkdir('tests/mobile/screenshots', { recursive: true });
         const path = `tests/mobile/screenshots/${slug(route)}-${width}.png`;

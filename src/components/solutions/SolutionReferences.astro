@@ -1,0 +1,19 @@
+---
+import data from '../../data/tetra.json';
+import Photo from '../Photo.astro';
+import Icon from '../Icon.astro';
+import { withBase } from '../../utils/paths';
+interface Props { items: { projectId: string; text: string }[]; }
+const { items } = Astro.props;
+const references = items.map(item => {
+  const project = data.projects.find(project => project.id === item.projectId);
+  if (!project) throw new Error(`Unknown solution project: ${item.projectId}`);
+  return { project, text: item.text };
+});
+---
+<div class:list={['solution-references', { 'solution-references--single': references.length === 1 }]}>
+  {references.map(({ project, text }) => <a class="solution-reference" href={withBase(project.href)}>
+    <Photo image={project.image} sizes="(max-width: 600px) 100px, 180px" />
+    <div><h3>{project.title}</h3><p>{text}</p><span class="solution-reference-link">Shiko projektin <Icon name="arrow" size={17} /></span></div>
+  </a>)}
+</div>

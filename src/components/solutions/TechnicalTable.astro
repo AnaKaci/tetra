@@ -1,0 +1,10 @@
+---
+interface Props { title: string; columns: string[]; rows: string[][]; note?: string; }
+const { title, columns, rows, note } = Astro.props;
+---
+<table role="table" class:list={['solution-table', { 'solution-table--comparison': columns.length > 2 }]}>
+  <caption class="solution-sr-only">{title}</caption>
+  <thead role="rowgroup"><tr role="row">{columns.map(column => <th role="columnheader" scope="col">{column}</th>)}</tr></thead>
+  <tbody role="rowgroup">{rows.map(row => <tr role="row">{row.map((cell, index) => index === 0 ? <th role="rowheader" scope="row">{cell}</th> : <td role="cell">{cell}</td>)}</tr>)}</tbody>
+</table>
+{note && <p class="solution-table-note">{note}</p>}

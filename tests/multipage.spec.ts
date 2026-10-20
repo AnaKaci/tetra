@@ -1,12 +1,13 @@
 import { test, expect, type APIRequestContext } from '@playwright/test';
 import data from '../src/data/tetra.json' with { type: 'json' };
+import { solutionDetails } from '../src/data/solution-details';
 import { assertAccessible, assertNoHorizontalOverflow, loadVisibleImages, trackBrowserErrors, widths } from './helpers';
 
 const routes = [
   { path: '/', title: 'SMART', active: '/', text: [data.history.paragraphs[0]] },
   { path: '/rreth-nesh/', title: 'Rreth nesh', active: '/rreth-nesh/', text: data.history.paragraphs },
   { path: '/zgjidhje/', title: 'Zgjidhjet tona', active: '/zgjidhje/', text: [data.overviews.solutions.intro] },
-  ...data.solutions.map(solution => ({ path: solution.href, title: solution.title, active: '/zgjidhje/', text: [solution.intro, ...solution.sections.flatMap(section => [...section.paragraphs, ...section.bullets])] })),
+  ...data.solutions.map(solution => ({ path: solution.href, title: solutionDetails[solution.id].title, active: '/zgjidhje/', text: [solutionDetails[solution.id].intro] })),
   { path: '/projekte/', title: 'Projekte që bëjnë diferencën', active: '/projekte/', text: data.projects.map(project => project.title) },
   ...data.projects.map(project => ({ path: project.href, title: project.title, active: '/projekte/', text: [project.projectName, project.location, project.installationYear, project.parkingSpaces, ...project.requirements, ...project.solutionsProvided, ...project.equipment] })),
   { path: '/partnere/', title: data.overviews.partners.title, active: '/partnere/', text: data.partners.flatMap(partner => [partner.description, ...partner.sections.flatMap(section => [...section.paragraphs, ...section.bullets])]) },

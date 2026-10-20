@@ -1,37 +1,27 @@
 ---
-import { withBase } from '../../utils/paths';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import PageHero from '../../components/PageHero.astro';
-import ContentSection from '../../components/ContentSection.astro';
-import ProjectCard from '../../components/ProjectCard.astro';
-import SectionHeading from '../../components/SectionHeading.astro';
-import CTASection from '../../components/CTASection.astro';
-import Button from '../../components/Button.astro';
-import Icon from '../../components/Icon.astro';
+import SolutionHero from '../../components/solutions/SolutionHero.astro';
+import SolutionContent from '../../components/solutions/SolutionContent.astro';
+import SolutionContact from '../../components/solutions/SolutionContact.astro';
+import { solutionDetails } from '../../data/solution-details';
 import type { Solution } from '../../types/content';
 import data from '../../data/tetra.json';
+import '../../styles/pages.css';
+import '../../styles/solutions.css';
 
 export function getStaticPaths() {
   return data.solutions.map(solution => ({ params: { slug: solution.slug }, props: { solution } }));
 }
 interface Props { solution: Solution; }
 const { solution } = Astro.props;
+const detail = solutionDetails[solution.id];
+if (!detail) throw new Error(`Missing solution presentation: ${solution.id}`);
 const partners = data.partners.filter(partner => solution.relatedPartnerIds.includes(partner.id));
-const projects = data.projects.filter(project => solution.relatedProjectIds.includes(project.id)).slice(0, 2);
 ---
-<BaseLayout title={solution.title} description={solution.intro} image={solution.image} canonicalPath={solution.href}>
-  <PageHero eyebrow="Zgjidhje" title={solution.title} intro={solution.intro} image={solution.heroImage ?? solution.image} imageFit={solution.heroImage ? 'contain' : 'cover'} breadcrumbs={[{ label: 'Zgjidhje', href: '/zgjidhje/' }, { label: solution.title }]} />
-  <div class="container detail-layout section">
-    <aside class="detail-sidebar" aria-label="Përmbajtja e zgjidhjes">
-      <p class="sidebar-label">Në këtë faqe</p>
-      <nav class="contents-nav" aria-label="Seksionet e zgjidhjes">{solution.sections.map(section => <a href={`#${section.id}`}>{section.title}</a>)}</nav>
-      {partners.length > 0 && <div class="sidebar-partners"><p class="sidebar-label">Partnerët</p>{partners.map(partner => <a href={withBase(partner.href)}>{partner.name}<Icon name="arrow" size={15} /></a>)}</div>}
-      <Button href="/kontakt/">Na kontaktoni</Button>
-    </aside>
-    <div class="detail-body">{solution.sections.map(section => <ContentSection section={section} />)}</div>
+<BaseLayout title={detail.title} description={detail.intro} image={detail.hero.image ?? solution.image} canonicalPath={solution.href} pageClass="solution-page">
+  <SolutionHero detail={detail} />
+  <div class="solution-container solution-content">
+    {detail.sections.map(section => <SolutionContent section={section} />)}
   </div>
-  {projects.length > 0 ? <section class="related-section section" aria-label="Projekte të lidhura">
-    <div class="container"><div class="section-heading-row"><SectionHeading eyebrow="Në praktikë" title="Projektet tona" /><Button href="/projekte/" variant="text">Shiko projektet tona</Button></div><div class="projects-grid related-projects">{projects.map((project, index) => <ProjectCard project={project} index={index} overview />)}</div></div>
-  </section> : <div class="container section-heading-row"><Button href="/projekte/" variant="text">Shiko projektet tona</Button><Button href="/zgjidhje/" variant="text">Të gjitha zgjidhjet</Button></div>}
-  <CTASection />
+  <SolutionContact text={detail.contact} partners={partners} />
 </BaseLayout>
