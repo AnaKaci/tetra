@@ -16,7 +16,7 @@ const requiredContent: Record<string, string[]> = {
 
 for (const solution of data.solutions) {
   for (const width of [320, 390, 768, 1024, 1440]) {
-    test(`${solution.id} layout and content at ${width}px`, async ({ page }) => {
+    test(`${solution.id} layout and content at ${width}px`, async ({ page, request }) => {
       await page.setViewportSize({ width, height: 960 });
       await page.emulateMedia({ reducedMotion: 'reduce' });
       const errors = trackBrowserErrors(page);
@@ -24,7 +24,15 @@ for (const solution of data.solutions) {
       await page.evaluate(() => document.fonts.ready);
       await expect(page.getByRole('heading', { level: 1 })).toHaveCount(1);
       await expect(page.locator('.detail-sidebar, .contents-nav')).toHaveCount(0);
-      expect(await page.locator('body').evaluate(el => getComputedStyle(el).backgroundImage)).toBe('none');
+      for (const selector of ['body', '.solution-hero']) {
+        const background = await page.locator(selector).evaluate(el => getComputedStyle(el).backgroundImage);
+        expect(background).toContain(url('/images/background.png'));
+        const imageUrls = [...background.matchAll(/url\(["']?([^"')]+)["']?\)/g)].map(match => match[1]);
+        expect(imageUrls).toHaveLength(1);
+        const response = await request.get(imageUrls[0]);
+        expect(response.ok()).toBe(true);
+        expect(response.headers()['content-type']).toContain('image/png');
+      }
       for (const text of requiredContent[solution.id]) await expect(page.locator('main')).toContainText(text);
       // Preserve incoming links to all previously published section fragments.
       for (const section of solution.sections) await expect(page.locator(`[id="${section.id}"]`)).toHaveCount(1);
@@ -47,6 +55,12 @@ for (const solution of data.solutions) {
       expect(geometry.clipped).toEqual([]);
       expect(geometry.distortedImages).toEqual([]);
       if (width <= 800) expect(geometry.smallLinks).toEqual([]);
+      if (width <= 600) {
+        const wrappedModels = await page.locator('.solution-table--comparison tbody th').evaluateAll(cells =>
+          cells.filter(cell => cell.getBoundingClientRect().height > parseFloat(getComputedStyle(cell).lineHeight) + 1)
+            .map(cell => cell.textContent?.trim()));
+        expect(wrappedModels, 'Mobile model names should fit their existing grid column').toEqual([]);
+      }
       const heroCopy = await page.locator('.solution-hero-copy').boundingBox();
       const heroVisual = await page.locator('.solution-hero-media, .solution-ranges').boundingBox();
       if (width <= 800) expect(heroVisual!.y).toBeGreaterThanOrEqual(heroCopy!.y + heroCopy!.height - 1);

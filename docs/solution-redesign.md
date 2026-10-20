@@ -6,10 +6,12 @@ All six `/zgjidhje/:slug/` routes use an editorial, product-focused layout. The 
 
 - `src/data/solution-details.ts` contains typed presentation copy, image choices, technical tables and section order. The original WordPress/manufacturer snapshot remains in `tetra.json` and `curated-solutions.json`.
 - `src/components/solutions/` contains the hero, section shell, content renderer, technical table, project references and contact component.
-- `src/styles/solutions.css` owns the new layout. `BaseLayout` accepts an optional body class to remove the decorative background only on solution details.
+- `src/styles/solutions.css` owns the solution styling. `BaseLayout` accepts an optional body class to scope it to solution details. The shared hero uses the existing `background.png` with a contrast overlay; Vite includes the configured deployment base in the asset URL.
 - `src/pages/zgjidhje/[slug].astro` keeps the existing static routes and supplies the presentation to these components. All internal links use `withBase`; Astro's image pipeline retains responsive WebP output.
 
 The former sidebar is removed. Existing section IDs remain available for incoming fragment links. The original shared hero and detail components remain in place for unrelated pages.
+
+The subsequent visual refinement preserves the current component markup, content, section order and responsive layouts. It removes the white `background` shorthand that reset the inherited image, restores the landscape in all six heroes, and adds restrained blue surfaces, image shadows and a navy contact section. A mobile table specificity fix lets EV model names use their existing grid column without unnecessary wrapping. It does not change the homepage, navigation, footer or other routes.
 
 ## Page composition
 
