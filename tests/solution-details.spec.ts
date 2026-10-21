@@ -119,3 +119,29 @@ test('contact and mobile navigation work with the deployment prefix', async ({ p
   await expect(page).toHaveURL(new RegExp(`${url('/zgjidhje/sisteme-parkimi/')}$`));
   await expect(page.locator('[data-menu-toggle]')).toHaveAttribute('aria-expanded', 'false');
 });
+
+test('solution project references use compact photo cards and retain project links', async ({ page }) => {
+  for (const width of [390, 1440]) {
+    await page.setViewportSize({ width, height: 960 });
+    await page.goto(url('/zgjidhje/sisteme-parkimi/'));
+    const cards = page.locator('.solution-references .solution-reference');
+    await expect(cards).toHaveCount(4);
+    expect(await cards.evaluateAll(elements => elements.map(a => a.getAttribute('href')))).toEqual([
+      url('/projekte/qsut/'),
+      url('/projekte/kompleksi-kika/'),
+      url('/projekte/air-albania/'),
+      url('/projekte/teg/'),
+    ]);
+    await expect(cards.first().locator('.solution-reference-content')).toContainText('QSUT');
+    await expect(cards.first().locator('.solution-reference-category')).toHaveText('Spital');
+    await expect(cards.first().locator('img')).toHaveAttribute('alt', '');
+    await expect(cards.first().locator('img')).toHaveCSS('object-fit', 'cover');
+    const columns = await page.locator('.solution-references').evaluate(el => getComputedStyle(el).gridTemplateColumns.split(' ').length);
+    expect(columns).toBe(width < 600 ? 1 : 2);
+    if (width === 1440) {
+      const box = await cards.first().boundingBox();
+      expect(box!.height).toBeLessThan(350);
+    }
+    await assertNoHorizontalOverflow(page);
+  }
+});
