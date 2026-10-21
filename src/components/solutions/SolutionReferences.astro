@@ -10,10 +10,24 @@ const references = items.map(item => {
   if (!project) throw new Error(`Unknown solution project: ${item.projectId}`);
   return { project, text: item.text };
 });
+// Short, verified context labels distinguish references from full project cards.
+const projectCategories: Record<string, string> = {
+  qsut: 'Spital',
+  kika: 'Rezidenca',
+  'air-albania': 'Stadium',
+  teg: 'Qendër tregtare',
+};
 ---
 <div class:list={['solution-references', { 'solution-references--single': references.length === 1 }]}>
-  {references.map(({ project, text }) => <a class="solution-reference" href={withBase(project.href)}>
-    <Photo image={project.image} sizes="(max-width: 600px) 100px, 180px" />
-    <div><h3>{project.title}</h3><p>{text}</p><span class="solution-reference-link">Shiko projektin <Icon name="arrow" size={17} /></span></div>
-  </a>)}
+  {references.map(({ project, text }) => (
+    <a class="solution-reference" href={withBase(project.href)}>
+      <Photo image={project.image} decorative sizes="(max-width: 600px) 100vw, (max-width: 900px) 50vw, 42vw" />
+      <div class="solution-reference-content">
+        <span class="solution-reference-category">{projectCategories[project.id] ?? 'Projekt TETRA'}</span>
+        <h3>{project.title}</h3>
+        <p>{text}</p>
+        <span class="solution-reference-arrow" aria-hidden="true"><Icon name="arrow" size={21} /></span>
+      </div>
+    </a>
+  ))}
 </div>
