@@ -10,7 +10,4 @@ const { text, partners } = Astro.props;
     <Button href="/kontakt/" class="solution-button">Na kontaktoni</Button>
   </div>
 </section>
-<div class="solution-container solution-related-links">
-  <a href={withBase('/zgjidhje/')}>Të gjitha zgjidhjet <span aria-hidden="true">↗</span></a>
-  {partners.map(partner => <a href={withBase(partner.href)}>Partneri · {partner.name} <span aria-hidden="true">↗</span></a>)}
-</div>
+
