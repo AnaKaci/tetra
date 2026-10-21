@@ -26,6 +26,9 @@ test.describe('mobile navigation with touch input', () => {
       await expect(nav).toBeVisible();
       await nav.locator('summary').tap();
       await expect(nav.locator('details')).toHaveAttribute('open', '');
+      await expect(nav.locator('.dropdown-overview')).toBeHidden();
+      await expect(nav.locator('.dropdown-link')).toHaveCount(6);
+      expect(await nav.locator('.dropdown-panel').evaluate(element => getComputedStyle(element).borderTopWidth)).toBe('0px');
       await assertNoHorizontalOverflow(page);
       for (const link of await nav.locator('.dropdown-panel a').all()) {
         const bounds = await link.boundingBox();
@@ -64,7 +67,7 @@ test('keyboard opens menu and dropdown, Escape returns focus, and Tab can leave'
   await page.keyboard.press('Space');
   await expect(nav.locator('details')).toHaveAttribute('open', '');
   await page.keyboard.press('Tab');
-  await expect(nav.locator('.dropdown-overview')).toBeFocused();
+  await expect(nav.locator('.dropdown-link').first()).toBeFocused();
   await page.keyboard.press('Escape');
   await expect(nav).toBeHidden();
   await expect(toggle).toHaveAttribute('aria-expanded', 'false');
@@ -150,6 +153,9 @@ for (const width of [1024, 1440]) {
     await page.keyboard.press('Enter');
     await expect(nav.locator('details')).toHaveAttribute('open', '');
     expect(await nav.locator('.dropdown-panel').evaluate(element => getComputedStyle(element).position)).toBe('absolute');
+    const dropdownWidth = await nav.locator('.dropdown-panel').evaluate(element => element.getBoundingClientRect().width);
+    expect(dropdownWidth).toBeLessThanOrEqual(400);
+    await expect(nav.locator('.dropdown-overview')).toBeVisible();
     await page.keyboard.press('Escape');
     await expect(nav.locator('details')).not.toHaveAttribute('open', '');
     await expect(nav.locator('summary')).toBeFocused();
