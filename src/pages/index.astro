@@ -9,6 +9,7 @@ import SectionHeading from '../components/SectionHeading.astro';
 import Button from '../components/Button.astro';
 import Icon from '../components/Icon.astro';
 import Photo from '../components/Photo.astro';
+import WhatsAppContact from '../components/WhatsAppContact.astro';
 import data from '../data/tetra.json';
 import { withBase } from '../utils/paths';
 
@@ -67,4 +68,5 @@ const projects = data.projects.slice(0, 3);
       </section>
 
       <CTASection />
+      <WhatsAppContact />
 </BaseLayout>

@@ -1,8 +1,8 @@
 ---
-interface Props { id: string; label: string; title: string; intro?: string; layout?: 'split' | 'full'; }
-const { id, label, title, intro, layout = 'split' } = Astro.props;
+interface Props { id: string; label: string; title: string; intro?: string; }
+const { id, label, title, intro } = Astro.props;
 ---
-<section id={id} class:list={['solution-section', `solution-section--${layout}`]} aria-labelledby={`${id}-title`}>
+<section id={id} class="solution-section" aria-labelledby={`${id}-title`}>
   <header class="solution-section-heading">
     <p class="solution-label">{label}</p>
     <h2 id={`${id}-title`}>{title}</h2>

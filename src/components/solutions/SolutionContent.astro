@@ -7,10 +7,9 @@ import Photo from '../Photo.astro';
 import { withBase } from '../../utils/paths';
 interface Props { section: DetailSection; }
 const { section } = Astro.props;
-const full = ['table', 'process', 'media', 'references'].includes(section.kind);
 ---
-<SolutionSection id={section.id} label={section.label} title={section.title} intro={section.intro} layout={full ? 'full' : 'split'}>
-  {section.kind === 'features' && <dl class:list={['solution-features', `solution-features--${section.layout ?? 'rows'}`]}>
+<SolutionSection id={section.id} label={section.label} title={section.title} intro={section.intro}>
+  {section.kind === 'features' && <dl class="solution-features solution-features--columns">
     {section.items.map(item => <div id={item.id}>
       <dt>{item.href ? <a href={withBase(item.href)}>{item.title}<span aria-hidden="true"> ↗</span></a> : item.title}</dt>
       <dd>{item.text}</dd>

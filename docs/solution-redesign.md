@@ -11,7 +11,9 @@ All six `/zgjidhje/:slug/` routes use an editorial, product-focused layout. The 
 
 The former sidebar is removed. Existing section IDs remain available for incoming fragment links. The original shared hero and detail components remain in place for unrelated pages.
 
-The subsequent visual refinement preserves the current component markup, content, section order and responsive layouts. It removes the white `background` shorthand that reset the inherited image, restores the landscape in all six heroes, and adds restrained blue surfaces, image shadows and a navy contact section. A mobile table specificity fix lets EV model names use their existing grid column without unnecessary wrapping. It does not change the homepage, navigation, footer or other routes.
+All six solutions now share the same equal-column hero, title scale, blue quote button, rounded image frame and facts row. Product photography uses `object-fit: contain` within the same frame so the complete equipment remains visible; installation photography uses `cover`. The AC/DC summary uses the same white surface and border treatment. TRINITY stays in the manufacturer label and caption instead of introducing a separate oversized heading.
+
+Every content section uses a heading above its content, consistent spacing and a simple divider. Feature groups share a two-column layout that stacks on mobile; technical tables, processes and project references retain their content-specific structures. The alternating inset panels and product-specific layout overrides are removed. Existing copy, section order, fragments, technical values and the shared landscape hero background are preserved.
 
 ## Page composition
 

@@ -114,10 +114,14 @@ test('reduced-motion preference keeps content readable without animated scrollin
 });
 
 for (const width of [1440, 375]) {
-  test(`homepage accessibility at ${width}px`, async ({ page }) => {
+  test(`homepage accessibility at ${width}px`, async ({ page }, testInfo) => {
     await page.setViewportSize({ width, height: 1000 });
     await page.emulateMedia({ reducedMotion: 'reduce' });
     await page.goto('/');
     await assertAccessible(page);
+    await page.getByRole('button', { name: 'Na kontaktoni në WhatsApp' }).click();
+    await expect(page.getByRole('dialog', { name: 'Keni nevojë për ndihmë?' })).toBeVisible();
+    await assertAccessible(page);
+    await page.screenshot({ path: testInfo.outputPath(`whatsapp-open-${width}.png`) });
   });
 }

@@ -7,7 +7,7 @@ import type { ContentImage } from '../types/content';
 export interface DetailItem { title: string; text: string; id?: string; href?: string; }
 interface SectionBase { id: string; label: string; title: string; intro?: string; }
 export type DetailSection = SectionBase & (
-  | { kind: 'features'; items: DetailItem[]; layout?: 'rows' | 'columns' }
+  | { kind: 'features'; items: DetailItem[] }
   | { kind: 'table'; columns: string[]; rows: string[][]; note?: string }
   | { kind: 'process'; items: DetailItem[]; ordered?: boolean }
   | { kind: 'applications'; items: string[] }
@@ -18,7 +18,7 @@ export interface SolutionDetail {
   title: string;
   label: string;
   intro: string;
-  hero: { variant: 'equipment' | 'application' | 'project' | 'product' | 'technical'; image?: ContentImage; caption?: string; productName?: string; ranges?: { label: string; power: string; models: string }[] };
+  hero: { image?: ContentImage; imageFit?: 'cover' | 'contain'; caption?: string; ranges?: { label: string; power: string; models: string }[] };
   facts: { label: string; value: string }[];
   sections: DetailSection[];
   contact: string;
@@ -40,13 +40,13 @@ export const solutionDetails: Record<string, SolutionDetail> = {
     label: 'Menaxhim parkimi · SKIDATA',
     intro: 'Hyrje-dalje, pagesa dhe menaxhim i parkimit në një sistem. Zgjidhjet modulare SKIDATA përshtaten nga parkimet e vogla deri te komplekset me disa hyrje dhe zona.',
     hero: {
-      variant: 'equipment',
+      imageFit: 'contain',
       image: { src: '/images/parking-skidata.png', alt: 'Terminale hyrje-daljeje, barrierë dhe automat pagese SKIDATA', width: 1611, height: 885 },
       caption: 'SKIDATA · Pajisje aksesi dhe pagese për parkime',
     },
     facts: [{ label: 'Aksesi', value: 'Biletë ose targë' }, { label: 'Pagesa', value: 'Me operator ose automatike' }, { label: 'Menaxhimi', value: 'Softuer modular' }],
     sections: [
-      { kind: 'features', id: 'sistemi-yne', label: 'Kontrolli i hyrje-daljeve', title: 'Dy mënyra për të menaxhuar aksesin', layout: 'columns', items: [
+      { kind: 'features', id: 'sistemi-yne', label: 'Kontrolli i hyrje-daljeve', title: 'Dy mënyra për të menaxhuar aksesin', items: [
         { id: 'opsionet', title: 'Me biletë · ticket-based', text: 'Terminalet lëshojnë bileta fizike për menaxhimin e hyrjes dhe daljes së automjeteve.' },
         { title: 'Me targë · ticketless', text: 'Kamerat LPR lexojnë targën në hyrje dhe dalje. Automjeti identifikohet pa përdorur biletë fizike.' },
       ] },
@@ -76,7 +76,7 @@ export const solutionDetails: Record<string, SolutionDetail> = {
     intro: 'Karikues AC dhe DC, me menaxhim të qendërzuar dhe shpërndarje dinamike të energjisë. Zgjidhni modelin sipas mënyrës së përdorimit dhe kapacitetit të instalimit.',
     // The available charging pictures are generic illustrations, not verified
     // CIRCONTROL products. Use the real model ranges instead of mislabelling them.
-    hero: { variant: 'technical', ranges: [
+    hero: { ranges: [
       { label: 'AC', power: '7,4–22 kW', models: 'Wallbox / Post eVolve' },
       { label: 'DC', power: '50–350 kW', models: 'Familja Raption' },
     ] },
@@ -92,7 +92,7 @@ export const solutionDetails: Record<string, SolutionDetail> = {
         ['Raption 150', '150 kW', 'CCS2. Konfigurim me dy dalje CCS2 për karikim të njëkohshëm në DC.'],
         ['Raption 350', '350 kW', 'Karikim DC me fuqi të lartë. Konfigurimi përcaktohet sipas instalimit.'],
       ], note: 'Fuqia dhe daljet varen nga modeli dhe konfigurimi. Përzgjedhja bëhet në përputhje me kapacitetin elektrik të objektit.' },
-      { kind: 'features', id: 'jetegjatesia-dhe-menaxhimi', label: 'Softueri', title: 'Menaxhimi i pikave dhe i energjisë', layout: 'columns', items: [
+      { kind: 'features', id: 'jetegjatesia-dhe-menaxhimi', label: 'Softueri', title: 'Menaxhimi i pikave dhe i energjisë', items: [
         { title: 'COSMOS Platform', text: 'Menaxhim në distancë i karikuesve përmes internetit: statusi i pajisjeve, alarmet, konsumi sipas periudhës dhe dhënia ose heqja e aksesit.' },
         { title: 'DLM', text: 'Dynamic Load Management shpërndan fuqinë e disponueshme për karikim duke marrë parasysh konsumin e pajisjeve të tjera në ndërtesë.' },
       ] },
@@ -107,7 +107,7 @@ export const solutionDetails: Record<string, SolutionDetail> = {
     title: 'Sisteme akses-kontrolli',
     label: 'Akses dhe kohë pune · Zucchetti Group',
     intro: 'Menaxhoni hyrje-daljet dhe kohën e punës në një sistem të integruar. Zgjidhja Zucchetti Group mbledh dhe përpunon të dhënat e aksesit dhe të pranisë së punonjësve.',
-    hero: { variant: 'application', image: solution('akses-kontroll').image, caption: 'Kontroll i kalimit në hyrje-dalje' },
+    hero: { image: solution('akses-kontroll').image, caption: 'Kontroll i kalimit në hyrje-dalje' },
     facts: [{ label: 'Aksesi', value: 'Hyrje-dalje të kontrolluara' }, { label: 'Stafi', value: 'Prani dhe turne pune' }, { label: 'Integrimi', value: 'Import / eksport të dhënash' }],
     sections: [
       { kind: 'features', id: 'menaxhimi', label: 'Menaxhimi i stafit', title: 'Nga hyrja në ambient te evidenca e punës', items: [
@@ -115,7 +115,7 @@ export const solutionDetails: Record<string, SolutionDetail> = {
         { title: 'Orët dhe turnet', text: 'Llogaritje automatike e orëve të planifikuara dhe të kryera në ambientin e punës, si dhe planifikim i turneve.' },
         { title: 'Struktura e organizatës', text: 'Organizim sipas kompanive, departamenteve dhe pozicioneve, me të dhëna për secilin punonjës.' },
       ] },
-      { kind: 'features', id: 'avantazhet', label: 'Integrimi', title: 'Të dhëna të përdorshme nga sistemet e tjera', layout: 'columns', items: [
+      { kind: 'features', id: 'avantazhet', label: 'Integrimi', title: 'Të dhëna të përdorshme nga sistemet e tjera', items: [
         { title: 'Shkëmbim të dhënash', text: 'Import dhe eksport për përpunim në sisteme të treta. Akses-kontrolli lidhet me matjen e kohës së punës.' },
         { title: 'Raporte për administrimin', text: 'Raporte të personalizuara dhe të dhëna që mund të përdoren nga sistemi i pagave.' },
       ] },
@@ -130,7 +130,7 @@ export const solutionDetails: Record<string, SolutionDetail> = {
     title: 'Akses për ambiente me siguri të lartë',
     label: 'Siguri fizike · Gunnebo',
     intro: 'Kontroll i hyrjes në stadiume, porte dhe ambiente me akses të kufizuar. Pajisjet Gunnebo përshtaten me fluksin e vizitorëve dhe organizimin e zonave të sigurisë.',
-    hero: { variant: 'project', image: project('air-albania').image, caption: 'Stadiumi Air Albania · Projekt TETRA' },
+    hero: { image: project('air-albania').image, caption: 'Stadiumi Air Albania · Projekt TETRA' },
     facts: [{ label: 'Pajisjet', value: 'Gunnebo' }, { label: 'Referencë', value: 'Stadiumi Air Albania' }, { label: 'Instalimi në stadium', value: '27 Full Height Turnstiles' }],
     sections: [
       { kind: 'features', id: 'zbatimi-ne-projekte', label: 'Përvoja në terren', title: 'Referenca në Shqipëri', items: [
@@ -143,7 +143,7 @@ export const solutionDetails: Record<string, SolutionDetail> = {
         ['SpeedStiles', 'Kontroll i hyrje-daljeve në zyra, porte, aeroporte dhe metro.'],
         ['Tripods', 'Turnikete për kontrollin e kalimit në hyrje-dalje të ambienteve të zyrave.'],
       ] },
-      { kind: 'features', id: 'aksesi-i-sigurt', label: 'Organizimi i aksesit', title: 'Hyrje të përshtatura me përdoruesit', layout: 'columns', items: [
+      { kind: 'features', id: 'aksesi-i-sigurt', label: 'Organizimi i aksesit', title: 'Hyrje të përshtatura me përdoruesit', items: [
         { title: 'Evente dhe flukse vizitorësh', text: 'Organizim i hyrjeve për publikun, zonat VIP dhe të ftuarit në evente sportive e kulturore.' },
         { id: 'gunnebo', title: 'Zona me akses të kufizuar', text: 'Përzgjedhje e pajisjeve Gunnebo sipas nevojave të sigurisë, duke marrë parasysh edhe kalimin e personave me aftësi të kufizuara.' },
       ] },
@@ -154,7 +154,7 @@ export const solutionDetails: Record<string, SolutionDetail> = {
     title: 'Sinjalistikë inteligjente parkimi',
     label: 'Orientim në parkim · CIRCONTROL',
     intro: 'Nga hyrja e parkimit deri te vendi i lirë. Parking Guidance System jep informacion për disponueshmërinë dhe orienton drejtuesit përmes numërimit, sensorëve dhe sinjalistikës LED.',
-    hero: { variant: 'application', image: { ...solution('sinjalistike').image, alt: 'Parkim i brendshëm me tregues LED të gjelbër mbi vendet e parkimit' }, caption: 'Sinjalistikë LED për identifikimin e vendeve të lira' },
+    hero: { image: { ...solution('sinjalistike').image, alt: 'Parkim i brendshëm me tregues LED të gjelbër mbi vendet e parkimit' }, caption: 'Sinjalistikë LED për identifikimin e vendeve të lira' },
     facts: [{ label: 'Në hyrje', value: 'Numërim sipas zonës' }, { label: 'Në vendparkim', value: 'Detektim me sensorë' }, { label: 'Për drejtuesin', value: 'Orientim me LED' }],
     sections: [
       { kind: 'process', id: 'cirpark', label: 'Parking Guidance System', title: 'Tre nivele informacioni për parkimin', intro: 'Platforma CirPark lidh informacionin mbi hapësirat e parkimit me udhëzimin e drejtuesve.', items: [
@@ -174,7 +174,7 @@ export const solutionDetails: Record<string, SolutionDetail> = {
     title: 'Sisteme aksesi me pagesë',
     label: 'Gotschlich · TRINITY',
     intro: 'TRINITY bashkon një automat pagese dhe një turniket të motorizuar në një pajisje. Pagesa e tarifës lidhet drejtpërdrejt me hyrjen në ambientin e shërbimit.',
-    hero: { variant: 'product', productName: 'TRINITY', image: solution('akses-me-pagese').heroImage, caption: 'TRINITY · Versioni me tre krahë' },
+    hero: { imageFit: 'contain', image: solution('akses-me-pagese').heroImage, caption: 'TRINITY · Versioni me tre krahë' },
     facts: [{ label: 'Produkti', value: 'TRINITY' }, { label: 'Kontrolli', value: 'LOGITURN' }, { label: 'Konstruksioni', value: 'Çelik inox V2A' }],
     sections: [
       { kind: 'process', id: 'hyrja-dhe-pagesa', label: 'Rrjedha e vizitorit', title: 'Nga pagesa te hyrja', ordered: true, items: [
