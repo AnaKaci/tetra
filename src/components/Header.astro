@@ -13,6 +13,15 @@ const links = [
   { label: 'Projektet', href: '/projekte/' },
   { label: 'Kontakt', href: '/kontakt/' },
 ];
+// Navigation labels are kept separate from page titles in the content data.
+const solutionMenuLabels: Record<string, string> = {
+  parkim: 'Sisteme parkimi',
+  'karikim-ev': 'Karikues për automjete elektrike',
+  'akses-kontroll': 'Sisteme akses-kontrolli',
+  siguri: 'Zgjidhje aksesi për ambiente me siguri të lartë',
+  sinjalistike: 'Sinjalistikë inteligjente parkimi',
+  'akses-me-pagese': 'Sisteme aksesi me pagesë',
+};
 ---
 <a class="skip-link" href="#main-content">Kalo te përmbajtja</a>
 <header class="site-header" data-header>
@@ -27,8 +36,24 @@ const links = [
       <details class="nav-dropdown">
         <summary class:list={['nav-link', { 'is-active': active('/zgjidhje/') }]} aria-current={active('/zgjidhje/') ? 'true' : undefined}>Zgjidhje <Icon name="chevron" size={14} /></summary>
         <div class="dropdown-panel">
-          <a class="dropdown-overview" href={withBase('/zgjidhje/')} aria-current={pathname === withBase('/zgjidhje/') ? 'page' : undefined}>Zgjidhjet tona <Icon name="arrow" size={17} /></a>
-          {data.solutions.map((solution) => <a href={withBase(solution.href)}><span class="dropdown-icon"><Icon name={solution.icon} size={20} /></span>{solution.title}<Icon name="diagonal" size={15} /></a>)}
+          <a
+            class="dropdown-overview"
+            href={withBase('/zgjidhje/')}
+            aria-current={pathname === withBase('/zgjidhje/') ? 'page' : undefined}
+          >
+            <span>Zgjidhjet tona</span>
+            <Icon name="arrow" size={20} />
+          </a>
+          {data.solutions.map((solution) => (
+            <a
+              class:list={['dropdown-link', { 'is-active': active(solution.href) }]}
+              href={withBase(solution.href)}
+              aria-current={active(solution.href) ? 'page' : undefined}
+            >
+              <span>{solutionMenuLabels[solution.id] ?? solution.title}</span>
+              <Icon name="chevron" size={17} class="dropdown-chevron" />
+            </a>
+          ))}
         </div>
       </details>
       {links.slice(2).map(link => <a class:list={['nav-link', { 'is-active': active(link.href) }]} href={withBase(link.href)} aria-current={active(link.href) ? 'page' : undefined}>{link.label}</a>)}
