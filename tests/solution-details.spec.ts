@@ -145,3 +145,20 @@ test('solution project references use compact photo cards and retain project lin
     await assertNoHorizontalOverflow(page);
   }
 });
+
+test('SKIDATA has its own content presentation without modifying other solution pages', async ({ page }) => {
+  for (const width of [390, 1440]) {
+    await page.setViewportSize({ width, height: 960 });
+    await page.goto(url('/zgjidhje/sisteme-parkimi/'));
+    await expect(page.locator('body')).toHaveClass(/solution-page--parkim/);
+    await expect(page.locator('#sistemi-yne .solution-features > div')).toHaveCount(2);
+    await expect(page.locator('#pagesat .solution-table tbody tr')).toHaveCount(3);
+    await expect(page.locator('#avantazhet .solution-features > div')).toHaveCount(3);
+    const methods = page.locator('#sistemi-yne');
+    const layout = await methods.evaluate(element => getComputedStyle(element).display);
+    expect(layout).toBe(width > 900 ? 'block' : 'block');
+    await assertNoHorizontalOverflow(page);
+  }
+  await page.goto(url('/zgjidhje/karikues-per-automjete-elektrike/'));
+  await expect(page.locator('body')).not.toHaveClass(/solution-page--parkim/);
+});
