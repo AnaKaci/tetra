@@ -282,6 +282,88 @@
   .solution-contact-grid { flex-direction: column; }
   .solution-related-links { flex-direction: column; gap: 4px; }
 }
+/* SKIDATA-specific technical content. Other solution pages retain the shared presentation. */
+.solution-page--parkim #sistemi-yne .solution-features--columns {
+  gap: 26px;
+}
+.solution-page--parkim #sistemi-yne .solution-features--columns > div {
+  padding-top: 20px;
+  border-top: 1px solid #bdcde0;
+}
+.solution-page--parkim #sistemi-yne .solution-features dt {
+  font-size: 17px;
+  line-height: 1.4;
+}
+.solution-page--parkim #sistemi-yne .solution-features dd {
+  max-width: 51ch;
+}
+.solution-page--parkim #pagesat .solution-table {
+  border-top-color: #bdcde0;
+}
+.solution-page--parkim #pagesat .solution-table thead th {
+  background: transparent;
+  color: #536780;
+  font-size: 10px;
+  letter-spacing: .6px;
+  text-transform: uppercase;
+}
+.solution-page--parkim #pagesat .solution-table tbody th {
+  color: var(--navy);
+  font-size: 14px;
+}
+.solution-page--parkim #pagesat .solution-table tbody th,
+.solution-page--parkim #pagesat .solution-table tbody td {
+  padding-block: 20px;
+}
+.solution-page--parkim #avantazhet .solution-features--columns {
+  display: block;
+}
+.solution-page--parkim #avantazhet .solution-features--columns > div {
+  display: grid;
+  grid-template-columns: minmax(0, .72fr) minmax(0, 1.28fr);
+  align-items: start;
+  column-gap: 24px;
+  margin: 0;
+  padding: 18px 0;
+  border-top: 0;
+  border-bottom: 1px solid var(--border);
+}
+.solution-page--parkim #avantazhet .solution-features--columns > div:first-child {
+  border-top: 1px solid var(--border);
+}
+.solution-page--parkim #avantazhet .solution-features dd {
+  margin-top: 0;
+}
+@media (min-width: 901px) {
+  /* Open the first explanation horizontally, then return to the editorial split rhythm. */
+  .solution-page--parkim #sistemi-yne {
+    display: block;
+  }
+  .solution-page--parkim #sistemi-yne > .solution-section-heading {
+    max-width: 760px;
+    margin-bottom: 24px;
+  }
+  .solution-page--parkim #segmentet .solution-applications {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 600px) {
+  .solution-page--parkim #avantazhet .solution-features--columns > div {
+    grid-template-columns: 1fr;
+    row-gap: 5px;
+    padding-block: 16px;
+  }
+  .solution-page--parkim #pagesat .solution-table tbody th,
+  .solution-page--parkim #pagesat .solution-table tbody td {
+    padding-block: 16px;
+  }
+}
+@media (max-width: 380px) {
+  .solution-page--parkim #segmentet .solution-applications {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media print {
   .solution-page, .solution-page #main-content, .solution-hero { background: white; }
   .solution-hero, .solution-section { break-inside: avoid; }
