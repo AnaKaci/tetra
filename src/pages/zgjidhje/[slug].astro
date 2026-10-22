@@ -18,7 +18,7 @@ const detail = solutionDetails[solution.id];
 if (!detail) throw new Error(`Missing solution presentation: ${solution.id}`);
 const partners = data.partners.filter(partner => solution.relatedPartnerIds.includes(partner.id));
 ---
-<BaseLayout title={detail.title} description={detail.intro} image={detail.hero.image ?? solution.image} canonicalPath={solution.href} pageClass="solution-page">
+<BaseLayout title={detail.title} description={detail.intro} image={detail.hero.image ?? solution.image} canonicalPath={solution.href} pageClass={solution.id === 'parkim' ? 'solution-page solution-page--parkim' : 'solution-page'}>
   <SolutionHero detail={detail} />
   <div class="solution-container solution-content">
     {detail.sections.map(section => <SolutionContent section={section} />)}
