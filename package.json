@@ -15,7 +15,8 @@
     "test:mobile": "node tests/mobile/run.mjs",
     "test:solutions": "node tests/solutions/run.mjs",
     "verify:static": "node scripts/verify-static.mjs",
-    "package:cpanel": "node scripts/package-cpanel.mjs"
+    "package:cpanel": "node scripts/package-cpanel.mjs",
+    "deploy:cpanel": "node scripts/deploy-cpanel.mjs"
   },
   "dependencies": {
     "@fontsource-variable/manrope": "^5.3.0",
